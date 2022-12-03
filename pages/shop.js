@@ -45,12 +45,20 @@ const Shop = () => {
           <div className="row-div justify">
             {ProductData.map((item, index) => (
               <div className="product-card" key={index}>
-                <Image
-                  src={`/${item.image}`}
-                  alt="no_image"
-                  height={300}
-                  width={300}
-                />
+                <Link
+                  href={{
+                    pathname: `product`,
+                    query: { _id: item._id },
+                  }}
+                  key={item._id}
+                >
+                  <Image
+                    src={`/${item.image}`}
+                    alt="no_image"
+                    height={300}
+                    width={300}
+                  />
+                </Link>
                 <h5>{item.title}</h5>
                 <p>{item.detail}</p>
                 <div className="product-price">

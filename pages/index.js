@@ -77,7 +77,12 @@ export default function Home() {
                     <div className="row-div">
                       <div className="col-6">
                         <div className="home-content1-card">
-                          <Image src={icon1} alt="no_image" />
+                          <Image
+                            src={icon1}
+                            alt="no_image"
+                            height={70}
+                            width={70}
+                          />
                           <h5>Track analytics</h5>
                           <p>
                             Track the analytics on how your links do business
@@ -87,7 +92,12 @@ export default function Home() {
                       </div>
                       <div className="col-6">
                         <div className="home-content1-card">
-                          <Image src={icon2} alt="no_image" />
+                          <Image
+                            src={icon2}
+                            alt="no_image"
+                            height={70}
+                            width={70}
+                          />
                           <h5>All music in one place</h5>
                           <p>
                             Have all your music in one place business card. Add
@@ -97,7 +107,12 @@ export default function Home() {
                       </div>
                       <div className="col-6">
                         <div className="home-content1-card">
-                          <Image src={icon3} alt="no_image" />
+                          <Image
+                            src={icon3}
+                            alt="no_image"
+                            height={70}
+                            width={70}
+                          />
                           <h5>Easily accessible videos</h5>
                           <p>
                             Personlize the look of your digital business card.
@@ -107,7 +122,12 @@ export default function Home() {
                       </div>
                       <div className="col-6">
                         <div className="home-content1-card">
-                          <Image src={icon4} alt="no_image" />
+                          <Image
+                            src={icon4}
+                            alt="no_image"
+                            height={70}
+                            width={70}
+                          />
                           <h5>One click order</h5>
                           <p>
                             One click order on any products business card. Add
@@ -131,7 +151,12 @@ export default function Home() {
                     <div className="row-div">
                       <div className="col-6">
                         <div className="home-content1-card">
-                          <Image src={icon5} alt="no_image" />
+                          <Image
+                            src={icon5}
+                            alt="no_image"
+                            height={70}
+                            width={70}
+                          />
                           <h5>Gain A Following</h5>
                           <p>
                             Personlize the look of your digital business card.
@@ -141,7 +166,12 @@ export default function Home() {
                       </div>
                       <div className="col-6">
                         <div className="home-content1-card">
-                          <Image src={icon2} alt="no_image" />
+                          <Image
+                            src={icon2}
+                            alt="no_image"
+                            height={70}
+                            width={70}
+                          />
                           <h5>Show of videos</h5>
                           <p>
                             Personlize the look of your digital business card.
@@ -151,7 +181,12 @@ export default function Home() {
                       </div>
                       <div className="col-6">
                         <div className="home-content1-card">
-                          <Image src={icon7} alt="no_image" />
+                          <Image
+                            src={icon7}
+                            alt="no_image"
+                            height={70}
+                            width={70}
+                          />
                           <h5>Show Your Social Media</h5>
                           <p>
                             Personlize the look of your digital business card.
@@ -161,7 +196,12 @@ export default function Home() {
                       </div>
                       <div className="col-6">
                         <div className="home-content1-card">
-                          <Image src={icon6} alt="no_image" />
+                          <Image
+                            src={icon6}
+                            alt="no_image"
+                            height={70}
+                            width={70}
+                          />
                           <h5>Embed links</h5>
                           <p>
                             Personlize the look of your digital business card.
@@ -175,7 +215,12 @@ export default function Home() {
               </div>
               <div className="col-6">
                 <div className="home-image1">
-                  <Image src={homeImage2} alt="no_image" />
+                  <Image
+                    src={homeImage2}
+                    alt="no_image"
+                    width={828}
+                    height={811}
+                  />
                 </div>
               </div>
             </div>
@@ -186,7 +231,12 @@ export default function Home() {
             <div className="row-div">
               <div className="col-6">
                 <div className="home-image1">
-                  <Image src={homeImage3} alt="no_image" />
+                  <Image
+                    src={homeImage3}
+                    alt="no_image"
+                    width={828}
+                    height={811}
+                  />
                 </div>
               </div>
               <div className="col-6">
@@ -195,7 +245,12 @@ export default function Home() {
                     <div className="row-div">
                       <div className="col-6">
                         <div className="home-content1-card">
-                          <Image src={icon1} alt="no_image" />
+                          <Image
+                            src={icon1}
+                            alt="no_image"
+                            height={70}
+                            width={70}
+                          />
                           <h5>Track analytics</h5>
                           <p>
                             Track the analytics on how your links do business
@@ -205,7 +260,12 @@ export default function Home() {
                       </div>
                       <div className="col-6">
                         <div className="home-content1-card">
-                          <Image src={icon2} alt="no_image" />
+                          <Image
+                            src={icon2}
+                            alt="no_image"
+                            height={70}
+                            width={70}
+                          />
                           <h5>All music in one place</h5>
                           <p>
                             Have all your music in one place business card. Add
@@ -215,7 +275,12 @@ export default function Home() {
                       </div>
                       <div className="col-6">
                         <div className="home-content1-card">
-                          <Image src={icon3} alt="no_image" />
+                          <Image
+                            src={icon3}
+                            alt="no_image"
+                            height={70}
+                            width={70}
+                          />
                           <h5>Easily accessible videos</h5>
                           <p>
                             Personlize the look of your digital business card.
@@ -225,7 +290,12 @@ export default function Home() {
                       </div>
                       <div className="col-6">
                         <div className="home-content1-card">
-                          <Image src={icon4} alt="no_image" />
+                          <Image
+                            src={icon4}
+                            alt="no_image"
+                            height={70}
+                            width={70}
+                          />
                           <h5>One click order</h5>
                           <p>
                             One click order on any products business card. Add
@@ -264,7 +334,12 @@ export default function Home() {
             <div className="row-div">
               <div className="col-4">
                 <div className="card-how-it">
-                  <Image src={cardImg1} alt="no_image" />
+                  <Image
+                    src={cardImg1}
+                    alt="no_image"
+                    width={360}
+                    height={540}
+                  />
                   <h5>
                     Set up your <span>SWOP</span> profile
                   </h5>
@@ -276,7 +351,12 @@ export default function Home() {
               </div>
               <div className="col-4">
                 <div className="card-how-it">
-                  <Image src={cardImg2} alt="no_image" />
+                  <Image
+                    src={cardImg2}
+                    alt="no_image"
+                    width={360}
+                    height={540}
+                  />
                   <h5>
                     Active your <span>SWOP</span> device
                   </h5>
@@ -288,7 +368,12 @@ export default function Home() {
               </div>
               <div className="col-4">
                 <div className="card-how-it">
-                  <Image src={cardImg3} alt="no_image" />
+                  <Image
+                    src={cardImg3}
+                    alt="no_image"
+                    width={360}
+                    height={540}
+                  />
                   <h5>Ready to connect</h5>
                   <p>
                     With a single tap you'll be able to transfer your
@@ -316,29 +401,44 @@ export default function Home() {
             <div className="home-networking-ber">
               <div className="networking-row">
                 <div className="networking-crd networking-active">
-                  <Image src={cardIcon1} alt="no_image" />
+                  <Image
+                    src={cardIcon1}
+                    alt="no_image"
+                    height={56}
+                    width={56}
+                  />
                   <p>Share Your Info</p>
                 </div>
                 <div className="networking-crd">
-                  <Image src={cardIcon2} alt="no_image" />
+                  <Image
+                    src={cardIcon2}
+                    alt="no_image"
+                    height={56}
+                    width={56}
+                  />
                   <p>Capture Leads</p>
                 </div>
                 <div className="networking-crd">
-                  <Image src={cardIcon3} alt="no_image" />
+                  <Image
+                    src={cardIcon3}
+                    alt="no_image"
+                    height={56}
+                    width={56}
+                  />
                   <p>Export to CRM</p>
                 </div>
                 <div className="networking-crd">
-                  <Image src={cardIcon4} alt="no_image" />
+                  <Image
+                    src={cardIcon4}
+                    alt="no_image"
+                    height={56}
+                    width={56}
+                  />
                   <p>Share Your Info</p>
                 </div>
               </div>
             </div>
             <Share />
-            <div className="navigation-round">
-              <div className="round-key" />
-              <div className="round-key round-active" />
-              <div className="round-key" />
-            </div>
           </div>
 
           <div className="home-product">
@@ -359,12 +459,20 @@ export default function Home() {
             <div className="row-div justify">
               {ProductData.map((item, index) => (
                 <div className="product-card" key={index}>
-                  <Image
-                    src={`/${item.image}`}
-                    alt="no_image"
-                    height={300}
-                    width={300}
-                  />
+                  <Link
+                    href={{
+                      pathname: `product`,
+                      query: { _id: item._id },
+                    }}
+                    key={item._id}
+                  >
+                    <Image
+                      src={`/${item.image}`}
+                      alt="no_image"
+                      height={300}
+                      width={300}
+                    />
+                  </Link>
                   <h5>{item.title}</h5>
                   <p>{item.detail}</p>
                   <div className="product-price">
@@ -375,7 +483,7 @@ export default function Home() {
               ))}
             </div>
             <div className="product-seemore">
-              <Link href="/">See more</Link>
+              <Link href="/shop">See more</Link>
             </div>
           </div>
 
@@ -444,7 +552,9 @@ export default function Home() {
                           <h5>{item.title}</h5>
                           <p>{item.titleDetails}</p>
                         </div>
-                        <label>GET</label>
+                        <label>
+                          <Link href="/">GET</Link>
+                        </label>
                       </div>
                     </div>
                   </SwiperSlide>

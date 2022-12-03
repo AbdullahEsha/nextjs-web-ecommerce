@@ -20,7 +20,7 @@ const Navbar = () => {
                 <Link href="/help">Help Center</Link>
               </li>
               <li>
-                <Link href="/return">Returns</Link>
+                <Link href="/return-policy">Returns</Link>
               </li>
               <li>
                 <Link href="/contact">Contact</Link>
@@ -47,10 +47,7 @@ const Navbar = () => {
                 <Link href="/dapp">DApp Explorer</Link>
               </li>
               <li>
-                <Link href="/qRGenerator">QR Generator</Link>
-              </li>
-              <li>
-                <Link href="/service">Service</Link>
+                <Link href="/qr-generator">QR Generator</Link>
               </li>
             </ul>
           </div>
