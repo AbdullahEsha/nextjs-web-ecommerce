@@ -21,7 +21,7 @@ const Product = () => {
   return (
     <>
       <Navbar />
-      <div className="container">
+      <div className="container home-top-margin">
         <div className="product-details">
           <div className="row-div border-product-detail">
             <div className="col-6 ">
@@ -217,9 +217,9 @@ const Product = () => {
               </div>
             ))}
           </div>
-          <div className="product-seemore">
+          {/* <div className="product-seemore">
             <Link href="/shop">See more</Link>
-          </div>
+          </div> */}
         </div>
       </div>
       <Footer />

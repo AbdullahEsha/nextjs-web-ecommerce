@@ -8,7 +8,6 @@ import {
   FaYoutube,
   FaTwitter,
   FaLinkedinIn,
-  FaTiktok,
 } from 'react-icons/fa'
 
 const Footer = () => {
@@ -77,23 +76,26 @@ const Footer = () => {
           <div className="footer-bottom">
             <label>© {new Date().getFullYear()}-Copywrite by swopme.co</label>
             <div className="icon-footer">
-              <a href="/">
+              <a href="https://www.facebook.com/swopmeapp" target="blank">
                 <FaFacebookF size={20} />
               </a>
-              <a href="/">
+              <a href="https://www.instagram.com/swopme.app/" target="blank">
                 <FaInstagram size={20} />
               </a>
-              <a href="/">
+              <a
+                href="https://www.youtube.com/channel/UCohnJ2WcoSIEaLbk9jqqoeg"
+                target="blank"
+              >
                 <FaYoutube size={20} />
               </a>
-              <a href="/">
+              <a href="https://twitter.com/swopmeapp" target="blank">
                 <FaTwitter size={20} />
               </a>
-              <a href="/">
+              <a
+                href="https://www.linkedin.com/company/swop-technologies/"
+                target="blank"
+              >
                 <FaLinkedinIn size={20} />
-              </a>
-              <a href="/">
-                <FaTiktok />
               </a>
             </div>
           </div>

@@ -4,6 +4,7 @@ import cardImg1 from '../images/homeCard1.png'
 import cardImg2 from '../images/homeCard2.png'
 import cardImg3 from '../images/homeCard3.png'
 import Image from 'next/image'
+import { FaChevronRight } from 'react-icons/fa'
 import logo from '../images/swopfooter.png'
 import phone from '../images/qrgeneratorphone.png'
 import card1 from '../images/qr-genarator-card-image1.png'
@@ -26,66 +27,73 @@ import 'swiper/css/navigation'
 const QrGenerator = () => {
   const appData = [
     {
+      id: 2,
+      image: 'qr-code-1.png',
+    },
+    {
+      id: 3,
+      image: 'qr-code-2.png',
+    },
+    {
+      id: 4,
+      image: 'qr-code-3.png',
+    },
+    {
+      id: 5,
+      image: 'qr-code-4.png',
+    },
+    {
       id: 1,
-      title: 'Uniswap',
-      titleDetails: 'Most usable dapps......',
-      image: 'app1.png',
-      icon: 'iconapp1.png',
-    },
-    {
-      id: 2,
-      title: 'Ethereum',
-      titleDetails: 'Most usable dapps......',
-      image: 'app2.png',
-      icon: 'iconapp2.png',
-    },
-    {
-      id: 2,
-      title: 'Polygon',
-      titleDetails: 'Most usable dapps......',
-      image: 'app3.png',
-      icon: 'iconapp3.png',
+      image: 'qr-code-5.png',
     },
   ]
 
   return (
     <>
       <Navbar />
-      <div className="container">
+      <div className="container home-top-margin">
         <div className="qr-code-penel">
           <div className="qr-top-container">
             <div className="qr-top-first">
               <div className="qr-top-first-inside">
-                <div>
+                <div className="qr-top-icon">
                   <Image src={icon1} alt="icon_image" /> <p>Url</p>
                 </div>
-                <div>
+                <div className="qr-top-icon">
                   <Image src={icon2} alt="icon_image" /> <p>Vcard</p>
                 </div>
-                <div>
-                  <Image src={icon3} alt="icon_image" /> <p>Social Media</p>
+                <div className="qr-top-icon">
+                  <Image src={icon3} alt="icon_image" /> <p>Social</p>
                 </div>
-                <div>
+                <div className="qr-top-icon">
                   <Image src={icon4} alt="icon_image" /> <p>Text</p>
                 </div>
-                <div>
+                <div className="qr-top-icon">
                   <Image src={icon5} alt="icon_image" /> <p>Email</p>
                 </div>
-                <div>
-                  <Image src={icon6} alt="icon_image" /> <p>Email</p>
+                <div className="qr-top-icon">
+                  <Image src={icon6} alt="icon_image" /> <p>Wifi</p>
                 </div>
-                <div>
-                  <Image src={icon4} alt="icon_image" /> <p>Email</p>
+                <div className="qr-top-icon">
+                  <Image src={icon4} alt="icon_image" /> <p>Sms</p>
                 </div>
-                <div>
-                  <Image src={icon7} alt="icon_image" /> <p>Email</p>
+                <div className="qr-top-icon">
+                  <Image src={icon7} alt="icon_image" /> <p>Image</p>
                 </div>
               </div>
               <div className="website-link">
                 <input type="text" placeholder="Enter your website" />
                 <p id="automatic-qr">(Your QR code generated automatically)</p>
               </div>
-              <input type="file" /> <label>(JPG, PNG, JPEG)</label>
+              <div className="upload-qr-logo">
+                <input type="file" id="upload-logo" />{' '}
+                <label>(JPG, PNG, JPEG)</label>
+              </div>
+            </div>
+            <div className="center-icon">
+              <div className="center-icon-border">
+                <FaChevronRight color="#858585" />
+              </div>
             </div>
             <div className="qr-top-second">
               <div className="qr-slider">
@@ -101,12 +109,13 @@ const QrGenerator = () => {
                     modifier: 3,
                     slideShadows: false,
                   }}
-                  slidesPerView={3.5}
-                  spaceBetween={0}
+                  slidesPerView={4}
+                  spaceBetween={20}
                   pagination={{
                     dynamicBullets: true,
                   }}
                   initialSlide={0.9}
+                  centeredSlides
                   style={{
                     width: '100%',
                     margin: 'auto',

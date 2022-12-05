@@ -5,7 +5,7 @@ const ReturnPolicy = () => {
   return (
     <>
       <Navbar />
-      <div className="container">
+      <div className="container home-top-margin">
         <div className="return-policy">
           <h1>Return Policy</h1>
           <p id="return-p">

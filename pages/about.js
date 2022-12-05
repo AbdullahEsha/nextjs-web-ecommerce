@@ -19,7 +19,7 @@ const About = () => {
   return (
     <>
       <Navbar />
-      <div className="container">
+      <div className="container home-top-margin">
         <video controls src={'/banner.mp4'} muted loop autoPlay />
         <Link href="/" className="shop-now-btn">
           Shop Now <HiOutlineArrowRight size={20} />

@@ -8,7 +8,7 @@ const Help = () => {
   return (
     <>
       <Navbar />
-      <div className="container">
+      <div className="container home-top-margin">
         <div className="help-container">
           <h2>HOW CAN WE HELP?</h2>
           <p>

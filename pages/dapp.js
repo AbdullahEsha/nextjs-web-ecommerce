@@ -33,7 +33,7 @@ const DApp = () => {
   return (
     <>
       <Navbar />
-      <div className="container">
+      <div className="container home-top-margin">
         <div className="d-app-search">
           <h1>Welcome to the world of web3 </h1>
           <Image src={searchicon} alt="no_image" height={40} width={40} />
@@ -108,8 +108,8 @@ const DApp = () => {
               modifier: 3,
               slideShadows: false,
             }}
-            slidesPerView={3.2}
-            spaceBetween={10}
+            slidesPerView={3.1}
+            spaceBetween={35}
             pagination={{
               dynamicBullets: true,
             }}

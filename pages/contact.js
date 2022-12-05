@@ -7,7 +7,7 @@ const Contact = () => {
   return (
     <>
       <Navbar />
-      <div className="container">
+      <div className="container home-top-margin">
         <div className="contact-top">
           <h2>HAVE SOME QUESTIONS?</h2>
           <p>

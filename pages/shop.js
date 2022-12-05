@@ -8,7 +8,7 @@ const Shop = () => {
   return (
     <>
       <Navbar />
-      <div className="container">
+      <div className="container home-top-margin">
         <div className="shop-top-content">
           <h1>ALL DIGITAL BUSINESS CARD</h1>
           <p>
