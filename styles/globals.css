@@ -66,7 +66,7 @@ a {
   font-weight: 600;
 }
 .home-background1 {
-  background: url('../images/homebackground1.png') no-repeat;
+  background: url('../public/homebackground1.png') no-repeat;
   background-size: cover;
   height: 461px;
   width: 100%;
@@ -75,7 +75,7 @@ a {
   box-shadow: 0px 0px 10px 2px rgb(0 0 0 / 10%);
 }
 .home-background2 {
-  background: url('../images/homebackground2.png') no-repeat;
+  background: url('../public/homebackground2.png') no-repeat;
   background-size: cover;
   height: 461px;
   width: 100%;
@@ -486,7 +486,7 @@ video::-webkit-media-controls-panel {
   margin: 130px 0px 30px;
 }
 .dapp-marketplace-first {
-  background: url('../images/dappbackground1.png') no-repeat;
+  background: url('../public/dappbackground1.png') no-repeat;
   background-size: cover;
   height: 314px;
   width: 100%;
@@ -1537,8 +1537,8 @@ div.product-details-content-inside {
 }
 .qr_card-image {
   display: block;
-  width: 33%;
-  height: 82%;
+  width: 31%;
+  height: 85%;
 }
 .qr_card-image-4 {
   width: 100%;
