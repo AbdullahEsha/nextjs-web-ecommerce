@@ -16,8 +16,13 @@ const Footer = () => {
       <div className="footer">
         <div className="footer-out container">
           <div className="footer-top">
-            <div>
-              <Image src={footerSwop} alt="footer-logo" height={30} />
+            <div className="footer-same">
+              <Image
+                src={footerSwop}
+                alt="footer-logo"
+                height={30}
+                id="footerSwop-logo"
+              />
               <div className="footer-first-content" id="footer-link-bottom">
                 <h4>
                   Scan to
@@ -27,7 +32,7 @@ const Footer = () => {
                 <Image src={footerQrCode} alt="footer-logo" height={80} />
               </div>
             </div>
-            <div>
+            <div className="footer-same">
               <h4>Shop</h4>
               <div className="footer-link" id="footer-link-bottom">
                 <Link href="/">Custom product </Link>
@@ -37,7 +42,7 @@ const Footer = () => {
                 <Link href="/">Swop Band </Link>
               </div>
             </div>
-            <div>
+            <div className="footer-same">
               <h4>Company</h4>
               <div className="footer-link" id="footer-link-bottom">
                 <Link href="/">Swop Pro </Link>
@@ -47,7 +52,7 @@ const Footer = () => {
                 <Link href="/">Carrer </Link>
               </div>
             </div>
-            <div>
+            <div className="footer-same">
               <h4>Legal</h4>
               <div className="footer-link" id="footer-link-bottom">
                 <Link href="/">Privacy Policy </Link>

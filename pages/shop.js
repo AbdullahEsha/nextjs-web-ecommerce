@@ -11,7 +11,7 @@ const Shop = () => {
       <div className="container home-top-margin">
         <div className="shop-top-content">
           <h1>ALL DIGITAL BUSINESS CARD</h1>
-          <p>
+          <p className="hide-mobile-view">
             Swop’s Flat Rectangle NFC’s are designed to be durable and simple to
             use. The Flat is great to put under any phone case(non-metal) Users
             can

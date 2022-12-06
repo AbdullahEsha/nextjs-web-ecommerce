@@ -1,13 +1,13 @@
 import Image from 'next/image'
 import React from 'react'
-import icon1 from '../images/icontap.png'
+import icon1 from '../images/card_icon.png'
 import icon2 from '../images/iconscan.png'
-import icon3 from '../images/iconplane.png'
-import shareImage from '../images/sharecomponent.png'
+import icon3 from '../images/info_icon.png'
+import shareImage from '../images/capturecomponent.png'
 const Capture = () => {
   return (
     <>
-      <div className="row-div">
+      <div className="row-div reverse-direction">
         <div className="col-6">
           <div className="alignment-crd">
             <h3>Capture Leads</h3>

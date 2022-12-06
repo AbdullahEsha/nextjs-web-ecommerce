@@ -1,13 +1,13 @@
 import Image from 'next/image'
 import React from 'react'
-import icon1 from '../images/icontap.png'
-import icon2 from '../images/iconscan.png'
-import icon3 from '../images/iconplane.png'
+import icon1 from '../images/intelligence_icon.png'
+import icon2 from '../images/engagement_img.png'
+import icon3 from '../images/support_icon.png'
 import shareImage from '../images/sharecomponent.png'
 const Faster = () => {
   return (
     <>
-      <div className="row-div">
+      <div className="row-div reverse-direction">
         <div className="col-6">
           <div className="alignment-crd">
             <h3>Grow Faster</h3>

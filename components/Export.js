@@ -1,13 +1,13 @@
 import Image from 'next/image'
 import React from 'react'
-import icon1 from '../images/icontap.png'
-import icon2 from '../images/iconscan.png'
-import icon3 from '../images/iconplane.png'
+import icon1 from '../images/crm_icon.png'
+import icon2 from '../images/teams_icon.png'
+import icon3 from '../images/apps_icon.png'
 import shareImage from '../images/sharecomponent.png'
 const Export = () => {
   return (
     <>
-      <div className="row-div">
+      <div className="row-div reverse-direction">
         <div className="col-6">
           <div className="alignment-crd">
             <h3>Export to CRM</h3>

@@ -2,6 +2,7 @@ import Image from 'next/image'
 import Link from 'next/link'
 import Navbar from '../components/Navbar'
 import Footer from '../components/Footer'
+import useWindowDimensions from '../components/useWindowDimensions'
 import { HiOutlineArrowRight } from 'react-icons/hi'
 import homeImage1 from '../images/homeimage1.png'
 import homeImage2 from '../images/homeimage2.png'
@@ -33,6 +34,7 @@ import Export from '../components/Export'
 import Faster from '../components/Faster'
 
 export default function Home() {
+  const { width } = useWindowDimensions()
   const [features, setFeatures] = useState('share')
   SwiperCore.use([Autoplay])
   const appData = [
@@ -145,8 +147,8 @@ export default function Home() {
           </div>
         </div>
 
-        <h2 className="heading-line">Influencers</h2>
-        <div className="home-background2">
+        <h2 className="heading-line hide-mobile-view">Influencers</h2>
+        <div className="home-background2 hide-mobile-view">
           <div className="row-div">
             <div className="col-6">
               <div className="home-content1-outside">
@@ -229,8 +231,8 @@ export default function Home() {
           </div>
         </div>
 
-        <h2 className="heading-line">Realtor</h2>
-        <div className="home-background1">
+        <h2 className="heading-line hide-mobile-view">Realtor</h2>
+        <div className="home-background1 hide-mobile-view">
           <div className="row-div">
             <div className="col-6">
               <div className="home-image1">
@@ -313,14 +315,21 @@ export default function Home() {
           </div>
         </div>
 
-        <video controls src={'/banner.mp4'} muted loop autoPlay />
+        <video
+          controls
+          src={'/banner.mp4'}
+          muted
+          loop
+          autoPlay
+          id="bottom-video-position"
+        />
         <div className="subscribe-from">
           <input type="text" placeholder="Put email for beta invite" />
           <button>Submit</button>
         </div>
         <div className="home-how-it-work">
           <h2>HOW ITS WORKS</h2>
-          <p>
+          <p className="hide-mobile-view">
             Swop’s Flat Rectangle NFC’s are designed to be durable and simple to
             use. The Flat is great to put under any phone case(non-metal) Users
             can
@@ -373,7 +382,7 @@ export default function Home() {
         </div>
         <div className="home-networking">
           <h2>SWOP FEATURES FOR BETTER NETWORKING</h2>
-          <p>
+          <p className="hide-mobile-view">
             Swop’s Flat Rectangle NFC’s are designed to be durable and simple to
             use. The Flat is great to put under any phone case(non-metal) Users
             can
@@ -434,7 +443,7 @@ export default function Home() {
 
         <div className="home-product">
           <h2>OUR PRODUCTS</h2>
-          <p>
+          <p className="hide-mobile-view">
             Swop’s Flat Rectangle NFC’s are designed to be durable and simple to
             use. The Flat is great to put under any phone case(non-metal) Users
             can
@@ -480,7 +489,7 @@ export default function Home() {
 
         <div className="home-web3-browser">
           <h2>Check out our DApp Browser for the Web 3 universe</h2>
-          <p>
+          <p className="hide-mobile-view">
             Swop’s Flat Rectangle NFC’s are designed to be durable and simple to
             use. The Flat is great to put under any phone case(non-metal) Users
             can
@@ -508,7 +517,7 @@ export default function Home() {
                 modifier: 3,
                 slideShadows: false,
               }}
-              slidesPerView={3.5}
+              slidesPerView={width < 767 ? 1.5 : 3.5}
               spaceBetween={30}
               centeredSlides
               pagination={{

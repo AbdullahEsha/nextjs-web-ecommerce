@@ -159,7 +159,7 @@ const QrGenerator = () => {
         </div>
         <div className="home-how-it-work">
           <h2>HOW TO CUSTOMIZE A NFC</h2>
-          <p>
+          <p className="hide-mobile-view">
             Swop’s Flat Rectangle NFC’s are designed to be durable and simple to
             use. The Flat is great to put under any phone case(non-metal) Users
             can
@@ -208,7 +208,7 @@ const QrGenerator = () => {
         </div>
         <div className="qr-generator-bottom">
           <h2>SWOP SERVICE</h2>
-          <p id="qr-space-between">
+          <p id="qr-space-between" className="hide-mobile-view">
             Swop’s Flat Rectangle NFC’s are designed to be durable and simple to
             use. The Flat is great to put under any phone case(non-metal) Users
             can
@@ -230,7 +230,7 @@ const QrGenerator = () => {
                   device.
                 </label>
                 <div className="row-div qr-custom-margin">
-                  <div className="col-6">
+                  <div className="qr-custom-div">
                     <Image
                       src={phone}
                       alt="phone_image"
@@ -239,7 +239,7 @@ const QrGenerator = () => {
                       id="phone_image"
                     />
                   </div>
-                  <div className="col-6">
+                  <div className="qr-custom-div">
                     <p className="qr-generator-custom-text1">
                       <span>An Elegant place</span> to
                       <br />

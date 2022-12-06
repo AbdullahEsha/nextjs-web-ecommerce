@@ -1,4 +1,5 @@
 import Image from 'next/image'
+import useWindowDimensions from '../components/useWindowDimensions'
 import Footer from '../components/Footer'
 import Navbar from '../components/Navbar'
 import searchicon from '../images/dappsearch.png'
@@ -15,6 +16,7 @@ import 'swiper/css/navigation'
 import 'swiper/css/pagination'
 
 const DApp = () => {
+  const { width } = useWindowDimensions()
   SwiperCore.use([Autoplay])
   const sliderData = [
     {
@@ -44,7 +46,7 @@ const DApp = () => {
             <div className="col-8">
               <div className="dapp-marketplace-first">
                 <div className="row-div">
-                  <div className="col-6">
+                  <div className="dapp-monkey-top">
                     <Image
                       src={monkey}
                       alt="no_image"
@@ -53,7 +55,7 @@ const DApp = () => {
                       className="monkey-img"
                     />
                   </div>
-                  <div className="col-6">
+                  <div className="dapp-monkey-top">
                     <div className="opensea-img">
                       <Image
                         src={opensea}
@@ -108,7 +110,7 @@ const DApp = () => {
               modifier: 3,
               slideShadows: false,
             }}
-            slidesPerView={3.1}
+            slidesPerView={width < 767 ? 1.5 : 3.1}
             spaceBetween={35}
             pagination={{
               dynamicBullets: true,
@@ -147,7 +149,7 @@ const DApp = () => {
           </div>
           <div className="dapp-bottom3">
             <Image src={mint} alt="no_image" height={371} width={474} />
-            <h4>Mint</h4>
+            <h4>Mint machine</h4>
           </div>
         </div>
       </div>

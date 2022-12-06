@@ -125,7 +125,7 @@ const Product = () => {
         </div>
         <div className="home-how-it-work">
           <h2>HOW ITS WORKS</h2>
-          <p>
+          <p className="hide-mobile-view">
             Swop’s Flat Rectangle NFC’s are designed to be durable and simple to
             use. The Flat is great to put under any phone case(non-metal) Users
             can
@@ -178,7 +178,7 @@ const Product = () => {
         </div>
         <div className="home-product">
           <h2>OUR PRODUCTS</h2>
-          <p>
+          <p className="hide-mobile-view">
             Swop’s Flat Rectangle NFC’s are designed to be durable and simple to
             use. The Flat is great to put under any phone case(non-metal) Users
             can
