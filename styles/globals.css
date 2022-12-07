@@ -66,7 +66,7 @@ a {
   font-weight: 600;
 }
 .home-background1 {
-  background: url('../public/homebackground1.png') no-repeat;
+  background: url('/homebackground1.png') no-repeat;
   background-size: cover;
   height: 461px;
   width: 100%;
@@ -75,7 +75,7 @@ a {
   box-shadow: 0px 0px 10px 2px rgb(0 0 0 / 10%);
 }
 .home-background2 {
-  background: url('../public/homebackground2.png') no-repeat;
+  background: url('/homebackground2.png') no-repeat;
   background-size: cover;
   height: 461px;
   width: 100%;
@@ -174,7 +174,7 @@ div.home-content1 {
   font-weight: 600;
 }
 .background-level {
-  background: url('../images/backgroundlevel.png') no-repeat center;
+  background: url('/backgroundlevel.png') no-repeat center;
   background-size: cover;
   height: 50px;
   width: 71%;
@@ -489,7 +489,7 @@ video::-webkit-media-controls-panel {
   margin: 130px 0px 30px;
 }
 .dapp-marketplace-first {
-  background: url('../public/dappbackground1.png') no-repeat;
+  background: url('/dappbackground1.png') no-repeat;
   background-size: cover;
   height: 314px;
   width: 100%;
@@ -626,7 +626,7 @@ video::-webkit-media-controls-panel {
   text-align: center;
 }
 .shop-product-ads {
-  background: url('../images/shopadsbackground.png') no-repeat;
+  background: url('/shopadsbackground.png') no-repeat;
   background-size: cover;
   height: 100%;
   width: 100%;
@@ -675,7 +675,7 @@ div.shop-product-content-inside {
   margin: 35px 0px;
 }
 .product-background {
-  background: url('../images/productbackground.png') no-repeat;
+  background: url('/productbackground.png') no-repeat;
   background-size: cover;
   height: 100%;
   width: 100%;
@@ -789,7 +789,7 @@ div.product-details-content-inside {
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
   box-sizing: border-box;
-  background: url('../images/uploadimage.png') no-repeat #ffffff center;
+  background: url('/uploadimage.png') no-repeat #ffffff center;
   background-size: auto;
   cursor: pointer;
 }
@@ -1344,7 +1344,7 @@ div.product-details-content-inside {
   margin-bottom: 60px;
 }
 .qr-generator-background {
-  background: url('../images/qrgenerator.png') no-repeat;
+  background: url('/qrgenerator.png') no-repeat;
   background-size: contain;
   width: 100%;
   height: 480px;
@@ -1481,7 +1481,7 @@ div.product-details-content-inside {
   align-items: center;
 }
 #upload-logo {
-  background: url('../images/uploadlogo.png') no-repeat center left;
+  background: url('/uploadlogo.png') no-repeat center left;
   display: inline-block;
   padding: 40px 0 0 0;
   height: 30px;
@@ -1570,7 +1570,7 @@ div.product-details-content-inside {
   border-bottom-right-radius: 15px;
 }
 .qr-generator-double-bottom {
-  background: url('../images/qr-genarator-card-image4.png') bottom no-repeat;
+  background: url('/qr-genarator-card-image4.png') bottom no-repeat;
   background-size: contain;
   background-position-y: 60px;
   align-self: flex-end;

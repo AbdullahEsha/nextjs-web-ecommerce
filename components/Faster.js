@@ -3,7 +3,7 @@ import React from 'react'
 import icon1 from '../images/intelligence_icon.png'
 import icon2 from '../images/engagement_img.png'
 import icon3 from '../images/support_icon.png'
-import shareImage from '../images/sharecomponent.png'
+import shareImage from '../images/fastercomponent.png'
 const Faster = () => {
   return (
     <>

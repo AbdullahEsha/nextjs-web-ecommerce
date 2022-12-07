@@ -3,7 +3,7 @@ import React from 'react'
 import icon1 from '../images/crm_icon.png'
 import icon2 from '../images/teams_icon.png'
 import icon3 from '../images/apps_icon.png'
-import shareImage from '../images/sharecomponent.png'
+import shareImage from '../images/exportcomponent.png'
 const Export = () => {
   return (
     <>
