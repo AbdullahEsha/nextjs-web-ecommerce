@@ -42,7 +42,7 @@ const Shop = () => {
             </div>
           </div>
 
-          <div className="row-div justify">
+          <div className="justify-grid">
             {ProductData.map((item, index) => (
               <div className="product-card" key={index}>
                 <Link

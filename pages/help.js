@@ -88,6 +88,51 @@ const Help = () => {
               can pop to their phone. If it is not, just use your SWOP QR code
               on your profile to share!
             </p>
+
+            <div className="help-detail-title">
+              <h4>Compatibility 🤝</h4>
+            </div>
+            <div className="help-detail">
+              <p>Compatibility Phones</p>
+              <Image src={dropdown} alt="icon_image" height={11} width={18} />
+            </div>
+            <div className="help-detail">
+              <p>Will my SWOP work under my phone case?</p>
+              <Image src={dropdown} alt="icon_image" height={11} width={18} />
+            </div>
+            <div className="help-detail">
+              <p>How to turn NFC on for an Android?</p>
+              <Image src={cross} alt="icon_image" height={14} width={14} />
+            </div>
+            <p className="help-detail-content">
+              Yes! SWOP will work through 99.9% of phone cases, including ones
+              that hold credit cards. The only exception would be if your case
+              has a layer of metal.
+            </p>
+            <div className="help-detail">
+              <p>How can i get verified on SWOP?</p>
+              <Image src={dropdown} alt="icon_image" height={11} width={18} />
+            </div>
+
+            <div className="help-detail-title">
+              <h4>Shipping ✈️</h4>
+            </div>
+            <div className="help-detail">
+              <p>Do you ship worldwide?</p>
+              <Image src={dropdown} alt="icon_image" height={11} width={18} />
+            </div>
+            <div className="help-detail">
+              <p>Will my SWOP work under my phone case?</p>
+              <Image src={dropdown} alt="icon_image" height={11} width={18} />
+            </div>
+            <div className="help-detail">
+              <p>How to turn NFC on for an Android?</p>
+              <Image src={dropdown} alt="icon_image" height={11} width={18} />
+            </div>
+            <div className="help-detail">
+              <p>How can i get verified on SWOP?</p>
+              <Image src={dropdown} alt="icon_image" height={11} width={18} />
+            </div>
           </div>
         </div>
       </div>

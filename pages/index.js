@@ -456,7 +456,7 @@ export default function Home() {
             <br />
             the possibilities are endless. Use the swop app to.
           </p>
-          <div className="row-div justify">
+          <div className="justify-grid">
             {ProductData.map((item, index) => (
               <div className="product-card" key={index}>
                 <Link
