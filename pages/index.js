@@ -317,7 +317,7 @@ export default function Home() {
 
         <video
           controls
-          src={'/banner.mp4'}
+          src={'/banner2.mp4'}
           muted
           loop
           autoPlay
