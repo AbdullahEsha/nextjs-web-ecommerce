@@ -10,12 +10,20 @@ import { RiFontColor } from 'react-icons/ri'
 import cardImg1 from '../images/homeCard1.png'
 import cardImg2 from '../images/homeCard2.png'
 import cardImg3 from '../images/homeCard3.png'
+import useWindowDimensions from '../components/useWindowDimensions'
 import Link from 'next/link'
+import { Swiper, SwiperSlide } from 'swiper/react'
+import { Navigation, Pagination } from 'swiper'
+import SwiperCore, { Autoplay } from 'swiper'
+import 'swiper/css'
+import 'swiper/css/navigation'
+import 'swiper/css/pagination'
 
 const Product = () => {
+  const { width } = useWindowDimensions()
+  SwiperCore.use([Autoplay])
   const router = useRouter()
   const { _id } = router.query
-
   const data = ProductData.filter((item) => item._id === _id)
 
   return (
@@ -191,35 +199,62 @@ const Product = () => {
             <br />
             the possibilities are endless. Use the swop app to.
           </p>
-          <div className="justify-grid">
-            {ProductData.map((item, index) => (
-              <div className="product-card" key={index}>
-                <Link
-                  href={{
-                    pathname: `product`,
-                    query: { _id: item._id },
-                  }}
-                  key={item._id}
-                >
-                  <Image
-                    src={`/${item.image}`}
-                    alt="no_image"
-                    height={300}
-                    width={300}
-                  />
-                </Link>
-                <h5>{item.title}</h5>
-                <p>{item.detail}</p>
-                <div className="product-price">
-                  <label>{item.price}</label>
-                  <Link href="/">Buy</Link>
-                </div>
-              </div>
-            ))}
+          <div className="individual-product-slider">
+            <Swiper
+              modules={[Navigation, Pagination]}
+              navigation={false}
+              effect="coverflow"
+              autoplay={true}
+              loop={true}
+              coverflowEffect={{
+                rotate: 0,
+                stretch: 0,
+                depth: 100,
+                modifier: 3,
+                slideShadows: false,
+              }}
+              slidesPerView={width < 767 ? 1.5 : 3}
+              spaceBetween={35}
+              centeredSlides
+              pagination={{
+                dynamicBullets: true,
+              }}
+              initialSlide={1.6}
+              style={{
+                width: '100%',
+                margin: 'auto',
+                padding: '30px',
+                justifyContent: 'center',
+              }}
+            >
+              {ProductData.map((item, index) => (
+                <SwiperSlide key={item.id}>
+                  <div className="product-card" key={index}>
+                    <Link
+                      href={{
+                        pathname: `product`,
+                        query: { _id: item._id },
+                      }}
+                      key={item._id}
+                    >
+                      <Image
+                        src={`/${item.image}`}
+                        alt="no_image"
+                        height={300}
+                        width={300}
+                      />
+                    </Link>
+                    <h5>{item.title}</h5>
+                    <p>{item.detail}</p>
+                    <div className="product-price">
+                      <label>{item.price}</label>
+                      <Link href="/">Buy</Link>
+                    </div>
+                  </div>
+                </SwiperSlide>
+              ))}
+            </Swiper>
           </div>
-          {/* <div className="product-seemore">
-            <Link href="/shop">See more</Link>
-          </div> */}
         </div>
       </div>
       <Footer />

@@ -10,7 +10,7 @@ const Help = () => {
       <Navbar />
       <div className="container home-top-margin">
         <div className="help-container">
-          <h2>HOW CAN WE HELP?</h2>
+          <h1>HOW CAN WE HELP?</h1>
           <p>
             Sign up for text and support
             <br />

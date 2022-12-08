@@ -435,10 +435,12 @@ export default function Home() {
               </div>
             </div>
           </div>
-          {features === 'share' && <Share />}
-          {features === 'capture' && <Capture />}
-          {features === 'export' && <Export />}
-          {features === 'faster' && <Faster />}
+          <div className="features-content-container">
+            {features === 'share' && <Share />}
+            {features === 'capture' && <Capture />}
+            {features === 'export' && <Export />}
+            {features === 'faster' && <Faster />}
+          </div>
         </div>
 
         <div className="home-product">
@@ -457,30 +459,33 @@ export default function Home() {
             the possibilities are endless. Use the swop app to.
           </p>
           <div className="justify-grid">
-            {ProductData.map((item, index) => (
-              <div className="product-card" key={index}>
-                <Link
-                  href={{
-                    pathname: `product`,
-                    query: { _id: item._id },
-                  }}
-                  key={item._id}
-                >
-                  <Image
-                    src={`/${item.image}`}
-                    alt="no_image"
-                    height={300}
-                    width={300}
-                  />
-                </Link>
-                <h5>{item.title}</h5>
-                <p>{item.detail}</p>
-                <div className="product-price">
-                  <label>{item.price}</label>
-                  <Link href="/">Buy</Link>
-                </div>
-              </div>
-            ))}
+            {ProductData.map(
+              (item, index) =>
+                index < 6 && (
+                  <div className="product-card" key={index}>
+                    <Link
+                      href={{
+                        pathname: `product`,
+                        query: { _id: item._id },
+                      }}
+                      key={item._id}
+                    >
+                      <Image
+                        src={`/${item.image}`}
+                        alt="no_image"
+                        height={300}
+                        width={300}
+                      />
+                    </Link>
+                    <h5>{item.title}</h5>
+                    <p>{item.detail}</p>
+                    <div className="product-price">
+                      <label>{item.price}</label>
+                      <Link href="/">Buy</Link>
+                    </div>
+                  </div>
+                ),
+            )}
           </div>
           <div className="product-seemore">
             <Link href="/shop">See more</Link>

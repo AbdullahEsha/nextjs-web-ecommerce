@@ -5,9 +5,9 @@ import image1 from '../images/abouttoken.png'
 import image2 from '../images/aboutshare.png'
 import image3 from '../images/aboutqrcode.png'
 import image4 from '../images/aboutanalytics.png'
-import cardImg1 from '../images/homeCard1.png'
-import cardImg2 from '../images/homeCard2.png'
-import cardImg3 from '../images/homeCard3.png'
+import cardImg1 from '../images/cardfillupload.gif'
+import cardImg2 from '../images/cardshipnfc.gif'
+import cardImg3 from '../images/cardsfliptest.gif'
 import features1 from '../images/aboutfeatures1.png'
 import features2 from '../images/aboutfeatures2.png'
 import features3 from '../images/aboutfeatures3.png'
@@ -104,36 +104,42 @@ const About = () => {
             <br />
             the possibilities are endless. Use the swop app to.
           </p>
-          <div className="background-level"></div>
+          <div className="background-level" />
           <div className="row-div">
             <div className="col-4">
-              <div className="card-how-it">
-                <Image src={cardImg1} alt="no_image" width={360} height={540} />
-                <h5>Upload logo for your profile</h5>
-                <p>
-                  Personlize the look of your digital business card. Add all of
-                  your contact information.
-                </p>
+              <div className="card-how-it2">
+                <Image src={cardImg1} alt="no_image" width={800} height={600} />
+                <div className="card-how-it2-inside">
+                  <h5>Upload logo for your profile</h5>
+                  <p>
+                    Personlize the look of your digital business card. Add all
+                    of your contact information.
+                  </p>
+                </div>
               </div>
             </div>
             <div className="col-4">
-              <div className="card-how-it">
-                <Image src={cardImg2} alt="no_image" width={360} height={540} />
-                <h5>Confirm Design with our personal designer</h5>
-                <p>
-                  Device is made simple so you can get to connecting faster than
-                  ever before.
-                </p>
+              <div className="card-how-it2">
+                <Image src={cardImg2} alt="no_image" width={800} height={600} />
+                <div className="card-how-it2-inside">
+                  <h5>Confirm Design with our personal designer</h5>
+                  <p>
+                    Device is made simple so you can get to connecting faster
+                    than ever before.
+                  </p>
+                </div>
               </div>
             </div>
             <div className="col-4">
-              <div className="card-how-it">
-                <Image src={cardImg3} alt="no_image" width={360} height={540} />
-                <h5>We Print and ship your NFC </h5>
-                <p>
-                  With a single tap you'll be able to transfer your dot.Profile
-                  and begin connecting with style.
-                </p>
+              <div className="card-how-it2">
+                <Image src={cardImg3} alt="no_image" width={800} height={600} />
+                <div className="card-how-it2-inside">
+                  <h5>We Print and ship your NFC </h5>
+                  <p>
+                    With a single tap you'll be able to transfer your
+                    dot.Profile and begin connecting with style.
+                  </p>
+                </div>
               </div>
             </div>
           </div>
