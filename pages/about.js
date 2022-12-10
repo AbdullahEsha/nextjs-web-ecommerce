@@ -11,6 +11,9 @@ import cardImg3 from '../images/cardsfliptest.gif'
 import features1 from '../images/aboutfeatures1.png'
 import features2 from '../images/aboutfeatures2.png'
 import features3 from '../images/aboutfeatures3.png'
+import number1 from '../images/number-icon1.png'
+import number2 from '../images/number-icon2.png'
+import number3 from '../images/number-icon3.png'
 import roadmap from '../images/aboutroadmap.png'
 import Link from 'next/link'
 import Image from 'next/image'
@@ -125,6 +128,13 @@ const About = () => {
           <div className="background-level" />
           <div className="row-div">
             <div className="col-4">
+              <Image
+                src={number1}
+                alt="number_image"
+                height={71}
+                width={71}
+                className="number-icon"
+              />
               <div className="card-how-it2">
                 <Image src={cardImg1} alt="no_image" width={800} height={600} />
                 <div className="card-how-it2-inside">
@@ -137,6 +147,13 @@ const About = () => {
               </div>
             </div>
             <div className="col-4">
+              <Image
+                src={number2}
+                alt="number_image"
+                height={71}
+                width={71}
+                className="number-icon"
+              />
               <div className="card-how-it2">
                 <Image src={cardImg2} alt="no_image" width={800} height={600} />
                 <div className="card-how-it2-inside">
@@ -149,6 +166,13 @@ const About = () => {
               </div>
             </div>
             <div className="col-4">
+              <Image
+                src={number3}
+                alt="number_image"
+                height={71}
+                width={71}
+                className="number-icon"
+              />
               <div className="card-how-it2">
                 <Image src={cardImg3} alt="no_image" width={800} height={600} />
                 <div className="card-how-it2-inside">

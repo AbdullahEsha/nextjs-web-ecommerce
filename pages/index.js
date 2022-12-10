@@ -21,6 +21,9 @@ import cardIcon1 from '../images/iconshareinfo.png'
 import cardIcon2 from '../images/iconcapture.png'
 import cardIcon3 from '../images/iconexport.png'
 import cardIcon4 from '../images/icongofaster.png'
+import number1 from '../images/number-icon1.png'
+import number2 from '../images/number-icon2.png'
+import number3 from '../images/number-icon3.png'
 import Share from '../components/Share'
 import { ProductData } from '../components/ProductData'
 import { Swiper, SwiperSlide } from 'swiper/react'
@@ -351,9 +354,16 @@ export default function Home() {
             <br />
             download our app.
           </p>
-          <div className="background-level"></div>
+          <div className="background-level" />
           <div className="row-div">
             <div className="col-4">
+              <Image
+                src={number1}
+                alt="number_image"
+                height={71}
+                width={71}
+                className="number-icon"
+              />
               <div className="card-how-it">
                 <Image src={cardImg1} alt="no_image" width={360} height={540} />
                 <h5>
@@ -366,6 +376,13 @@ export default function Home() {
               </div>
             </div>
             <div className="col-4">
+              <Image
+                src={number2}
+                alt="number_image"
+                height={71}
+                width={71}
+                className="number-icon"
+              />
               <div className="card-how-it">
                 <Image src={cardImg2} alt="no_image" width={360} height={540} />
                 <h5>
@@ -378,6 +395,13 @@ export default function Home() {
               </div>
             </div>
             <div className="col-4">
+              <Image
+                src={number3}
+                alt="number_image"
+                height={71}
+                width={71}
+                className="number-icon"
+              />
               <div className="card-how-it">
                 <Image src={cardImg3} alt="no_image" width={360} height={540} />
                 <h5>Ready to connect</h5>

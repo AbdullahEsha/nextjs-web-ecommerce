@@ -17,6 +17,9 @@ import icon4 from '../images/docicon.png'
 import icon5 from '../images/aticon.png'
 import icon6 from '../images/wifiicon.png'
 import icon7 from '../images/picicon.png'
+import number1 from '../images/number-icon1.png'
+import number2 from '../images/number-icon2.png'
+import number3 from '../images/number-icon3.png'
 import dropdown from '../images/dropdown.png'
 import dropdownwhite from '../images/dropdownwhite.png'
 import { Swiper, SwiperSlide } from 'swiper/react'
@@ -184,6 +187,13 @@ const QrGenerator = () => {
           <div className="background-level" />
           <div className="row-div">
             <div className="col-4">
+              <Image
+                src={number1}
+                alt="number_image"
+                height={71}
+                width={71}
+                className="number-icon"
+              />
               <div className="card-how-it2">
                 <Image src={cardImg1} alt="no_image" width={800} height={600} />
                 <div className="card-how-it2-inside">
@@ -196,6 +206,13 @@ const QrGenerator = () => {
               </div>
             </div>
             <div className="col-4">
+              <Image
+                src={number2}
+                alt="number_image"
+                height={71}
+                width={71}
+                className="number-icon"
+              />
               <div className="card-how-it2">
                 <Image src={cardImg2} alt="no_image" width={800} height={600} />
                 <div className="card-how-it2-inside">
@@ -208,6 +225,13 @@ const QrGenerator = () => {
               </div>
             </div>
             <div className="col-4">
+              <Image
+                src={number3}
+                alt="number_image"
+                height={71}
+                width={71}
+                className="number-icon"
+              />
               <div className="card-how-it2">
                 <Image src={cardImg3} alt="no_image" width={800} height={600} />
                 <div className="card-how-it2-inside">
