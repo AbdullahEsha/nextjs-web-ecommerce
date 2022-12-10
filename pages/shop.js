@@ -24,6 +24,15 @@ const Shop = () => {
             <br />
             the possibilities are endless. Use the swop app to.
           </p>
+          <p id="qr-space-between" className="hide-pc-view">
+            Swop’s Flat Rectangle NFC’s are designed to be durable
+            <br />
+            and simple to use. The Flat is great to put under
+            <br />
+            any phone case(non-metal) Users can
+            <br />
+            download our app.
+          </p>
           <div className="shop-product-ads">
             <div className="row-div">
               <div className="col-6">

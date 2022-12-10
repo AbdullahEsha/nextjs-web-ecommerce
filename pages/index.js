@@ -342,6 +342,15 @@ export default function Home() {
             <br />
             the possibilities are endless. Use the swop app to.
           </p>
+          <p className="hide-pc-view">
+            Swop’s Flat Rectangle NFC’s are designed to be durable
+            <br />
+            and simple to use. The Flat is great to put under
+            <br />
+            any phone case(non-metal) Users can
+            <br />
+            download our app.
+          </p>
           <div className="background-level"></div>
           <div className="row-div">
             <div className="col-4">
@@ -394,6 +403,15 @@ export default function Home() {
             business card, microsite, crypto address,
             <br />
             the possibilities are endless. Use the swop app to.
+          </p>
+          <p className="hide-pc-view">
+            Swop’s Flat Rectangle NFC’s are designed to be durable
+            <br />
+            and simple to use. The Flat is great to put under
+            <br />
+            any phone case(non-metal) Users can
+            <br />
+            download our app.
           </p>
           <div className="home-networking-ber">
             <div className="networking-row">
@@ -458,6 +476,15 @@ export default function Home() {
             <br />
             the possibilities are endless. Use the swop app to.
           </p>
+          <p className="hide-pc-view">
+            Swop’s Flat Rectangle NFC’s are designed to be durable
+            <br />
+            and simple to use. The Flat is great to put under
+            <br />
+            any phone case(non-metal) Users can
+            <br />
+            download our app.
+          </p>
           <div className="justify-grid">
             {ProductData.map(
               (item, index) =>
@@ -507,7 +534,15 @@ export default function Home() {
             <br />
             the possibilities are endless. Use the swop app to.
           </p>
-
+          <p className="hide-pc-view">
+            Swop’s Flat Rectangle NFC’s are designed to be durable
+            <br />
+            and simple to use. The Flat is great to put under
+            <br />
+            any phone case(non-metal) Users can
+            <br />
+            download our app.
+          </p>
           <div className="slider-web3-browser">
             <Swiper
               modules={[Navigation, Pagination]}

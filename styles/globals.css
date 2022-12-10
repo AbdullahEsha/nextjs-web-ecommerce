@@ -161,6 +161,9 @@ a {
 .col-4 {
   width: calc(100% / 3);
 }
+.hide-pc-view {
+  display: none;
+}
 /* Index page start */
 .home-top-margin {
   padding-top: 100px;
@@ -839,7 +842,7 @@ div.shop-product-content-inside {
   margin: 35px 0px;
 }
 .individual-product-slider {
-  margin: 40px 0px 50px;
+  margin: 0px 0px 50px;
 }
 .product-background {
   background: url('/productbackground.png') no-repeat;
@@ -2087,7 +2090,7 @@ div.product-details-content-inside {
     height: 14px;
   }
 }
-@media only screen and (min-width: 350px) and (max-width: 559px) {
+@media only screen and (min-width: 450px) and (max-width: 559px) {
   .container {
     width: 97%;
     margin-left: auto;
@@ -2144,6 +2147,12 @@ div.product-details-content-inside {
   .hide-mobile-view {
     display: none;
   }
+  .hide-pc-view {
+    display: block;
+    font-size: 15px;
+    margin: 0px;
+    text-align: center;
+  }
   #bottom-video-position {
     margin-top: -90px;
   }
@@ -2185,7 +2194,7 @@ div.product-details-content-inside {
     height: 30px;
   }
   .networking-crd {
-    padding: 10px;
+    padding: 9px;
   }
   .alignment-crd h3 {
     font-size: 25px;
@@ -2247,6 +2256,19 @@ div.product-details-content-inside {
   .content-web3-inside p {
     font-size: 10px;
   }
+  .content-dapp-in h5 {
+    font-size: 20px;
+  }
+  .content-dapp-in p {
+    font-size: 15px;
+  }
+  .content-dapp-in {
+    width: 200px;
+  }
+  .dapp-slider .swiper-horizontal > .swiper-pagination-bullets,
+  .swiper-pagination-bullets.swiper-pagination-horizontal {
+    bottom: 40px;
+  }
   .content-web3 label {
     margin: 4px 0px 0px;
     font-size: 16px;
@@ -2297,8 +2319,33 @@ div.product-details-content-inside {
     font-size: 26px;
     margin: 0px;
   }
+  .about-futuristic {
+    text-align: -webkit-center;
+    margin: -25px 0px 0px;
+  }
+  .about-card h5 {
+    font-size: 24px;
+  }
   .about-roadmap img {
     display: none;
+  }
+  .about-mid-container {
+    margin: 0px;
+  }
+  .about-features h2 {
+    font-size: 26px;
+    margin: 0px;
+  }
+  .features-card-content {
+    text-align: center;
+  }
+  /* display none about error */
+  .about-roadmap {
+    display: none;
+  }
+  .card-how-it2 {
+    border-radius: 10px;
+    margin: 15px 32px;
   }
   .d-app-search input {
     width: 95%;
@@ -2359,13 +2406,13 @@ div.product-details-content-inside {
     left: -20px;
   }
   .qr-code-penel {
-    margin-bottom: 30px;
+    margin-bottom: 80px;
   }
-  .home-how-it-work {
-    margin-top: 0px;
+  .home-networking-ber {
+    margin: 20px 0px;
   }
-  .qr-generator-bottom h2 {
-    margin-top: -5px;
+  .home-web3-browser {
+    margin: 35px 0px;
   }
   .qr-generator-background img {
     height: 26px;
@@ -2402,6 +2449,7 @@ div.product-details-content-inside {
   }
   .qr-generator-double {
     height: auto;
+    margin-left: 0%;
   }
   .qr_card-image {
     height: 100%;
@@ -2420,6 +2468,13 @@ div.product-details-content-inside {
   }
   .qr-generator-bottom h2 {
     font-size: 26px;
+    margin: 0px;
+  }
+  #qr-space-between {
+    margin-bottom: 20px;
+  }
+  .home-how-it-work {
+    margin-top: -65px;
   }
   .product-details-content-inside h3 {
     font-size: 26px;
@@ -2498,12 +2553,15 @@ div.product-details-content-inside {
     font-size: 15px;
   }
   .help-youtube div {
-    max-width: 100%;
+    max-width: 49%;
     height: 100%;
     padding: 10px 0px;
   }
-  .help-youtube {
-    justify-content: center;
+  .frequently-asked h2 {
+    text-align: center;
+    font-size: 26px;
+    font-weight: 600;
+    margin: 10px 0px 15px;
   }
   .help-container h1 {
     font-size: 26px;
@@ -2523,9 +2581,16 @@ div.product-details-content-inside {
   .help-detail-content {
     font-size: 14px;
   }
+  .flex-div {
+    justify-content: center;
+  }
+  .alignment-crd {
+    text-align: center;
+    padding-right: 0px;
+  }
 }
 
-@media only screen and (min-width: 350px) and (max-width: 449px) {
+/* @media only screen and (min-width: 350px) and (max-width: 449px) {
   .container {
     width: 97%;
     margin-left: auto;
@@ -2966,4 +3031,4 @@ div.product-details-content-inside {
   .help-detail-content {
     font-size: 13px;
   }
-}
+} */

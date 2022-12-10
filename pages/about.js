@@ -40,6 +40,15 @@ const About = () => {
             <br />
             the possibilities are endless. Use the swop app to.
           </p>
+          <p className="hide-pc-view">
+            Swop’s Flat Rectangle NFC’s are designed to be durable
+            <br />
+            and simple to use. The Flat is great to put under
+            <br />
+            any phone case(non-metal) Users can
+            <br />
+            download our app.
+          </p>
         </div>
         <div className="about-mid-container">
           <div className="row-div">
@@ -104,6 +113,15 @@ const About = () => {
             <br />
             the possibilities are endless. Use the swop app to.
           </p>
+          <p className="hide-pc-view">
+            Swop’s Flat Rectangle NFC’s are designed to be durable
+            <br />
+            and simple to use. The Flat is great to put under
+            <br />
+            any phone case(non-metal) Users can
+            <br />
+            download our app.
+          </p>
           <div className="background-level" />
           <div className="row-div">
             <div className="col-4">
@@ -158,6 +176,15 @@ const About = () => {
             business card, microsite, crypto address,
             <br />
             the possibilities are endless. Use the swop app to.
+          </p>
+          <p className="hide-pc-view">
+            Swop’s Flat Rectangle NFC’s are designed to be durable
+            <br />
+            and simple to use. The Flat is great to put under
+            <br />
+            any phone case(non-metal) Users can
+            <br />
+            download our app.
           </p>
           <div className="row-div">
             <div className="col-6">
