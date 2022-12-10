@@ -245,7 +245,7 @@ const QrGenerator = () => {
             <br />
             download our app.
           </p>
-          <div className="row-div">
+          <div className="row-div qr-margin-top">
             <div className="col-6">
               <div className="qr-generator-background">
                 <Image src={logo} alt="swop-image" height={48} width={230} />
