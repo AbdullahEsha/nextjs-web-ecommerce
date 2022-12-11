@@ -2109,7 +2109,7 @@ div.product-details-content-inside {
     display: block;
     height: 60px;
     width: auto;
-    margin: 10px 0px -10px;
+    margin: 10px 0px 0px;
   }
   .reverse-direction {
     flex-direction: column-reverse;
@@ -2626,7 +2626,7 @@ div.product-details-content-inside {
     display: block;
     height: 50px;
     width: auto;
-    margin: 10px 0px -10px;
+    margin: 10px 0px 0px;
   }
   .shop-now-btn {
     padding: 10px 15px;

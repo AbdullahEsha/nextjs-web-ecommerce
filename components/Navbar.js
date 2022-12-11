@@ -114,6 +114,12 @@ const Navbar = () => {
                   setMenu(false)
                   document.querySelector('.nav-menu-hidden').style.display =
                     'none'
+                  document.querySelector(
+                    '.nav-menu-ber',
+                  ).style.borderBottomLeftRadius = '15px'
+                  document.querySelector(
+                    '.nav-menu-ber',
+                  ).style.borderBottomRightRadius = '15px'
                 }}
               />
             )}
