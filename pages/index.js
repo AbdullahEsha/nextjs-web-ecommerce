@@ -63,11 +63,12 @@ export default function Home() {
       icon: 'iconapp3.png',
     },
   ]
+
   return (
     <div>
       <Navbar />
       <div className="container home-top-margin">
-        <video controls src={'/banner.mp4'} muted loop autoPlay playsinline />
+        <video controls src={'/banner.mp4'} muted loop autoPlay id="video" />
         <Link href="/" className="shop-now-btn">
           Shop Now <HiOutlineArrowRight size={20} />
         </Link>
