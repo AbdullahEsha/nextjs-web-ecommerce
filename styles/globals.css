@@ -620,7 +620,10 @@ video {
 }
 video::-webkit-media-controls-panel {
   display: none !important;
-  opacity: 1 !important;
+  -webkit-appearance: none;
+  opacity: 0 !important;
+  position: absolute;
+  z-index: -99;
 }
 /* video end */
 /* Index page ends */
