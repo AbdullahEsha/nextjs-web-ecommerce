@@ -620,40 +620,7 @@ video {
 }
 video::-webkit-media-controls-panel {
   display: none !important;
-  -webkit-appearance: none;
-  opacity: 0 !important;
-  position: absolute;
-  z-index: -99;
-}
-video::--webkit-media-controls-play-button {
-  display: none !important;
-  -webkit-appearance: none;
-  opacity: 0;
-  position: absolute;
-  z-index: -9999;
-}
-
-video::-webkit-media-controls-start-playback-button {
-  display: none !important;
-  -webkit-appearance: none;
-  opacity: 0;
-  position: absolute;
-  z-index: -9999;
-}
-
-*::-webkit-media-controls-panel {
-  display: none !important;
-  -webkit-appearance: none;
-}
-
-*::-webkit-media-controls-play-button {
-  display: none !important;
-  -webkit-appearance: none;
-}
-
-*::-webkit-media-controls-start-playback-button {
-  display: none !important;
-  -webkit-appearance: none;
+  opacity: 1 !important;
 }
 /* video end */
 /* Index page ends */
