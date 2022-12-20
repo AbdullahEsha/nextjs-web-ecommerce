@@ -2234,7 +2234,7 @@ div.product-details-content-inside {
     text-align: center;
   }
   #bottom-video-position {
-    margin-top: -90px;
+    margin-top: 25px;
   }
   .subscribe-from input {
     width: 82%;
@@ -2614,7 +2614,32 @@ div.product-details-content-inside {
     margin-top: 25px;
   }
   .home-product {
-    margin-top: 20px;
+    margin-top: -60px;
+  }
+  .check_out_dapp_browser {
+    background: url('/dapp-browser-mobile.png') no-repeat center;
+    background-size: contain;
+    height: 745px;
+  }
+  div.check_out_dapp_content-out {
+    height: 100%;
+    width: 100%;
+  }
+  div.check_out_dapp_content {
+    position: static;
+    top: 0%;
+    transform: translateY(0%);
+    text-align: -webkit-center;
+  }
+  .check_out_dapp_button {
+    height: 412px;
+  }
+  .check_out_dapp_content h2 {
+    font-size: 30px;
+    line-height: 40px;
+  }
+  .check_out_dapp_content p {
+    margin: 12px 0px 25px;
   }
   .contact-top h2 {
     font-size: 26px;
@@ -2778,7 +2803,7 @@ div.product-details-content-inside {
     margin-top: -10px;
   }
   #bottom-video-position {
-    margin-top: -90px;
+    margin-top: 15px;
   }
   .subscribe-from input {
     width: 82%;
@@ -2819,6 +2844,43 @@ div.product-details-content-inside {
   }
   .home-product {
     margin-top: 0px;
+  }
+  .check_out_dapp_browser {
+    background: url('/dapp-browser-mobile.png') no-repeat bottom;
+    background-size: contain;
+    height: 745px;
+  }
+  div.check_out_dapp_content-out {
+    height: 100%;
+    width: 100%;
+  }
+  div.check_out_dapp_content {
+    position: static;
+    top: 0%;
+    transform: translateY(0%);
+    text-align: -webkit-center;
+  }
+  .check_out_dapp_button {
+    height: 405px;
+  }
+  .check_out_dapp_content h2 {
+    font-size: 26px;
+    line-height: 35px;
+  }
+  .check_out_dapp_content p {
+    margin: 12px 0px 25px;
+  }
+  .check_out_dapp_content a {
+    padding: 8px 30px;
+    font-size: 13px;
+  }
+  .check_out_dapp_button div a {
+    padding: 10px 20px;
+    font-size: 14px;
+  }
+  .check_out_dapp_button div {
+    border-radius: 80px;
+    padding: 32px;
   }
   .networking-crd p {
     margin: 0px 2px;
