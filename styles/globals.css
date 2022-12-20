@@ -205,7 +205,7 @@ a {
   height: 461px;
   width: 100%;
   border-radius: 15px;
-  margin: 120px 0px;
+  margin: 60px 0px;
   box-shadow: 0px 0px 10px 2px rgb(0 0 0 / 10%);
 }
 .home-background2 {
@@ -300,7 +300,7 @@ div.home-content1 {
 }
 .home-how-it-work {
   text-align: -webkit-center;
-  margin-top: -80px;
+  margin-top: 80px;
 }
 .home-networking {
   text-align: -webkit-center;
@@ -452,6 +452,9 @@ div.home-content1 {
   margin-top: 50px;
   text-align: -webkit-center;
 }
+.extra-margin {
+  margin-top: -110px;
+}
 .home-product h2 {
   font-size: 32px;
   font-weight: 600;
@@ -572,7 +575,65 @@ div.home-content1 {
   width: 75px;
   margin-top: 7px;
 }
-
+.creators-container {
+  text-align: -webkit-center;
+}
+.creators-container h2 {
+  font-size: 32px;
+  font-weight: 600;
+  margin-bottom: 0px;
+}
+.check_out_dapp_browser {
+  background: url('/dapp-browser.png') no-repeat right;
+  background-size: contain;
+  height: 700px;
+}
+.check_out_dapp_content p {
+  margin: 30px 0px 45px;
+}
+div.check_out_dapp_content-out {
+  height: 700px;
+  width: 100%;
+}
+div.check_out_dapp_content {
+  position: relative;
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+}
+.check_out_dapp_button {
+  display: flex;
+  align-items: center;
+  height: 700px;
+  justify-content: center;
+}
+.check_out_dapp_button div a {
+  background-color: rgba(0, 0, 0, 0.55);
+  border-radius: 30px;
+  padding: 12px 25px;
+  color: #fff;
+  font-weight: 500;
+}
+.check_out_dapp_button div {
+  background-color: rgb(255 255 255 / 0%);
+  backdrop-filter: blur(40px);
+  border-radius: 80px;
+  padding: 43px;
+}
+.check_out_dapp_content h2 {
+  font-size: 55px;
+  line-height: 75px;
+  margin: 0px;
+}
+.check_out_dapp_content a {
+  background-color: #000;
+  color: #fff;
+  padding: 12px 38px;
+  border-radius: 30px;
+  font-size: 14px;
+  font-weight: 500;
+}
 /* swiper card start */
 .slider-web3-browser .swiper-slide {
   transition: all 0.4s linear;
@@ -623,6 +684,7 @@ video::-webkit-media-controls-panel {
   -webkit-appearance: none;
   opacity: 1 !important;
 }
+video::-webkit-media-controls-start-playback-button,
 video::-webkit-media-controls-current-time-display,
 video::-webkit-media-controls,
 video::-moz-media-controls,

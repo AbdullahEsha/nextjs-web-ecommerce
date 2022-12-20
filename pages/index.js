@@ -26,11 +26,11 @@ import number2 from '../images/number-icon2.png'
 import number3 from '../images/number-icon3.png'
 import Share from '../components/Share'
 import { ProductData } from '../components/ProductData'
-import { Swiper, SwiperSlide } from 'swiper/react'
-import { Navigation, Pagination } from 'swiper'
-import SwiperCore, { Autoplay } from 'swiper'
-import 'swiper/css'
-import 'swiper/css/navigation'
+// import { Swiper, SwiperSlide } from 'swiper/react'
+// import { Navigation, Pagination } from 'swiper'
+// import SwiperCore, { Autoplay } from 'swiper'
+// import 'swiper/css'
+// import 'swiper/css/navigation'
 import { useState } from 'react'
 import Capture from '../components/Capture'
 import Export from '../components/Export'
@@ -39,30 +39,30 @@ import Faster from '../components/Faster'
 export default function Home() {
   const { width } = useWindowDimensions()
   const [features, setFeatures] = useState('share')
-  SwiperCore.use([Autoplay])
-  const appData = [
-    {
-      id: 1,
-      title: 'Uniswap',
-      titleDetails: 'Most usable dapps......',
-      image: 'app1.png',
-      icon: 'iconapp1.png',
-    },
-    {
-      id: 2,
-      title: 'Ethereum',
-      titleDetails: 'Most usable dapps......',
-      image: 'app2.png',
-      icon: 'iconapp2.png',
-    },
-    {
-      id: 2,
-      title: 'Polygon',
-      titleDetails: 'Most usable dapps......',
-      image: 'app3.png',
-      icon: 'iconapp3.png',
-    },
-  ]
+  // SwiperCore.use([Autoplay])
+  // const appData = [
+  //   {
+  //     id: 1,
+  //     title: 'Uniswap',
+  //     titleDetails: 'Most usable dapps......',
+  //     image: 'app1.png',
+  //     icon: 'iconapp1.png',
+  //   },
+  //   {
+  //     id: 2,
+  //     title: 'Ethereum',
+  //     titleDetails: 'Most usable dapps......',
+  //     image: 'app2.png',
+  //     icon: 'iconapp2.png',
+  //   },
+  //   {
+  //     id: 2,
+  //     title: 'Polygon',
+  //     titleDetails: 'Most usable dapps......',
+  //     image: 'app3.png',
+  //     icon: 'iconapp3.png',
+  //   },
+  // ]
 
   return (
     <div>
@@ -72,7 +72,105 @@ export default function Home() {
         <Link href="/" className="shop-now-btn">
           Shop Now <HiOutlineArrowRight size={20} />
         </Link>
-        <h2 className="heading-line">Creators</h2>
+
+        <div className="home-networking">
+          <h2>SWOP FEATURES FOR BETTER NETWORKING</h2>
+          <p className="hide-mobile-view">
+            Swop’s Flat Rectangle NFC’s are designed to be durable and simple to
+            use. The Flat is great to put under any phone case(non-metal) Users
+            can
+            <br />
+            download our app to program any of our NFC’s with the click of a
+            button. This will attach your profile to the NFC for easy sharing.
+            <br />
+            You just tap the NFC on any compatible phone to share your digital
+            business card, microsite, crypto address,
+            <br />
+            the possibilities are endless. Use the swop app to.
+          </p>
+          <p className="hide-pc-view">
+            Swop’s Flat Rectangle NFC’s are designed to be durable
+            <br />
+            and simple to use. The Flat is great to put under
+            <br />
+            any phone case(non-metal) Users can
+            <br />
+            download our app.
+          </p>
+          <div className="home-networking-ber">
+            <div className="networking-row">
+              <div
+                className={`networking-crd ${
+                  features === 'share' && 'networking-active'
+                }`}
+                onClick={() => setFeatures('share')}
+              >
+                <Image src={cardIcon1} alt="no_image" height={56} width={56} />
+                <p>Share Your Info</p>
+              </div>
+              <div
+                className={`networking-crd ${
+                  features === 'capture' && 'networking-active'
+                }`}
+                onClick={() => setFeatures('capture')}
+              >
+                <Image src={cardIcon2} alt="no_image" height={56} width={56} />
+                <p>Capture Leads</p>
+              </div>
+              <div
+                className={`networking-crd ${
+                  features === 'export' && 'networking-active'
+                }`}
+                onClick={() => setFeatures('export')}
+              >
+                <Image src={cardIcon3} alt="no_image" height={56} width={56} />
+                <p>Export to CRM</p>
+              </div>
+              <div
+                className={`networking-crd ${
+                  features === 'faster' && 'networking-active'
+                }`}
+                onClick={() => setFeatures('faster')}
+              >
+                <Image src={cardIcon4} alt="no_image" height={56} width={56} />
+                <p>Go Faster</p>
+              </div>
+            </div>
+          </div>
+          <div className="features-content-container">
+            {features === 'share' && <Share />}
+            {features === 'capture' && <Capture />}
+            {features === 'export' && <Export />}
+            {features === 'faster' && <Faster />}
+          </div>
+        </div>
+
+        <div className="creators-container">
+          <h2>Creators</h2>
+          <p className="hide-mobile-view">
+            Swop’s Flat Rectangle NFC’s are designed to be durable and simple to
+            use. The Flat is great to put under any phone case(non-metal) Users
+            can
+            <br />
+            download our app to program any of our NFC’s with the click of a
+            button. This will attach your profile to the NFC for easy sharing.
+            <br />
+            You just tap the NFC on any compatible phone to share your digital
+            business card, microsite, crypto address,
+            <br />
+            the possibilities are endless. Use the swop app to.
+          </p>
+          <p className="hide-pc-view">
+            Swop’s Flat Rectangle NFC’s are designed to be durable
+            <br />
+            and simple to use. The Flat is great to put under
+            <br />
+            any phone case(non-metal) Users can
+            <br />
+            download our app.
+          </p>
+        </div>
+
         <div className="home-background1">
           <div className="row-div">
             <div className="col-6">
@@ -151,7 +249,7 @@ export default function Home() {
           </div>
         </div>
 
-        <h2 className="heading-line hide-mobile-view">Influencers</h2>
+        {/* <h2 className="heading-line hide-mobile-view">Influencers</h2>
         <div className="home-background2 hide-mobile-view">
           <div className="row-div">
             <div className="col-6">
@@ -317,20 +415,8 @@ export default function Home() {
               </div>
             </div>
           </div>
-        </div>
+        </div> */}
 
-        <video
-          controls
-          src={'/banner2.mp4'}
-          muted
-          loop
-          autoPlay
-          id="bottom-video-position"
-        />
-        <div className="subscribe-from">
-          <input type="text" placeholder="Put email for beta invite" />
-          <button>Submit</button>
-        </div>
         <div className="home-how-it-work">
           <h2>HOW ITS WORKS</h2>
           <p className="hide-mobile-view">
@@ -414,79 +500,21 @@ export default function Home() {
             </div>
           </div>
         </div>
-        <div className="home-networking">
-          <h2>SWOP FEATURES FOR BETTER NETWORKING</h2>
-          <p className="hide-mobile-view">
-            Swop’s Flat Rectangle NFC’s are designed to be durable and simple to
-            use. The Flat is great to put under any phone case(non-metal) Users
-            can
-            <br />
-            download our app to program any of our NFC’s with the click of a
-            button. This will attach your profile to the NFC for easy sharing.
-            <br />
-            You just tap the NFC on any compatible phone to share your digital
-            business card, microsite, crypto address,
-            <br />
-            the possibilities are endless. Use the swop app to.
-          </p>
-          <p className="hide-pc-view">
-            Swop’s Flat Rectangle NFC’s are designed to be durable
-            <br />
-            and simple to use. The Flat is great to put under
-            <br />
-            any phone case(non-metal) Users can
-            <br />
-            download our app.
-          </p>
-          <div className="home-networking-ber">
-            <div className="networking-row">
-              <div
-                className={`networking-crd ${
-                  features === 'share' && 'networking-active'
-                }`}
-                onClick={() => setFeatures('share')}
-              >
-                <Image src={cardIcon1} alt="no_image" height={56} width={56} />
-                <p>Share Your Info</p>
-              </div>
-              <div
-                className={`networking-crd ${
-                  features === 'capture' && 'networking-active'
-                }`}
-                onClick={() => setFeatures('capture')}
-              >
-                <Image src={cardIcon2} alt="no_image" height={56} width={56} />
-                <p>Capture Leads</p>
-              </div>
-              <div
-                className={`networking-crd ${
-                  features === 'export' && 'networking-active'
-                }`}
-                onClick={() => setFeatures('export')}
-              >
-                <Image src={cardIcon3} alt="no_image" height={56} width={56} />
-                <p>Export to CRM</p>
-              </div>
-              <div
-                className={`networking-crd ${
-                  features === 'faster' && 'networking-active'
-                }`}
-                onClick={() => setFeatures('faster')}
-              >
-                <Image src={cardIcon4} alt="no_image" height={56} width={56} />
-                <p>Go Faster</p>
-              </div>
-            </div>
-          </div>
-          <div className="features-content-container">
-            {features === 'share' && <Share />}
-            {features === 'capture' && <Capture />}
-            {features === 'export' && <Export />}
-            {features === 'faster' && <Faster />}
-          </div>
+
+        <video
+          controls
+          src={'/banner2.mp4'}
+          muted
+          loop
+          autoPlay
+          id="bottom-video-position"
+        />
+        <div className="subscribe-from">
+          <input type="text" placeholder="Put email for beta invite" />
+          <button>Submit</button>
         </div>
 
-        <div className="home-product">
+        <div className="home-product extra-margin">
           <h2>OUR PRODUCTS</h2>
           <p className="hide-mobile-view">
             Swop’s Flat Rectangle NFC’s are designed to be durable and simple to
@@ -544,7 +572,7 @@ export default function Home() {
           </div>
         </div>
 
-        <div className="home-web3-browser">
+        {/* <div className="home-web3-browser">
           <h2>Check out our DApp Browser for the Web 3 universe</h2>
           <p className="hide-mobile-view">
             Swop’s Flat Rectangle NFC’s are designed to be durable and simple to
@@ -625,6 +653,32 @@ export default function Home() {
                 </SwiperSlide>
               ))}
             </Swiper>
+          </div>
+        </div> */}
+      </div>
+      <div className="container check_out_dapp_browser">
+        <div className="row-div">
+          <div className="col-6">
+            <div className="check_out_dapp_content-out">
+              <div className="check_out_dapp_content">
+                <h2>Check out our DApp Browser for the Web3 universe</h2>
+                <p>
+                  Swop’s Flat Rectangle NFC’s are designed to be durable and
+                  simple to use. download our app to program any of our NFC’s
+                  with the click of a button. You just tap the NFC on any
+                  compatible phone to share your the possibilities are endless.
+                  Use the swop app to.
+                </p>
+                <Link href="/">Get your Dapp</Link>
+              </div>
+            </div>
+          </div>
+          <div className="col-6">
+            <div className="check_out_dapp_button">
+              <div>
+                <Link href="/">Explore All Dapps</Link>
+              </div>
+            </div>
           </div>
         </div>
       </div>
