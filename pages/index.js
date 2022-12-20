@@ -69,12 +69,11 @@ export default function Home() {
       <Navbar />
       <div className="container home-top-margin">
         <video
-          controls="controls"
-          preload="auto"
-          autoPlay="autoPlay"
-          muted
-          loop
+          autoPlay={true}
+          loop={true}
+          controls={false}
           playsInline
+          muted
           id="video"
         >
           <source src={'/banner.mp4'} type="video/mp4" />
