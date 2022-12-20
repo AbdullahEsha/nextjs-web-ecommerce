@@ -23,7 +23,16 @@ const About = () => {
     <>
       <Navbar />
       <div className="container home-top-margin">
-        <video controls src={'/banner.mp4'} muted loop autoPlay />
+        <video
+          controls={false}
+          muted="true"
+          preload="auto"
+          autoPlay
+          loop
+          playsInline
+        >
+          <source src={'/banner.mp4'} type="video/mp4" />
+        </video>
         <Link href="/" className="shop-now-btn">
           Shop Now <HiOutlineArrowRight size={20} />
         </Link>

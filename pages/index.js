@@ -69,11 +69,12 @@ export default function Home() {
       <Navbar />
       <div className="container home-top-margin">
         <video
-          autoPlay={true}
-          loop={true}
           controls={false}
+          muted="true"
+          preload="auto"
+          autoPlay
+          loop
           playsInline
-          muted
           id="video"
         >
           <source src={'/banner.mp4'} type="video/mp4" />
@@ -511,13 +512,16 @@ export default function Home() {
         </div>
 
         <video
-          controls
-          src={'/banner2.mp4'}
-          muted
-          loop
+          controls={false}
+          muted="true"
+          preload="auto"
           autoPlay
+          loop
+          playsInline
           id="bottom-video-position"
-        />
+        >
+          <source src={'/banner2.mp4'} type="video/mp4" />
+        </video>
         <div className="subscribe-from">
           <input type="text" placeholder="Put email for beta invite" />
           <button>Submit</button>
