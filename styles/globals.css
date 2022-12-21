@@ -515,8 +515,8 @@ div.home-content1 {
 .product-seemore a {
   background-color: #000;
   color: #fff;
-  padding: 12px 40px;
-  border-radius: 12px;
+  padding: 10px 40px;
+  border-radius: 30px;
   border: 1px solid #000;
   transition: 0.4s ease;
 }
@@ -635,6 +635,13 @@ div.check_out_dapp_content {
   border-radius: 30px;
   font-size: 14px;
   font-weight: 500;
+  transition: 0.4s ease;
+  border: 1px solid #000;
+}
+.check_out_dapp_content a:hover {
+  background-color: #fff;
+  border: 1px solid #000;
+  color: #000;
 }
 /* swiper card start */
 .slider-web3-browser .swiper-slide {
@@ -3261,7 +3268,7 @@ div.product-details-content-inside {
     margin-bottom: 40px;
   }
   .qr-custom-margin {
-    margin-top: 0px;
+    margin-top: 10px;
   }
   .qr-generator-background label {
     font-size: 12px;

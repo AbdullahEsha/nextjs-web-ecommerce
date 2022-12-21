@@ -30,6 +30,7 @@ const About = () => {
           autoPlay
           loop
           playsInline
+          unoptimized={true}
         >
           <source src={'/banner.mp4'} type="video/mp4" />
         </video>
@@ -145,7 +146,13 @@ const About = () => {
                 className="number-icon"
               />
               <div className="card-how-it2">
-                <Image src={cardImg1} alt="no_image" width={800} height={600} />
+                <Image
+                  src={cardImg1}
+                  alt="no_image"
+                  width={800}
+                  height={600}
+                  unoptimized={true}
+                />
                 <div className="card-how-it2-inside">
                   <h5>Upload logo for your profile</h5>
                   <p>
@@ -164,7 +171,13 @@ const About = () => {
                 className="number-icon"
               />
               <div className="card-how-it2">
-                <Image src={cardImg2} alt="no_image" width={800} height={600} />
+                <Image
+                  src={cardImg2}
+                  alt="no_image"
+                  width={800}
+                  height={600}
+                  unoptimized={true}
+                />
                 <div className="card-how-it2-inside">
                   <h5>Confirm Design with our personal designer</h5>
                   <p>
@@ -183,7 +196,13 @@ const About = () => {
                 className="number-icon"
               />
               <div className="card-how-it2">
-                <Image src={cardImg3} alt="no_image" width={800} height={600} />
+                <Image
+                  src={cardImg3}
+                  alt="no_image"
+                  width={800}
+                  height={600}
+                  unoptimized={true}
+                />
                 <div className="card-how-it2-inside">
                   <h5>We Print and ship your NFC </h5>
                   <p>
@@ -227,6 +246,7 @@ const About = () => {
                   alt="no_image"
                   height={548}
                   width={421}
+                  unoptimized={true}
                 />
               </div>
             </div>
@@ -260,6 +280,7 @@ const About = () => {
                   alt="no_image"
                   height={548}
                   width={421}
+                  unoptimized={true}
                 />
               </div>
             </div>
@@ -272,6 +293,7 @@ const About = () => {
                   alt="no_image"
                   height={548}
                   width={421}
+                  unoptimized={true}
                 />
               </div>
             </div>
@@ -305,6 +327,7 @@ const About = () => {
                   alt="no_image"
                   height={548}
                   width={421}
+                  unoptimized={true}
                 />
               </div>
             </div>

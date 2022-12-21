@@ -195,7 +195,13 @@ const QrGenerator = () => {
                 className="number-icon"
               />
               <div className="card-how-it2">
-                <Image src={cardImg1} alt="no_image" width={800} height={600} />
+                <Image
+                  src={cardImg1}
+                  alt="no_image"
+                  width={800}
+                  height={600}
+                  unoptimized={true}
+                />
                 <div className="card-how-it2-inside">
                   <h5>Upload logo for your profile</h5>
                   <p>
@@ -214,7 +220,13 @@ const QrGenerator = () => {
                 className="number-icon"
               />
               <div className="card-how-it2">
-                <Image src={cardImg2} alt="no_image" width={800} height={600} />
+                <Image
+                  src={cardImg2}
+                  alt="no_image"
+                  width={800}
+                  height={600}
+                  unoptimized={true}
+                />
                 <div className="card-how-it2-inside">
                   <h5>Confirm Design with our personal designer</h5>
                   <p>
@@ -233,7 +245,13 @@ const QrGenerator = () => {
                 className="number-icon"
               />
               <div className="card-how-it2">
-                <Image src={cardImg3} alt="no_image" width={800} height={600} />
+                <Image
+                  src={cardImg3}
+                  alt="no_image"
+                  width={800}
+                  height={600}
+                  unoptimized={true}
+                />
                 <div className="card-how-it2-inside">
                   <h5>We Print and ship your NFC </h5>
                   <p>
