@@ -482,10 +482,13 @@ div.home-content1 {
   padding: 28px 19px;
   border-radius: 30px;
   width: 100%;
+  background-color: rgba(255, 255, 255, 0.37);
+  backdrop-filter: blur(20px);
+  box-shadow: 4px 5px 7px #00000005;
 }
 .product-card img {
   transition: 0.4s ease;
-  max-height: 100%;
+  height: auto;
   width: 100%;
 }
 .product-card img:hover {
