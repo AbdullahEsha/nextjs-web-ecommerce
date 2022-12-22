@@ -70,13 +70,13 @@ export default function Home() {
       <div className="container home-top-margin">
         <video
           controls={false}
-          muted="true"
+          muted
           preload="auto"
           autoPlay
           loop
           playsInline
           id="video"
-          unoptimized={true}
+          unoptimized
         >
           <source src={'/banner.mp4'} type="video/mp4" />
         </video>
@@ -514,13 +514,13 @@ export default function Home() {
 
         <video
           controls={false}
-          muted="true"
+          muted
           preload="auto"
           autoPlay
           loop
           playsInline
           id="bottom-video-position"
-          unoptimized={true}
+          unoptimized
         >
           <source src={'/banner2.mp4'} type="video/mp4" />
         </video>
