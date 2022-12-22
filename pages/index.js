@@ -70,13 +70,13 @@ export default function Home() {
       <div className="container home-top-margin">
         <video
           controls={false}
-          muted
+          muted="true"
           preload="auto"
           autoPlay
           loop
           playsInline
           id="video"
-          unoptimized
+          unoptimized={true}
         >
           <source src={'/banner.mp4'} type="video/mp4" />
         </video>
@@ -514,13 +514,13 @@ export default function Home() {
 
         <video
           controls={false}
-          muted
+          muted="true"
           preload="auto"
           autoPlay
           loop
           playsInline
           id="bottom-video-position"
-          unoptimized
+          unoptimized={true}
         >
           <source src={'/banner2.mp4'} type="video/mp4" />
         </video>
@@ -556,7 +556,7 @@ export default function Home() {
           <div className="justify-grid">
             {ProductData.map(
               (item, index) =>
-                index < 6 && (
+                index < 8 && (
                   <div className="product-card" key={index}>
                     <Link
                       href={{
