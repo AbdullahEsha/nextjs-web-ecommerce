@@ -151,7 +151,7 @@ a {
 }
 .justify-grid {
   display: grid;
-  grid-template-columns: repeat(3, minmax(0, 1fr));
+  grid-template-columns: repeat(4, minmax(0, 1fr));
   gap: 30px;
   margin: 40px 0px 50px;
   text-align: -webkit-center;
@@ -479,7 +479,7 @@ div.home-content1 {
 }
 .product-card {
   border: 1px solid #bdbdbd;
-  padding: 28px 19px;
+  padding: 0px 19px 22px;
   border-radius: 30px;
   width: 100%;
   background-color: rgba(255, 255, 255, 0.37);
