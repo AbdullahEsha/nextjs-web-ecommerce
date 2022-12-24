@@ -72,11 +72,12 @@ export default function Home() {
           controls={false}
           muted="true"
           preload="auto"
-          autoPlay
+          autoPlay={true}
           loop
           playsInline
           id="video"
           unoptimized={true}
+          type="video/mp4"
         >
           <source src={'/banner.mp4'} type="video/mp4" />
         </video>
