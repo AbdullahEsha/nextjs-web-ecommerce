@@ -255,8 +255,9 @@ const Product = () => {
                 modifier: 3,
                 slideShadows: false,
               }}
-              slidesPerView={width < 767 ? 1.5 : 4}
+              slidesPerView={width < 767 ? 1.5 : 3}
               spaceBetween={35}
+              centeredSlides
               pagination={{
                 dynamicBullets: true,
               }}
@@ -276,6 +277,7 @@ const Product = () => {
                         pathname: `product`,
                         query: { _id: item._id },
                       }}
+                      key={item._id}
                     >
                       <Image
                         src={`/${item.image}`}

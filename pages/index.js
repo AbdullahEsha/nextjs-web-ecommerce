@@ -72,12 +72,11 @@ export default function Home() {
           controls={false}
           muted="true"
           preload="auto"
-          autoPlay={true}
+          autoPlay
           loop
           playsInline
           id="video"
           unoptimized={true}
-          type="video/mp4"
         >
           <source src={'/banner.mp4'} type="video/mp4" />
         </video>
@@ -520,8 +519,8 @@ export default function Home() {
           autoPlay
           loop
           playsInline
-          id="bottom-video-position"
           unoptimized={true}
+          id="bottom-video-position"
         >
           <source src={'/banner2.mp4'} type="video/mp4" />
         </video>
@@ -557,7 +556,7 @@ export default function Home() {
           <div className="justify-grid">
             {ProductData.map(
               (item, index) =>
-                index < 8 && (
+                index < 6 && (
                   <div className="product-card" key={index}>
                     <Link
                       href={{

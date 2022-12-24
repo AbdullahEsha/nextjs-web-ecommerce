@@ -37,7 +37,7 @@ const Shop = () => {
             <div className="row-div">
               <div className="col-6">
                 <div className="shop-product-ads-img">
-                  <Image src={'/shopPage.png'} width={450} height={450} />
+                  <Image src={'/product2.png'} width={450} height={450} />
                 </div>
               </div>
               <div className="col-6">
