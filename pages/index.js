@@ -556,7 +556,7 @@ export default function Home() {
           <div className="justify-grid">
             {ProductData.map(
               (item, index) =>
-                index < 6 && (
+                index < 8 && (
                   <div className="product-card" key={index}>
                     <Link
                       href={{
