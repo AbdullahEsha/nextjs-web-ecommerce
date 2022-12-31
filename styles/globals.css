@@ -2433,6 +2433,7 @@ div.product-details-content-inside {
   .card-how-it2 {
     border-radius: 10px;
     margin: 15px 32px;
+    height: auto;
   }
   .d-app-search input {
     width: 95%;
@@ -2600,6 +2601,7 @@ div.product-details-content-inside {
   }
   .card-how-it {
     margin: 16px 32px;
+    height: auto;
   }
   .product-background {
     border-top-left-radius: 15px;
@@ -3107,6 +3109,7 @@ div.product-details-content-inside {
   .card-how-it {
     margin: 14px 24px;
     padding: 20px;
+    height: auto;
   }
   .features-card-image img {
     height: 70%;
@@ -3215,6 +3218,7 @@ div.product-details-content-inside {
   }
   .card-how-it2 {
     margin: 10px 25px;
+    height: auto;
   }
   .monkey-img {
     bottom: 58px;
