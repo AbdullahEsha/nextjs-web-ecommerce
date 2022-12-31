@@ -12,35 +12,40 @@ const Capture = () => {
           <div className="alignment-crd">
             <h3>Capture Leads</h3>
             <p>
-              Capture leads from your profile, then favorite, group, sort, and
-              manage them all in Popl. Sync with CRM's like Salesforce and
-              HubSpot.
+              Easily Capture leads with our simple to use Swop microsites.
+              Customers can fill our a form directly from the profile you keep
+              in the app, and all the leads generated pull directly to your in
+              app dashboard where you can easily Export
             </p>
             <br />
             <div className="flex-div">
               <Image src={icon1} alt="no_image" />{' '}
-              <h5>Business Card Scanner</h5>
+              <h5>Connect with Websites</h5>
             </div>
             <p>
-              Instantly convert paper business cards into digital connections
-              with our AI-powered scanner.
+              Easily follow and connect with people in your ecosystem. When you
+              connect with a swop profile you can store all their information in
+              your dashboard where you can later reconnect.
             </p>
             <br />
             <div className="flex-div">
-              <Image src={icon2} alt="no_image" /> <h5>Lead Capture Mode</h5>
+              <Image src={icon2} alt="no_image" />{' '}
+              <h5>Scale with lead Capture</h5>
             </div>
             <p>
-              Quickly capture leads with fast autofill as soon as you share your
-              profile with others.
+              Automate and scale your sales by capturing leads with your swop
+              profile and using the information for marketing to help increase
+              your sales or network.
             </p>
             <br />
             <div className="flex-div">
-              <Image src={icon3} alt="no_image" /> <h5>Your Info, Saved</h5>
+              <Image src={icon3} alt="no_image" /> <h5>Stay Organize</h5>
             </div>
             <p>
-              Popl automatically sends your info to leads via email and text
-              message so you don't have to. This gets your more replies so you
-              can close more deals.
+              All the leads generated from your profile appear in a simple to
+              use dashboard where you can save their important information. You
+              can also easily export it as a spreadsheet or import to your
+              companies CRM.
             </p>
           </div>
         </div>

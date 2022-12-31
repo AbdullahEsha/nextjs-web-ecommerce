@@ -10,7 +10,7 @@ const Shop = () => {
       <Navbar />
       <div className="container home-top-margin">
         <div className="shop-top-content">
-          <h1>ALL DIGITAL BUSINESS CARD</h1>
+          {/* <h1>ALL DIGITAL BUSINESS CARD</h1>
           <p className="hide-mobile-view">
             Swop’s Flat Rectangle NFC’s are designed to be durable and simple to
             use. The Flat is great to put under any phone case(non-metal) Users
@@ -32,7 +32,7 @@ const Shop = () => {
             any phone case(non-metal) Users can
             <br />
             download our app.
-          </p>
+          </p> */}
           <div className="shop-product-ads">
             <div className="row-div">
               <div className="col-6">

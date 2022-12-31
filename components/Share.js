@@ -11,35 +11,49 @@ const Share = () => {
       <div className="row-div reverse-direction">
         <div className="col-6">
           <div className="alignment-crd">
-            <h3>Instantly Share Anything</h3>
+            <h3>Top-Share Anything Instantly</h3>
             <p>
-              Instantly share your info with a tap, scan, or send. Share contact
-              info, social media, websites, payment apps, files, videos and
-              more.
+              There are several ways to quickly share your personal information,
+              such as contact details, social media profiles, websites, payment
+              apps, files, and videos, with others. These methods include
+              tapping your phone with NFC, scanning a QR code, or sending the
+              information through a messaging app, email, or file-sharing
+              service. You can also use apps specifically designed for sharing,
+              such as payment apps or social media apps. Remember to protect
+              your privacy and only share your information with trusted
+              individuals.
             </p>
             <br />
             <div className="flex-div">
-              <Image src={icon1} alt="no_image" /> <h5>Tap</h5>
+              <Image src={icon1} alt="no_image" /> <h5>NFC Technology</h5>
             </div>
             <p>
-              Just tap one of our smart products to an iPhone or Android to
-              share without them needing an app.
+              Near Field Communication (NFC) is a way for two devices, like
+              smartphones, to talk to each other when they are close together.
+              To do this, you just need to tap the two devices together. Then,
+              they will share information with each other automatically. This is
+              a quick and easy way to share things like contact information or
+              pictures.
             </p>
             <br />
             <div className="flex-div">
-              <Image src={icon2} alt="no_image" /> <h5>Scan</h5>
+              <Image src={icon2} alt="no_image" /> <h5>QR Scan</h5>
             </div>
             <p>
-              Use your free, in-app Popl QR code with advanced analytics and
-              unlimited scans.
+              Swops is an app that lets you create and customize your own Quick
+              Response (QR) codes for free. These codes can be scanned with a
+              smartphone or QR code reader to access websites or other digital
+              destinations. With Swops, it's easy to share information and
+              direct customers where they need to be.. Try it out today!
             </p>
             <br />
             <div className="flex-div">
               <Image src={icon3} alt="no_image" /> <h5>Share</h5>
             </div>
             <p>
-              Send your digital business card via text message, email, Airdrop,
-              email signatures, Zoom backgrounds, iPhone widgets and more.
+              There are many ways to share your swop website and digital
+              business card, such as through text message, email, Airdrop, email
+              signature or Zoom background.
             </p>
           </div>
         </div>

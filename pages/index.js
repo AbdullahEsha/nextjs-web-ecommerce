@@ -2,7 +2,6 @@ import Image from 'next/image'
 import Link from 'next/link'
 import Navbar from '../components/Navbar'
 import Footer from '../components/Footer'
-import useWindowDimensions from '../components/useWindowDimensions'
 import { HiOutlineArrowRight } from 'react-icons/hi'
 import homeImage1 from '../images/homeimage1.png'
 import homeImage2 from '../images/homeimage2.png'
@@ -11,9 +10,6 @@ import icon1 from '../images/iconmouse.png'
 import icon2 from '../images/iconmusic.png'
 import icon3 from '../images/iconvideo.png'
 import icon4 from '../images/icongraph.png'
-import icon5 from '../images/iconfollowing.png'
-import icon6 from '../images/iconlink.png'
-import icon7 from '../images/icontodo.png'
 import cardImg1 from '../images/homeCard1.png'
 import cardImg2 from '../images/homeCard2.png'
 import cardImg3 from '../images/homeCard3.png'
@@ -26,43 +22,13 @@ import number2 from '../images/number-icon2.png'
 import number3 from '../images/number-icon3.png'
 import Share from '../components/Share'
 import { ProductData } from '../components/ProductData'
-// import { Swiper, SwiperSlide } from 'swiper/react'
-// import { Navigation, Pagination } from 'swiper'
-// import SwiperCore, { Autoplay } from 'swiper'
-// import 'swiper/css'
-// import 'swiper/css/navigation'
 import { useState } from 'react'
 import Capture from '../components/Capture'
 import Export from '../components/Export'
 import Faster from '../components/Faster'
 
 export default function Home() {
-  const { width } = useWindowDimensions()
   const [features, setFeatures] = useState('share')
-  // SwiperCore.use([Autoplay])
-  // const appData = [
-  //   {
-  //     id: 1,
-  //     title: 'Uniswap',
-  //     titleDetails: 'Most usable dapps......',
-  //     image: 'app1.png',
-  //     icon: 'iconapp1.png',
-  //   },
-  //   {
-  //     id: 2,
-  //     title: 'Ethereum',
-  //     titleDetails: 'Most usable dapps......',
-  //     image: 'app2.png',
-  //     icon: 'iconapp2.png',
-  //   },
-  //   {
-  //     id: 2,
-  //     title: 'Polygon',
-  //     titleDetails: 'Most usable dapps......',
-  //     image: 'app3.png',
-  //     icon: 'iconapp3.png',
-  //   },
-  // ]
 
   return (
     <div>
@@ -85,28 +51,25 @@ export default function Home() {
         </Link>
 
         <div className="home-networking">
-          <h2>SWOP FEATURES FOR BETTER NETWORKING</h2>
+          <h2>Welcome to the Swop Economy</h2>
           <p className="hide-mobile-view">
-            Swop’s Flat Rectangle NFC’s are designed to be durable and simple to
-            use. The Flat is great to put under any phone case(non-metal) Users
-            can
+            Swop offers a variety of services in our free app. While our app is
+            free and provides a business or creator with essential
             <br />
-            download our app to program any of our NFC’s with the click of a
-            button. This will attach your profile to the NFC for easy sharing.
+            tools they need to grow and expand. We also offer a paid
+            subscription that provides various add-ons
             <br />
-            You just tap the NFC on any compatible phone to share your digital
-            business card, microsite, crypto address,
+            like token powered sites that will allow you to take your
+            relationship
             <br />
-            the possibilities are endless. Use the swop app to.
+            with your following to the next level.
           </p>
           <p className="hide-pc-view">
-            Swop’s Flat Rectangle NFC’s are designed to be durable
-            <br />
-            and simple to use. The Flat is great to put under
-            <br />
-            any phone case(non-metal) Users can
-            <br />
-            download our app.
+            Swop offers a variety of services in our free app. While our app is
+            free and provides a business or creator with essential tools they
+            need to grow and expand. We also offer a paid subscription that
+            provides various add-ons like token powered sites that will allow
+            you to take your relationship with your following to the next level.
           </p>
           <div className="home-networking-ber">
             <div className="networking-row">
@@ -159,26 +122,25 @@ export default function Home() {
         <div className="creators-container">
           <h2>Creators</h2>
           <p className="hide-mobile-view">
-            Swop’s Flat Rectangle NFC’s are designed to be durable and simple to
-            use. The Flat is great to put under any phone case(non-metal) Users
-            can
+            Swop is a useful tool for content creators and musicians to share
+            their work and connect with their audience. With Swop, they can
+            build profiles,
             <br />
-            download our app to program any of our NFC’s with the click of a
-            button. This will attach your profile to the NFC for easy sharing.
+            use NFC and QR technology to share their profiles, and aggregate all
+            their important information in one place.
             <br />
-            You just tap the NFC on any compatible phone to share your digital
-            business card, microsite, crypto address,
+            Swop also provides analytics tools to help track the performance of
+            their
             <br />
-            the possibilities are endless. Use the swop app to.
+            profiles and understand their audience.
           </p>
           <p className="hide-pc-view">
-            Swop’s Flat Rectangle NFC’s are designed to be durable
-            <br />
-            and simple to use. The Flat is great to put under
-            <br />
-            any phone case(non-metal) Users can
-            <br />
-            download our app.
+            Swop is a useful tool for content creators and musicians to share
+            their work and connect with their audience. With Swop, they can
+            build profiles, use NFC and QR technology to share their profiles,
+            and aggregate all their important information in one place. Swop
+            also provides analytics tools to help track the performance of their
+            profiles and understand their audience.
           </p>
         </div>
 
@@ -203,8 +165,8 @@ export default function Home() {
                         />
                         <h5>Track analytics</h5>
                         <p>
-                          Track the analytics on how your links do business
-                          card. Add all of your contact information.
+                          Track all your links and connections easily in your
+                          personal dashboard.
                         </p>
                       </div>
                     </div>
@@ -216,10 +178,10 @@ export default function Home() {
                           height={70}
                           width={70}
                         />
-                        <h5>All music in one place</h5>
+                        <h5>Aggregate</h5>
                         <p>
-                          Have all your music in one place business card. Add
-                          all of your contact information.
+                          Aggregate all your information like music and social
+                          to stay organized and help showcase your content.
                         </p>
                       </div>
                     </div>
@@ -231,10 +193,11 @@ export default function Home() {
                           height={70}
                           width={70}
                         />
-                        <h5>Easily accessible videos</h5>
+                        <h5>Grow</h5>
                         <p>
-                          Personlize the look of your digital business card. Add
-                          all of your contact information.
+                          We provide tools like NFC and Custom QR codes to help
+                          you bring your content from the digital to physical
+                          world.
                         </p>
                       </div>
                     </div>
@@ -246,10 +209,10 @@ export default function Home() {
                           height={70}
                           width={70}
                         />
-                        <h5>One click order</h5>
+                        <h5>Token Powered</h5>
                         <p>
-                          One click order on any products business card. Add all
-                          of your contact information.
+                          Sell access to your exclusive content with our token
+                          powered sites. Monetize your content and control it.
                         </p>
                       </div>
                     </div>
@@ -431,28 +394,23 @@ export default function Home() {
         <div className="home-how-it-work">
           <h2>HOW ITS WORKS</h2>
           <p className="hide-mobile-view">
-            Swop’s Flat Rectangle NFC’s are designed to be durable and simple to
-            use. The Flat is great to put under any phone case(non-metal) Users
-            can
+            Swop is free to download and very easy to get started. After making
+            a profile and getting setup be
             <br />
-            download our app to program any of our NFC’s with the click of a
-            button. This will attach your profile to the NFC for easy sharing.
+            sure to order a NFC. Our technology is compatible with all current
+            and most
             <br />
-            You just tap the NFC on any compatible phone to share your digital
-            business card, microsite, crypto address,
+            modern models of smartphones. Never miss an opportunity
             <br />
-            the possibilities are endless. Use the swop app to.
+            again with Swop.
           </p>
           <p className="hide-pc-view">
-            Swop’s Flat Rectangle NFC’s are designed to be durable
-            <br />
-            and simple to use. The Flat is great to put under
-            <br />
-            any phone case(non-metal) Users can
-            <br />
-            download our app.
+            Swop is free to download and very easy to get started. After making
+            a profile and getting setup be sure to order a NFC. Our technology
+            is compatible with all current and most modern models of
+            smartphones. Never miss an opportunity again with Swop.
           </p>
-          <div className="background-level" />
+          <div className="background-level padding_bottom" />
           <div className="row-div">
             <div className="col-4">
               <Image
@@ -468,8 +426,8 @@ export default function Home() {
                   Set up your <span>SWOP</span> profile
                 </h5>
                 <p>
-                  Personlize the look of your digital business card. Add all of
-                  your contact information.
+                  After creating an account and setting up your wallet, create a
+                  website in the builder.
                 </p>
               </div>
             </div>
@@ -484,11 +442,12 @@ export default function Home() {
               <div className="card-how-it">
                 <Image src={cardImg2} alt="no_image" width={360} height={540} />
                 <h5>
-                  Active your <span>SWOP</span> device
+                  Active <span>NFC</span> device
                 </h5>
                 <p>
-                  Device is made simple so you can get to connecting faster than
-                  ever before.
+                  After ordering a NFC device and setting up your microsite,
+                  press the activate button on your website builder and tap the
+                  NFC to your phone to connect the NFC to your website.
                 </p>
               </div>
             </div>
@@ -502,10 +461,13 @@ export default function Home() {
               />
               <div className="card-how-it">
                 <Image src={cardImg3} alt="no_image" width={360} height={540} />
-                <h5>Ready to connect</h5>
+                <h5>
+                  Ready to <span>connect</span>
+                </h5>
                 <p>
-                  With a single tap you'll be able to transfer your dot.Profile
-                  and begin connecting with style.
+                  Tap the NFC and hold from 1-4 seconds on anyone’s phone you
+                  meet and your profile will pop up. The other person does NOT
+                  need the swop app for the NFC to work.
                 </p>
               </div>
             </div>
@@ -532,26 +494,24 @@ export default function Home() {
         <div className="home-product extra-margin">
           <h2>OUR PRODUCTS</h2>
           <p className="hide-mobile-view">
-            Swop’s Flat Rectangle NFC’s are designed to be durable and simple to
-            use. The Flat is great to put under any phone case(non-metal) Users
-            can
+            All of our products come with a 30 day warranty where we will send
+            you a new NFC no questions asked. NFC chips come in a variety
             <br />
-            download our app to program any of our NFC’s with the click of a
-            button. This will attach your profile to the NFC for easy sharing.
+            of shapes and sizes. Some share information faster than others.
+            While other types store more data. Be sure to get
             <br />
-            You just tap the NFC on any compatible phone to share your digital
-            business card, microsite, crypto address,
+            the NFC that fits your needs. We also offer custom printing, where
+            we can apply your logo
             <br />
-            the possibilities are endless. Use the swop app to.
+            or custom QR code directly to your NFC product.
           </p>
           <p className="hide-pc-view">
-            Swop’s Flat Rectangle NFC’s are designed to be durable
-            <br />
-            and simple to use. The Flat is great to put under
-            <br />
-            any phone case(non-metal) Users can
-            <br />
-            download our app.
+            All of our products come with a 30 day warranty where we will send
+            you a new NFC no questions asked. NFC chips come in a variety of
+            shapes and sizes. Some share information faster than others. While
+            other types store more data. Be sure to get the NFC that fits your
+            needs. We also offer custom printing, where we can apply your logo
+            or custom QR code directly to your NFC product.
           </p>
           <div className="justify-grid">
             {ProductData.map(
@@ -586,103 +546,18 @@ export default function Home() {
             <Link href="/shop">See more</Link>
           </div>
         </div>
-
-        {/* <div className="home-web3-browser">
-          <h2>Check out our DApp Browser for the Web 3 universe</h2>
-          <p className="hide-mobile-view">
-            Swop’s Flat Rectangle NFC’s are designed to be durable and simple to
-            use. The Flat is great to put under any phone case(non-metal) Users
-            can
-            <br />
-            download our app to program any of our NFC’s with the click of a
-            button. This will attach your profile to the NFC for easy sharing.
-            <br />
-            You just tap the NFC on any compatible phone to share your digital
-            business card, microsite, crypto address,
-            <br />
-            the possibilities are endless. Use the swop app to.
-          </p>
-          <p className="hide-pc-view">
-            Swop’s Flat Rectangle NFC’s are designed to be durable
-            <br />
-            and simple to use. The Flat is great to put under
-            <br />
-            any phone case(non-metal) Users can
-            <br />
-            download our app.
-          </p>
-          <div className="slider-web3-browser">
-            <Swiper
-              modules={[Navigation, Pagination]}
-              navigation={false}
-              effect="coverflow"
-              autoplay={true}
-              loop={true}
-              coverflowEffect={{
-                rotate: 0,
-                stretch: 0,
-                depth: 100,
-                modifier: 3,
-                slideShadows: false,
-              }}
-              slidesPerView={width < 767 ? 1.5 : 3.5}
-              spaceBetween={30}
-              centeredSlides
-              pagination={{
-                dynamicBullets: true,
-              }}
-              initialSlide={1.6}
-              style={{
-                width: '100%',
-                margin: 'auto',
-                padding: '35px',
-                justifyContent: 'center',
-              }}
-            >
-              {appData.map((item) => (
-                <SwiperSlide key={item.id}>
-                  <div className="card-web3">
-                    <Image
-                      src={`/${item.image}`}
-                      alt="no_image"
-                      width={300}
-                      height={300}
-                      className="card-web3-image"
-                    />
-                    <div className="content-web3">
-                      <Image
-                        src={`/${item.icon}`}
-                        alt="no_image"
-                        width={40}
-                        height={40}
-                      />
-                      <div className="content-web3-inside">
-                        <h5>{item.title}</h5>
-                        <p>{item.titleDetails}</p>
-                      </div>
-                      <label>
-                        <Link href="/">GET</Link>
-                      </label>
-                    </div>
-                  </div>
-                </SwiperSlide>
-              ))}
-            </Swiper>
-          </div>
-        </div> */}
       </div>
       <div className="container check_out_dapp_browser">
         <div className="row-div">
           <div className="col-6">
             <div className="check_out_dapp_content-out">
               <div className="check_out_dapp_content">
-                <h2>Check out our DApp Browser for the Web3 universe</h2>
+                <h2>Explore the World of Web3</h2>
                 <p>
-                  Swop’s Flat Rectangle NFC’s are designed to be durable and
-                  simple to use. download our app to program any of our NFC’s
-                  with the click of a button. You just tap the NFC on any
-                  compatible phone to share your the possibilities are endless.
-                  Use the swop app to.
+                  Check out all the dapps in the web3 world. Be sure to checkout
+                  our tutorials to help educate and protect yourself while using
+                  dapps. All dapps require a web3 browser to interact with them.
+                  Download the Swop App and use the Web3 browser to get started.
                 </p>
                 <Link href="/">Get your Dapp</Link>
               </div>

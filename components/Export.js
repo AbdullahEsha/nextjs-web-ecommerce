@@ -10,35 +10,45 @@ const Export = () => {
       <div className="row-div reverse-direction">
         <div className="col-6">
           <div className="alignment-crd">
-            <h3>Export to CRM</h3>
+            <h3>Payments</h3>
             <p>
-              Popl is the fastest way to convert in-person connections into CRM
-              leads without any manual data entry.
+              Our app provides a simple to use template for anyone in the world
+              to build a microsite, digital business card, traditional website,
+              even a token powered site. We provide several payment rails for
+              you to integrate with these sites including Debit Cards, Apple
+              Pay, and cryptocurrency like ethereum, polygon and USDC.
             </p>
             <br />
             <div className="flex-div">
-              <Image src={icon1} alt="no_image" /> <h5>Works with your CRM!</h5>
+              <Image src={icon1} alt="no_image" />{' '}
+              <h5>Apple Pay/ Debit Card</h5>
             </div>
             <p>
-              We integrate directly with Salesforce, HubSpot, Outlook, Zoho and
-              many others.
+              To easily accept payments from a debit card or Apple Pay on their
+              website, a user can connect their Stripe account and integrate it
+              into their website. This allows them to sell products and generate
+              revenue from their website by securely accepting payments from
+              customers.
             </p>
             <br />
             <div className="flex-div">
-              <Image src={icon2} alt="no_image" /> <h5>For Teams</h5>
+              <Image src={icon2} alt="no_image" /> <h5>Crypto</h5>
             </div>
             <p>
-              Export all leads collected by your team while keeping track of
-              lead owners, locations, and notes.
+              We provide a simple to use interface on our app where users can
+              create a wallet that will attach to their website so they can take
+              payments from anyone in the world using crypto.
             </p>
             <br />
             <div className="flex-div">
-              <Image src={icon3} alt="no_image" /> <h5>4000+ apps</h5>
+              <Image src={icon3} alt="no_image" /> <h5>Non Custodial</h5>
             </div>
             <p>
-              Sync team members from HR platforms, automate data-entry and
-              marketing flows, set up Zapier integrations, the possibilities are
-              endless.
+              All of our wallets are non custodial so that we can build a truly
+              decentralized global economy. While we do offer traditional
+              payment integration on our sites, non custodial wallets offer a
+              more inclusive and less invasive way by allowing anyone to be
+              their own bank.
             </p>
           </div>
         </div>

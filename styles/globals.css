@@ -320,19 +320,25 @@ div.home-content1 {
   width: 71%;
   margin: 20px 0px 0px;
 }
+.padding_bottom {
+  margin-bottom: 15px;
+}
 .card-how-it {
   border: 1px solid #bdbdbd78;
   border-radius: 15px;
-  margin: 32px;
-  padding: 20px 35px;
+  height: 100%;
+  margin: 0px 20px;
+  padding: 5px 25px;
   box-shadow: 0px 0px 10px 2px rgb(0 0 0 / 6%);
   background-color: #fff;
 }
 .card-how-it2 {
   border: 1px solid #bdbdbd78;
   border-radius: 15px;
-  margin: 32px;
+  margin: 0px 20px;
+  height: 100%;
   box-shadow: 0px 0px 10px 2px rgb(0 0 0 / 6%);
+  background-color: #fff;
 }
 .card-how-it img {
   height: 250px;
@@ -346,7 +352,7 @@ div.home-content1 {
   border-top-right-radius: 15px;
 }
 .card-how-it2-inside {
-  padding: 20px 35px;
+  padding: 20px 25px;
 }
 .card-how-it h5 {
   text-align: left;
@@ -416,7 +422,7 @@ div.home-content1 {
   margin: 0px;
 }
 .alignment-crd p {
-  font-size: 16px;
+  font-size: 14px;
   font-weight: 400;
   color: #878383;
 }
@@ -591,6 +597,7 @@ div.home-content1 {
   background: url('/dapp-browser.png') no-repeat right;
   background-size: contain;
   height: 700px;
+  margin-bottom: 50px;
 }
 .check_out_dapp_content p {
   margin: 30px 0px 45px;
@@ -1196,7 +1203,7 @@ div.product-details-content-inside {
   margin: 0px;
 }
 .about-mid-container {
-  margin: 50px 0px 100px;
+  margin: 50px 0px;
 }
 .about-card {
   text-align: -webkit-center;
