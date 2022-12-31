@@ -58,7 +58,14 @@ const Navbar = () => {
             </div>
             <div className="nav-bottom">
               <h2>
-                <Link href="/">SWOP</Link>
+                <Link href="/">
+                  <Image
+                    src={mobilelogo}
+                    alt="swop-logo"
+                    height={30}
+                    width={144}
+                  />
+                </Link>
               </h2>
               <div className="nav-bottom-item">
                 <ul>
