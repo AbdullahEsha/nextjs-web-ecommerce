@@ -1,7 +1,7 @@
 import Footer from '../components/Footer'
 import Navbar from '../components/Navbar'
 import { HiOutlineArrowRight } from 'react-icons/hi'
-import image1 from '../images/abouttoken.png'
+import tokenimage from '../images/abouttoken.png'
 import image2 from '../images/aboutshare.png'
 import image3 from '../images/aboutqrcode.png'
 import image4 from '../images/aboutanalytics.png'
@@ -32,7 +32,7 @@ const About = () => {
           playsInline
           unoptimized={true}
         >
-          <source src={'/banner.mp4'} type="video/mp4" />
+          <source src={'/bannerAbout.mp4'} type="video/mp4" />
         </video>
         <Link href="/" className="shop-now-btn">
           Shop Now <HiOutlineArrowRight size={20} />
@@ -66,7 +66,7 @@ const About = () => {
           <div className="row-div">
             <div className="col-6">
               <div className="about-card">
-                <Image src={image1} alt="no_image" height={554} width={437} />
+                <Image src={tokenimage} alt="token_image" />
                 <h5>Token Powered websites</h5>
                 <p>
                   Token powered websites allow you to monetize your content in a
