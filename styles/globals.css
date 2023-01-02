@@ -1268,19 +1268,29 @@ div.product-details-content-inside {
   padding: 0px 12px;
 }
 .roadmap-1 h5 {
-  color: #9dc92e;
+  background: -webkit-linear-gradient(#fd969e, #fe8d9e);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
 }
 .roadmap-2 h5 {
-  color: #55bba5;
+  background: -webkit-linear-gradient(#f38aad, #e186c7);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
 }
 .roadmap-3 h5 {
-  color: #50a1bc;
+  background: -webkit-linear-gradient(#f38aad, #f9799f);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
 }
 .roadmap-4 h5 {
-  color: #8aaace;
+  background: -webkit-linear-gradient(#dd86e9, #f9799f);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
 }
 .roadmap-5 h5 {
-  color: #745f8a;
+  background: -webkit-linear-gradient(#fd969e, #fe8d9e);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
 }
 /* about page end */
 
