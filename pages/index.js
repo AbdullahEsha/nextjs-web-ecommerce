@@ -410,7 +410,7 @@ export default function Home() {
             is compatible with all current and most modern models of
             smartphones. Never miss an opportunity again with Swop.
           </p>
-          <div className="background-level padding_bottom" />
+          <div className="background-level" />
           <div className="row-div">
             <div className="col-4">
               <Image

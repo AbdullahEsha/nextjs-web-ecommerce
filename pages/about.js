@@ -148,7 +148,7 @@ const About = () => {
             then just upload the proper information and checkout, we will send
             you a mockup and confirm your design then print and ship!
           </p>
-          <div className="background-level padding_bottom" />
+          <div className="background-level" />
           <div className="row-div">
             <div className="col-4">
               <Image
