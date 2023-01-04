@@ -98,7 +98,7 @@ export default function Home() {
                 onClick={() => setFeatures('export')}
               >
                 <Image src={cardIcon3} alt="no_image" height={56} width={56} />
-                <p>Export to CRM</p>
+                <p>Payments</p>
               </div>
               <div
                 className={`networking-crd ${
@@ -107,7 +107,7 @@ export default function Home() {
                 onClick={() => setFeatures('faster')}
               >
                 <Image src={cardIcon4} alt="no_image" height={56} width={56} />
-                <p>Go Faster</p>
+                <p>Grow Faster</p>
               </div>
             </div>
           </div>
