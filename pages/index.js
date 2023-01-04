@@ -42,7 +42,7 @@ export default function Home() {
           loop
           playsInline
           id="video"
-          unoptimized={true}
+          unoptimized
         >
           <source src={'/banner.mp4'} type="video/mp4" />
         </video>
@@ -481,7 +481,7 @@ export default function Home() {
           autoPlay
           loop
           playsInline
-          unoptimized={true}
+          unoptimized
           id="bottom-video-position"
         >
           <source src={'/banner2.mp4'} type="video/mp4" />

@@ -11,6 +11,7 @@ import cardImg3 from '../images/cardsfliptest.gif'
 import features1 from '../images/aboutfeatures1.gif'
 import features2 from '../images/aboutfeatures2.gif'
 import features3 from '../images/aboutfeatures3.gif'
+import features4 from '../images/aboutfeatures4.gif'
 import number1 from '../images/number-icon1.png'
 import number2 from '../images/number-icon2.png'
 import number3 from '../images/number-icon3.png'
@@ -20,7 +21,7 @@ import Image from 'next/image'
 
 const About = () => {
   return (
-    <>
+    <div style={{ backgroundColor: '#fff' }}>
       <Navbar />
       <div className="container home-top-margin">
         <video
@@ -30,7 +31,7 @@ const About = () => {
           autoPlay
           loop
           playsInline
-          unoptimized={true}
+          unoptimized
         >
           <source src={'/bannerAbout.mp4'} type="video/mp4" />
         </video>
@@ -163,7 +164,7 @@ const About = () => {
                   alt="no_image"
                   width={800}
                   height={600}
-                  unoptimized={true}
+                  unoptimized
                 />
                 <div className="card-how-it2-inside">
                   <h5>Upload Logo Upon Checkout</h5>
@@ -190,7 +191,7 @@ const About = () => {
                   alt="no_image"
                   width={800}
                   height={600}
-                  unoptimized={true}
+                  unoptimized
                 />
                 <div className="card-how-it2-inside">
                   <h5>Confirm your design</h5>
@@ -219,7 +220,7 @@ const About = () => {
                   alt="no_image"
                   width={800}
                   height={600}
-                  unoptimized={true}
+                  unoptimized
                 />
                 <div className="card-how-it2-inside">
                   <h5>We Print and Ship</h5>
@@ -269,7 +270,7 @@ const About = () => {
                   alt="no_image"
                   height={548}
                   width={421}
-                  unoptimized={true}
+                  unoptimized
                 />
               </div>
             </div>
@@ -316,7 +317,7 @@ const About = () => {
                   alt="no_image"
                   height={548}
                   width={421}
-                  unoptimized={true}
+                  unoptimized
                 />
               </div>
             </div>
@@ -329,7 +330,7 @@ const About = () => {
                   alt="no_image"
                   height={548}
                   width={421}
-                  unoptimized={true}
+                  unoptimized
                 />
               </div>
             </div>
@@ -372,11 +373,11 @@ const About = () => {
             <div className="col-6">
               <div className="features-card-image">
                 <Image
-                  src={features2}
+                  src={features4}
                   alt="no_image"
                   height={548}
                   width={421}
-                  unoptimized={true}
+                  unoptimized
                 />
               </div>
             </div>
@@ -470,7 +471,7 @@ const About = () => {
         </div>
       </div>
       <Footer />
-    </>
+    </div>
   )
 }
 

@@ -200,7 +200,7 @@ const QrGenerator = () => {
                   alt="no_image"
                   width={800}
                   height={600}
-                  unoptimized={true}
+                  unoptimized
                 />
                 <div className="card-how-it2-inside">
                   <h5>Upload logo for your profile</h5>
@@ -225,7 +225,7 @@ const QrGenerator = () => {
                   alt="no_image"
                   width={800}
                   height={600}
-                  unoptimized={true}
+                  unoptimized
                 />
                 <div className="card-how-it2-inside">
                   <h5>Confirm Design with our personal designer</h5>
@@ -250,7 +250,7 @@ const QrGenerator = () => {
                   alt="no_image"
                   width={800}
                   height={600}
-                  unoptimized={true}
+                  unoptimized
                 />
                 <div className="card-how-it2-inside">
                   <h5>We Print and ship your NFC </h5>
