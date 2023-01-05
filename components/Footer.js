@@ -48,16 +48,16 @@ const Footer = () => {
                 <Link href="/">Swop Pro </Link>
                 <Link href="/">Ambassador </Link>
                 <Link href="/">Distributor </Link>
-                <Link href="/">Help Center </Link>
-                <Link href="/">Carrer </Link>
+                <Link href="/help">Help Center </Link>
+                <Link href="/carrer">Carrer </Link>
               </div>
             </div>
             <div className="footer-same">
               <h4>Legal</h4>
               <div className="footer-link" id="footer-link-bottom">
-                <Link href="/">Privacy Policy </Link>
-                <Link href="/">Terms Of Use </Link>
-                <Link href="/">Refund Policy </Link>
+                <Link href="/privacy-policy">Privacy Policy </Link>
+                <Link href="/terms-of-use">Terms Of Use </Link>
+                <Link href="/refund-policy">Refund Policy </Link>
               </div>
             </div>
             <div className="footer-inform-content">

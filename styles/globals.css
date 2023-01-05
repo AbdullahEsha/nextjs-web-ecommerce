@@ -170,7 +170,7 @@ a {
 }
 /* Index page start */
 .home-top-margin {
-  padding-top: 100px;
+  padding-top: 111px;
 }
 .shop-now-btn {
   padding: 15px 25px;
@@ -257,7 +257,7 @@ div.home-content1 {
   font-weight: 600;
   text-align: center;
   padding: 7px 10px;
-  width: max-content;
+  width: 140px;
   border-radius: 5px;
 }
 .home-content1-card p {
@@ -1465,6 +1465,71 @@ div.product-details-content-inside {
   border-radius: 5px;
   margin-top: 15px;
   border: 1px solid #c1c1c1;
+  text-align: left;
+}
+.carrer-title {
+  padding: 0px;
+}
+.carrer-flex {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  cursor: pointer;
+}
+.carrer-flex h4 {
+  padding: 10px;
+}
+.carrer-flex img {
+  margin-right: 10px;
+}
+.carrer {
+  border-radius: 5px;
+  margin-top: 10px;
+  padding: 0px 10px;
+}
+.carrer p {
+  margin: 0px;
+}
+.carrer-manager,
+.carrer-node,
+.carrer-frontend,
+.carrer-designer {
+  display: none;
+}
+.carrer h5 {
+  margin: 20px 0px 10px;
+  font-size: 18px;
+  font-weight: 600;
+  border-bottom: 0.5px solid #000;
+  max-width: fit-content;
+  line-height: 16px;
+}
+.career-accordion-content ul {
+  padding-left: 24px;
+}
+.description__job-criteria-list {
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 8px;
+  list-style: none;
+}
+.description__job-criteria-list > .description__job-criteria-item {
+  flex: 1 1 264px;
+}
+.description__job-criteria-item:nth-of-type(odd) {
+  margin-right: 48px;
+}
+.description__job-criteria-item {
+  margin-top: 16px;
+}
+.description__job-criteria-item h3 {
+  margin: 0;
+  color: #878383;
+  font-weight: 300;
+  font-size: 16px;
+}
+.description__job-criteria-item span {
+  color: #000;
 }
 .help-detail-title h4 {
   margin: 0;
@@ -2009,6 +2074,26 @@ div.product-details-content-inside {
 
 /* mobile nav end */
 /* nav bar end */
+
+/* Common page start */
+.common-page {
+  max-width: 900px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.common-page h1 {
+  font-size: 32px;
+  font-weight: 500;
+  border-bottom: 0.5px solid #000;
+  line-height: 48px;
+  text-align: center;
+}
+.common-page p {
+  font-size: 15px;
+  text-align: justify;
+  min-height: 350px;
+}
+/* common page end */
 
 /* footer start */
 .footer {

@@ -26,7 +26,7 @@ const About = () => {
       <div className="container home-top-margin">
         <video
           controls={false}
-          muted="true"
+          muted
           preload="auto"
           autoPlay
           loop
