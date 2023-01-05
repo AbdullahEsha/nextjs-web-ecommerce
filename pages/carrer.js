@@ -11,7 +11,6 @@ import { useState } from 'react'
 
 const Carrer = () => {
   const [carrer, setCarrer] = useState('none')
-
   return (
     <>
       <Navbar />
@@ -44,7 +43,11 @@ const Carrer = () => {
               }}
             >
               <h4>Technical Lead (Engineering Manager)</h4>
-              <Image src={dropdown} alt="icon_image" height={11} width={18} />
+              {carrer === 'manager' ? (
+                <Image src={cross} alt="icon_image" height={14} width={14} />
+              ) : (
+                <Image src={dropdown} alt="icon_image" height={11} width={18} />
+              )}
             </div>
             <div className="carrer carrer-manager">
               <Manager />
@@ -75,7 +78,11 @@ const Carrer = () => {
               }}
             >
               <h4>Sr. Software Engineer (NodeJS)</h4>
-              <Image src={dropdown} alt="icon_image" height={11} width={18} />
+              {carrer === 'node' ? (
+                <Image src={cross} alt="icon_image" height={14} width={14} />
+              ) : (
+                <Image src={dropdown} alt="icon_image" height={11} width={18} />
+              )}
             </div>
             <div className="carrer carrer-node">
               <NodeJS />
@@ -107,7 +114,11 @@ const Carrer = () => {
               }}
             >
               <h4>Sr. Software Engineer (React Frontend)</h4>
-              <Image src={dropdown} alt="icon_image" height={11} width={18} />
+              {carrer === 'frontend' ? (
+                <Image src={cross} alt="icon_image" height={14} width={14} />
+              ) : (
+                <Image src={dropdown} alt="icon_image" height={11} width={18} />
+              )}
             </div>
             <div className="carrer carrer-frontend">
               <ReactFrontend />
@@ -139,7 +150,11 @@ const Carrer = () => {
               }}
             >
               <h4>Senior Product Designer</h4>
-              <Image src={dropdown} alt="icon_image" height={11} width={18} />
+              {carrer === 'designer' ? (
+                <Image src={cross} alt="icon_image" height={14} width={14} />
+              ) : (
+                <Image src={dropdown} alt="icon_image" height={11} width={18} />
+              )}
             </div>
             <div className="carrer carrer-designer">
               <Designer />
