@@ -1481,6 +1481,12 @@ div.product-details-content-inside {
 }
 .carrer-flex img {
   margin-right: 10px;
+  height: 20px;
+  width: auto;
+}
+.help-detail img {
+  height: 20px;
+  width: auto;
 }
 .carrer {
   border-radius: 5px;
