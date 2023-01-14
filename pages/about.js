@@ -338,10 +338,10 @@ const About = () => {
               <div className="features-card-content">
                 <h4>Change to hosting</h4>
                 <p>
-                  Paragraph- We offer free hosting for every Swop profile, which
-                  is a high-speed virtual private server (VPS) designed to
-                  ensure fast loading times. This means that when someone visits
-                  your Swops profile, they will be able to access your content
+                  We offer free hosting for every Swop profile, which is a
+                  high-speed virtual private server (VPS) designed to ensure
+                  fast loading times. This means that when someone visits your
+                  Swops profile, they will be able to access your content
                   quickly and smoothly, without experiencing any delays or
                   lagging. Having a fast-loading website is important for a
                   number of reasons, including improving the user experience,

@@ -1,5 +1,5 @@
 import Image from 'next/image'
-import footerSwop from '../images/swopfooter.png'
+import footerSwop from '../images/swopLogo.png'
 import footerQrCode from '../images/footerQrCode.png'
 import Link from 'next/link'
 import {

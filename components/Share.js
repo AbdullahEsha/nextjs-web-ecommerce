@@ -15,8 +15,8 @@ const Share = () => {
             <p>
               There are several ways to quickly share your personal information,
               such as contact details, social media profiles, websites, payment
-              apps, files, and videos, with others. These methods include
-              tapping your phone with NFC, scanning a QR code, or sending the
+              apps, files, and videos with others. These methods include tapping
+              your phone with NFC, scanning a QR code, or sending the
               information through a messaging app, email, or file-sharing
               service. You can also use apps specifically designed for sharing,
               such as payment apps or social media apps. Remember to protect

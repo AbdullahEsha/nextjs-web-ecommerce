@@ -596,6 +596,10 @@ div.home-content1 {
   background-size: contain;
   height: 700px;
   margin-bottom: 50px;
+  box-shadow: 0px 0px 10px 2px rgb(0 0 0 / 10%);
+  /* border: 0.5px solid #00000014; */
+  border-radius: 15px;
+  padding-left: 30px;
 }
 .check_out_dapp_content p {
   margin: 30px 0px 45px;
@@ -2102,11 +2106,10 @@ div.product-details-content-inside {
 /* common page end */
 
 /* footer start */
-.footer {
-  background-color: #000;
+/* .footer {
   border-top-right-radius: 15px;
   border-top-left-radius: 15px;
-}
+} */
 .footer-out {
   padding: 20px 0px;
 }
@@ -2116,7 +2119,6 @@ div.product-details-content-inside {
   justify-content: space-between;
 }
 .footer-top h4 {
-  color: #fff;
   margin: 0;
 }
 .footer-first-content {
@@ -2135,7 +2137,6 @@ div.product-details-content-inside {
 }
 .footer-link a {
   display: block;
-  color: #fff;
 }
 .footer-inform-content h4 {
   width: 270px;
@@ -2146,7 +2147,7 @@ div.product-details-content-inside {
   border-radius: 10px;
   padding: 0px 10px;
   font-weight: 600;
-  border: none;
+  border: 1px solid #000;
 }
 .subscribing-input:focus {
   outline: 0;
@@ -2163,15 +2164,14 @@ div.product-details-content-inside {
   transition: 0.4s ease;
 }
 .subscribing-btn:hover {
-  border: 1px solid #fff;
+  border: 1px solid #000;
   background-color: #fff;
   color: #000;
 }
 .footer-mid {
-  color: #fff;
   text-align: right;
   margin-top: 30px;
-  border-bottom: 1px solid #fff;
+  border-bottom: 1px solid #000;
 }
 .footer-mid a {
   margin-left: 20px;
@@ -2180,7 +2180,6 @@ div.product-details-content-inside {
   font-weight: 500;
 }
 .footer-bottom {
-  color: #fff;
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
