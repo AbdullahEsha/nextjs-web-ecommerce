@@ -426,9 +426,11 @@ const About = () => {
                 Dapp
               </h5>
               <p>
-                This section presents a few selected branding projects of our
-                work. More projects are to be found on our website, social
-                media.
+                Our Dapp, accessible through a web3 browser, provides a
+                user-friendly POS interface with tools for invoicing, coupon
+                generation, and crypto transactions. It offers a new level of
+                trust and efficiency for your business through secure
+                decentralized transactions.
               </p>
             </div>
             <div className="roadmap-3">
@@ -438,9 +440,12 @@ const About = () => {
                 Dapp
               </h5>
               <p>
-                This section presents a few selected branding projects of our
-                work. More projects are to be found on our website, social
-                media.
+                Mint Machine DApp is a user-friendly blockchain tool that allows
+                easy minting of unique NFTs or tokens. It provides a template
+                for creating custom tokens for various purposes like coupons,
+                loyalty tokens, access tokens, or even a currency for content
+                purchase. The DApp makes it simple for anyone to create their
+                own tokens and take advantage of blockchain technology.
               </p>
             </div>
             <div className="roadmap-4">
@@ -450,9 +455,12 @@ const About = () => {
                 Launch
               </h5>
               <p>
-                This section presents a few selected branding projects of our
-                work. More projects are to be found on our website, social
-                media.
+                We are creating a blockchain optimized for digital interactions,
+                built on the Ethereum Virtual Machine (EVM) specifically for the
+                SWOP ecosystem. It will improve customer experience with fast
+                and secure transactions, using token as gas to access the
+                ecosystem's tools. The SWOP blockchain will enhance interactions
+                within the ecosystem.
               </p>
             </div>
             <div className="roadmap-5">
@@ -462,9 +470,9 @@ const About = () => {
                 Login/3FA
               </h5>
               <p>
-                This section presents a few selected branding projects of our
-                work. More projects are to be found on our website, social
-                media.
+                Swop will use NFC for secure login by storing and uploading
+                private key via NFC, and for fast transactions by tapping the
+                phone. This will enhance user experience and security.
               </p>
             </div>
           </div>

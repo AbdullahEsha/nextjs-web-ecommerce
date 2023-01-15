@@ -1,5 +1,5 @@
 import Image from 'next/image'
-import footerSwop from '../images/swopLogo.png'
+import footerSwop from '../images/swopfooter.png'
 import footerQrCode from '../images/footerQrCode.png'
 import Link from 'next/link'
 import {
@@ -20,7 +20,7 @@ const Footer = () => {
               <Image
                 src={footerSwop}
                 alt="footer-logo"
-                height={30}
+                height={42}
                 id="footerSwop-logo"
               />
               <div className="footer-first-content" id="footer-link-bottom">
