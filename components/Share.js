@@ -11,7 +11,7 @@ const Share = () => {
       <div className="row-div reverse-direction">
         <div className="col-6">
           <div className="alignment-crd">
-            <h3>Top-Share Anything Instantly</h3>
+            <h3>Share Anything Instantly</h3>
             <p>
               There are several ways to quickly share your personal information,
               such as contact details, social media profiles, websites, payment

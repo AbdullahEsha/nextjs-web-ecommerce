@@ -172,6 +172,31 @@ a {
 .home-top-margin {
   padding-top: 111px;
 }
+.loading-page {
+  height: 100vh;
+  width: 100%;
+  display: grid;
+  justify-content: center;
+  background-color: #fff;
+}
+.loading-page * {
+  position: relative;
+  top: 50%;
+  transform: translateY(-50%);
+}
+.page-404 a {
+  padding: 5px 25px;
+  border: 1px solid #000;
+  background-color: #fff;
+  border-radius: 10px;
+  font-size: 20px;
+  font-weight: 700;
+  transition: 0.4s ease;
+}
+.page-404 a:hover {
+  background-color: #000;
+  color: #fff;
+}
 .shop-now-btn {
   padding: 15px 25px;
   border: 1px solid #000;
@@ -595,7 +620,7 @@ div.home-content1 {
   background: url('/dapp-browser.png') no-repeat right;
   background-size: contain;
   height: 700px;
-  margin-bottom: 50px;
+  margin: 50px auto;
   box-shadow: 0px 0px 10px 2px rgb(0 0 0 / 10%);
   background-color: #fff; /* #f9f9f9; */
   border-radius: 15px;
@@ -1256,6 +1281,7 @@ div.product-details-content-inside {
 }
 .roadmap-content {
   display: flex;
+  gap: 10px;
 }
 .roadmap-content h5 {
   font-size: 18px;
@@ -1263,11 +1289,11 @@ div.product-details-content-inside {
   font-weight: 600;
 }
 .roadmap-content p {
-  font-size: 12px;
+  font-size: 10.5px;
+  text-align: center;
 }
 .roadmap-content div {
   width: calc(100% / 5);
-  padding: 0px 12px;
 }
 .roadmap-1 h5 {
   background: -webkit-linear-gradient(#fd969e, #fe8d9e);
@@ -2111,7 +2137,7 @@ div.product-details-content-inside {
   border-top-left-radius: 15px;
 } */
 .footer-out {
-  padding: 20px;
+  padding: 30px;
   box-shadow: 0px 0px 10px 2px rgb(0 0 0 / 10%);
   /* border: 0.5px solid #00000014; */
   border-top-left-radius: 15px;
@@ -2492,8 +2518,9 @@ div.product-details-content-inside {
     width: 50%;
     margin-bottom: 10px;
   }
-  .footer-top {
-    padding: 20px;
+  img#footerSwop-logo {
+    height: 36px;
+    width: auto;
   }
   .footer-mid {
     text-align: -webkit-center !important;
@@ -2734,6 +2761,7 @@ div.product-details-content-inside {
     background: url('/dapp-browser-mobile.png') no-repeat center;
     background-size: contain;
     height: 745px;
+    padding: 30px 0px;
   }
   div.check_out_dapp_content-out {
     height: 100%;
@@ -2963,6 +2991,7 @@ div.product-details-content-inside {
     background: url('/dapp-browser-mobile.png') no-repeat bottom;
     background-size: contain;
     height: 745px;
+    padding: 30px 0px;
   }
   div.check_out_dapp_content-out {
     height: 100%;
@@ -2978,11 +3007,11 @@ div.product-details-content-inside {
     height: 405px;
   }
   .check_out_dapp_content h2 {
-    font-size: 26px;
+    font-size: 24px;
     line-height: 35px;
   }
   .check_out_dapp_content p {
-    margin: 12px 0px 25px;
+    margin: 12px 10px 25px;
   }
   .check_out_dapp_content a {
     padding: 8px 30px;
@@ -3076,9 +3105,6 @@ div.product-details-content-inside {
     width: 50%;
     margin-bottom: 10px;
   }
-  .footer-top {
-    padding: 20px;
-  }
   .footer-mid {
     text-align: -webkit-center !important;
   }
@@ -3168,11 +3194,12 @@ div.product-details-content-inside {
     padding-top: 0px;
   }
   #footerSwop-logo {
-    height: 25px;
+    height: 28px;
     width: auto;
   }
   .footer-mid a {
     font-size: 12px;
+    margin-left: 0px;
   }
   .footer-bottom {
     text-align: -webkit-center !important;
@@ -3181,7 +3208,10 @@ div.product-details-content-inside {
   }
   .footer-mid {
     text-align: -webkit-center !important;
-    margin-top: 0px;
+    margin-top: 24px;
+    display: flex;
+    gap: 10px;
+    justify-content: center;
   }
   .shop-top-content h1 {
     font-size: 22px;

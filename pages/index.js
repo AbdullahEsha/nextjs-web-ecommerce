@@ -1,11 +1,10 @@
+import { useState } from 'react'
 import Image from 'next/image'
 import Link from 'next/link'
 import Navbar from '../components/Navbar'
 import Footer from '../components/Footer'
 import { HiOutlineArrowRight } from 'react-icons/hi'
 import homeImage1 from '../images/homeimage1.png'
-import homeImage2 from '../images/homeimage2.png'
-import homeImage3 from '../images/homeimage3.png'
 import icon1 from '../images/iconmouse.png'
 import icon2 from '../images/iconmusic.png'
 import icon3 from '../images/iconvideo.png'
@@ -22,16 +21,23 @@ import number2 from '../images/number-icon2.png'
 import number3 from '../images/number-icon3.png'
 import Share from '../components/Share'
 import { ProductData } from '../components/ProductData'
-import { useState } from 'react'
 import Capture from '../components/Capture'
 import Export from '../components/Export'
 import Faster from '../components/Faster'
 
 export default function Home() {
   const [features, setFeatures] = useState('share')
+  // const [isLoading, setIsLoading] = useState(true)
+
+  // const loadingfunc = () => {
+  //   setIsLoading(false)
+  // }
+
+  // setTimeout(loadingfunc, 1000)
 
   return (
-    <div>
+    // isLoading === false ?
+    <>
       <Navbar />
       <div className="container home-top-margin">
         <video
@@ -51,7 +57,7 @@ export default function Home() {
         </Link>
 
         <div className="home-networking">
-          <h2>Welcome to the Swop Economy</h2>
+          <h2>Welcome to Swop</h2>
           <p className="hide-mobile-view">
             Swop offers a variety of services in our free app. While our app is
             free and provides a business or creator with essential
@@ -573,6 +579,16 @@ export default function Home() {
         </div>
       </div>
       <Footer />
-    </div>
+    </>
   )
+  // ) : (
+  //   <div className="loading-page">
+  //     <Image
+  //       src={'/loading.gif'}
+  //       alt="loading_image"
+  //       height={200}
+  //       width={200}
+  //     />
+  //   </div>
+  // )
 }

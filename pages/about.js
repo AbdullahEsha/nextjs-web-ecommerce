@@ -414,9 +414,13 @@ const About = () => {
                 Launch
               </h5>
               <p>
-                This section presents a few selected branding projects of our
-                work. More projects are to be found on our website, social
-                media.
+                Swop app will allow users to create a profile which aggregates
+                their digital identity and connects it to a secure unique wallet
+                that allows users to interact globally seamlessly without
+                restrictions in a trustless manner. The interface provides users
+                with a simple UI for ownership over their online assets and
+                information, providing them with a new level of autonomy and
+                security in the digital world.
               </p>
             </div>
             <div className="roadmap-2">
@@ -426,11 +430,12 @@ const About = () => {
                 Dapp
               </h5>
               <p>
-                Our Dapp, accessible through a web3 browser, provides a
-                user-friendly POS interface with tools for invoicing, coupon
-                generation, and crypto transactions. It offers a new level of
-                trust and efficiency for your business through secure
-                decentralized transactions.
+                Swop Pay offers a revolutionary solution for businesses,
+                providing a user-friendly POS interface, global reach, and
+                secure decentralized transactions, enabling them to expand their
+                customer base and increase efficiency. It will be open source
+                and for the community to help grow the crypto ecosystem. Coming
+                to a web3 Browser near you late Q2.
               </p>
             </div>
             <div className="roadmap-3">
@@ -444,8 +449,8 @@ const About = () => {
                 easy minting of unique NFTs or tokens. It provides a template
                 for creating custom tokens for various purposes like coupons,
                 loyalty tokens, access tokens, or even a currency for content
-                purchase. The DApp makes it simple for anyone to create their
-                own tokens and take advantage of blockchain technology.
+                purchase. This will be built optimized for our SWOP blockchain
+                and one of our first DApps.
               </p>
             </div>
             <div className="roadmap-4">
@@ -455,12 +460,12 @@ const About = () => {
                 Launch
               </h5>
               <p>
-                We are creating a blockchain optimized for digital interactions,
-                built on the Ethereum Virtual Machine (EVM) specifically for the
-                SWOP ecosystem. It will improve customer experience with fast
-                and secure transactions, using token as gas to access the
-                ecosystem's tools. The SWOP blockchain will enhance interactions
-                within the ecosystem.
+                A blockchain optimized for digital interactions, built on the
+                Ethereum Virtual Machine (EVM) specifically for the SWOP
+                ecosystem. It will improve customer experience with fast and
+                secure transactions, using token as gas to access the
+                ecosystem's tools and infrastructure. Users will be able to
+                stake tokens and earn rewards from gas fees on the SWOP chain.
               </p>
             </div>
             <div className="roadmap-5">
@@ -470,9 +475,12 @@ const About = () => {
                 Login/3FA
               </h5>
               <p>
-                Swop will use NFC for secure login by storing and uploading
-                private key via NFC, and for fast transactions by tapping the
-                phone. This will enhance user experience and security.
+                Features like 3FA which utilize our NFC technology that will
+                allow users to securely store their private key on an air-gapped
+                NFC chip. Our NFC technology will also act as a tangible
+                gatekeeper to push transactions through by tapping their phone
+                and allow transaction to process while also enhancing security
+                and user experience.
               </p>
             </div>
           </div>

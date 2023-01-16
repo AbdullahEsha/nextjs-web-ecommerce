@@ -1,3 +1,4 @@
+import { useEffect } from 'react'
 import Footer from '../components/Footer'
 import Navbar from '../components/Navbar'
 import { useRouter } from 'next/router'
@@ -28,6 +29,9 @@ const Product = () => {
   const router = useRouter()
   const { _id } = router.query
   const data = ProductData.filter((item) => item._id === _id)
+  useEffect(() => {
+    data.length === 0 && router.push('/')
+  }, [])
 
   return (
     <>
