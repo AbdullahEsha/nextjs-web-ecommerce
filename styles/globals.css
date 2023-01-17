@@ -325,7 +325,7 @@ div.home-content1 {
 }
 .home-how-it-work {
   text-align: -webkit-center;
-  margin: 50px 0px 10px;
+  margin: 50px 0px;
 }
 .home-networking {
   text-align: -webkit-center;
@@ -628,6 +628,11 @@ div.home-content1 {
 }
 .check_out_dapp_content p {
   margin: 30px 0px 45px;
+}
+span#color-text-index {
+  background-image: linear-gradient(to right, #b79dff, #00c2ff);
+  -webkit-background-clip: text;
+  color: transparent;
 }
 div.check_out_dapp_content-out {
   height: 700px;
@@ -2300,6 +2305,140 @@ div.product-details-content-inside {
   }
   .qr-top-icon img {
     height: 14px;
+  }
+}
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+  .container {
+    width: 750px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  h2 {
+    margin: 0px;
+  }
+  .home-how-it-work p {
+    font-size: 13px;
+  }
+  .background-level {
+    background-size: contain;
+    height: 40px;
+  }
+  .card-how-it h5 {
+    font-size: 17px;
+  }
+  .card-how-it2-inside h5 {
+    font-size: 17px;
+  }
+  .card-how-it {
+    margin: 20px;
+    padding: 8px 15px;
+  }
+  .card-how-it2-inside {
+    margin: 20px;
+    padding: 8px 15px;
+  }
+  .home-networking p {
+    font-size: 13px;
+  }
+  .home-product p {
+    font-size: 13px;
+  }
+  .home-web3-browser p {
+    font-size: 13px;
+  }
+  .shop-top-content p {
+    font-size: 13px;
+  }
+  .about-futuristic p {
+    font-size: 13px;
+  }
+  .about-roadmap p {
+    font-size: 13px;
+  }
+  .opensea-img img {
+    width: 200px;
+  }
+  .swiper-slide-active .qr-card {
+    margin-left: -45px;
+  }
+  .swiper-slide-prev .qr-card {
+    transform: scale(1) !important;
+    margin-left: -50px;
+  }
+  .qr-generator-bottom p {
+    font-size: 13px;
+  }
+  .qr-generator-background {
+    background-size: auto;
+  }
+  .qr-generator-custom-text3 {
+    margin-left: 80px;
+  }
+  .qr_card-image {
+    width: 31%;
+    height: 101%;
+  }
+  .qr-top-first {
+    padding: 20px 20px;
+  }
+  .qr-top-first-inside div p {
+    margin-left: 5px;
+  }
+  .qr-top-icon img {
+    height: 14px;
+  }
+  .justify-grid {
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+    gap: 15px;
+  }
+  .home-background1 {
+    height: 370px;
+  }
+  .home-image1 img {
+    height: 365px;
+  }
+  .home-content1-card {
+    padding: 0px 5px;
+  }
+  .home-content1-card img {
+    height: 35px;
+    margin-left: 30px;
+  }
+  .home-content1-card h5 {
+    margin: 0px;
+    font-size: 12px;
+    padding: 4px 5px;
+    width: 105px;
+  }
+  .home-content1-card p {
+    font-size: 12px;
+  }
+  .alignment-crd img {
+    height: 40px;
+  }
+  .alignment-crd h5 {
+    font-size: 25px;
+    margin-left: 20px;
+  }
+  .card-how-it {
+    margin: 5px;
+    padding: 8px 12px;
+  }
+  .hide-pc-view {
+    display: block;
+    margin: 0px;
+  }
+  .hide-mobile-view {
+    display: none;
+  }
+  .about-card img {
+    height: 330px;
+  }
+  .about-card {
+    padding: 12px;
+  }
+  .footer-inform-content {
+    margin-top: 20px;
   }
 }
 @media only screen and (min-width: 450px) and (max-width: 559px) {

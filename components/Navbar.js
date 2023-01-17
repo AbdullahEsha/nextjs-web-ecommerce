@@ -2,7 +2,7 @@ import Link from 'next/link'
 import Image from 'next/image'
 import cart from '../images/cart.png'
 import menuline from '../images/menulineicon.png'
-import mobilelogo from '../images/swopfooter.png'
+import mobilelogo from '../images/swopLogo.png'
 import menucross from '../images/menucrossicon.png'
 import google from '../images/googlelogo.png'
 import apple from '../images/applelogo.png'
@@ -138,7 +138,7 @@ const Navbar = () => {
                     src={mobilelogo}
                     alt="swop-logo"
                     height={30}
-                    width={144}
+                    width={127}
                   />
                 </Link>
               </h2>

@@ -558,7 +558,9 @@ export default function Home() {
           <div className="col-6">
             <div className="check_out_dapp_content-out">
               <div className="check_out_dapp_content">
-                <h2>Explore the World of Web3</h2>
+                <h2>
+                  Explore the <span id="color-text-index">World</span> of Web3
+                </h2>
                 <p>
                   Check out all the dapps in the web3 world. Be sure to checkout
                   our tutorials to help educate and protect yourself while using

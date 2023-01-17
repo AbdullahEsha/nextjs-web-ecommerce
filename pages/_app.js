@@ -20,6 +20,7 @@ function MyApp({ Component, pageProps }) {
         alt="loading_image"
         height={200}
         width={200}
+        unoptimized
       />
     </div>
   )
