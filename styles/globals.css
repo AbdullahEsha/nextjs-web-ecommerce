@@ -140,6 +140,9 @@ a {
 .number-icon {
   display: none;
 }
+.text-center {
+  text-align: center;
+}
 .container {
   width: 1200px;
   margin-left: auto;
@@ -1819,7 +1822,7 @@ div.product-details-content-inside {
 }
 .swiper-slide .qr-card img {
   height: 100px;
-  width: 100px;
+  width: auto;
   display: block;
   padding: 6px;
 }
@@ -2313,6 +2316,9 @@ div.product-details-content-inside {
     margin-left: auto;
     margin-right: auto;
   }
+  .home-top-margin {
+    padding-top: 85px;
+  }
   h2 {
     margin: 0px;
   }
@@ -2356,23 +2362,26 @@ div.product-details-content-inside {
     font-size: 13px;
   }
   .opensea-img img {
-    width: 200px;
+    width: 160px;
   }
   .swiper-slide-active .qr-card {
     margin-left: -45px;
   }
   .swiper-slide-prev .qr-card {
     transform: scale(1) !important;
-    margin-left: -50px;
+    margin-left: -45px;
   }
   .qr-generator-bottom p {
     font-size: 13px;
   }
   .qr-generator-background {
     background-size: auto;
+    padding: 20px;
+    border-radius: 20px;
+    height: 425px;
   }
   .qr-generator-custom-text3 {
-    margin-left: 80px;
+    margin-left: 40px;
   }
   .qr_card-image {
     width: 31%;
@@ -2439,6 +2448,448 @@ div.product-details-content-inside {
   }
   .footer-inform-content {
     margin-top: 20px;
+  }
+  .about-mid-container {
+    margin: 50px 0px -40px;
+  }
+  .card-how-it2 {
+    margin: 0px 5px;
+  }
+  .card-how-it2-inside {
+    margin: 0px;
+    padding: 8px 13px;
+  }
+  .about-roadmap img {
+    margin: 20px 0px;
+  }
+  .d-app-search input {
+    width: 650px;
+  }
+  .dapp-marketplace-first {
+    height: 240px;
+  }
+  .monkey-img {
+    left: 14px;
+    height: 341px;
+  }
+  .content-dapp {
+    padding: 5px;
+  }
+  .content-dapp img {
+    height: 34px;
+  }
+  .content-web3-inside h5 {
+    font-size: 14px;
+  }
+  .content-dapp-in {
+    width: 170px;
+    margin-left: 8px;
+  }
+  .content-dapp label {
+    margin-top: 0px;
+  }
+  .card-dapp {
+    height: 240px;
+  }
+  .swiper-slide .qr-card img {
+    height: 75px;
+    padding: 5px;
+  }
+  .qr-generator-bottom {
+    margin: 50px 0px;
+  }
+  #qr-space-between {
+    margin-bottom: 30px;
+  }
+  .qr-generator-bottom {
+    margin: -10px 0px 50px;
+  }
+  #phone_image {
+    height: 74%;
+    margin-top: 50px;
+    margin-left: 10px;
+  }
+  .qr-generator-custom-text2 {
+    margin-left: -25px;
+  }
+  .qr-generator-double {
+    border-radius: 20px;
+  }
+}
+@media only screen and (min-width: 560px) and (max-width: 767px) {
+  .container {
+    width: 550px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .home-top-margin {
+    padding-top: 75px;
+  }
+  h2 {
+    margin: 0px;
+  }
+  .shop-now-btn {
+    padding: 10px 15px;
+    left: 42px;
+    font-size: 18px;
+  }
+  .networking-crd {
+    padding: 10px;
+  }
+  .alignment-crd h3 {
+    font-size: 24px;
+  }
+  .home-how-it-work p {
+    font-size: 11px;
+    margin-bottom: 0px;
+  }
+  .background-level {
+    background-size: contain;
+    height: 40px;
+  }
+  .row-div.reverse-direction.index {
+    flex-direction: column-reverse;
+  }
+  .reverse-direction .index-div {
+    width: 100%;
+  }
+  .card-how-it h5 {
+    font-size: 17px;
+  }
+  .card-how-it2-inside h5 {
+    font-size: 17px;
+  }
+  .card-how-it {
+    margin: 20px;
+    padding: 8px 15px;
+  }
+  .card-how-it2-inside {
+    margin: 20px;
+    padding: 8px 15px;
+  }
+  .home-networking p {
+    font-size: 13px;
+  }
+  .home-product p {
+    font-size: 13px;
+  }
+  .home-web3-browser p {
+    font-size: 13px;
+  }
+  .shop-top-content p {
+    font-size: 13px;
+  }
+  .about-futuristic p {
+    font-size: 13px;
+  }
+  .about-roadmap p {
+    font-size: 13px;
+  }
+  .swiper-slide-active .qr-card {
+    margin-left: -45px;
+  }
+  .swiper-slide-prev .qr-card {
+    transform: scale(1) !important;
+    margin-left: -45px;
+  }
+  .qr-generator-bottom p {
+    font-size: 9px;
+  }
+  .qr-generator-background {
+    background-size: auto;
+    padding: 20px;
+    border-radius: 20px;
+    height: 375px;
+  }
+  .qr-generator-custom-text3 {
+    margin-left: 28px;
+  }
+  .qr-generator-custom-text1 {
+    margin-left: -82px;
+  }
+  .qr_card-image {
+    width: 31%;
+    height: 101%;
+  }
+  .qr-top-first {
+    padding: 20px 20px;
+  }
+  .qr-top-first-inside div p {
+    margin-left: 5px;
+  }
+  .qr-top-icon img {
+    height: 14px;
+  }
+  .justify-grid {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 25px;
+  }
+  .home-background1 {
+    height: 330px;
+  }
+  .home-image1 img {
+    height: 310px;
+  }
+  .home-content1-card {
+    padding: 0px;
+  }
+  .home-content1-card img {
+    height: 25px;
+    margin-left: 20px;
+  }
+  .home-content1-card h5 {
+    margin: 0px;
+    font-size: 11px;
+    padding: 4px 5px;
+    width: 105px;
+  }
+  .home-content1-card p {
+    font-size: 10px;
+    margin-bottom: 5px;
+  }
+  div.home-content1-outside {
+    height: 330px;
+  }
+  .card-how-it img {
+    height: 210px;
+  }
+  .card-how-it p {
+    font-size: 11px !important;
+    margin-bottom: 0px;
+  }
+  .home-how-it-work {
+    margin: 50px 0px 15px;
+  }
+  .subscribe-from {
+    width: 290px;
+    top: -66px;
+    left: 28px;
+  }
+  .subscribe-from input {
+    height: 45px;
+    padding-left: 15px;
+    padding-right: 142px;
+    font-size: 18px;
+  }
+  .alignment-crd img {
+    height: 30px;
+  }
+  .alignment-crd h5 {
+    font-size: 20px;
+    margin-left: 10px;
+  }
+  .card-how-it {
+    margin: 3px;
+    padding: 8px;
+  }
+  .subscribe-from button {
+    padding: 6px 30px;
+    left: 168px;
+    top: -41px;
+    font-size: 17px;
+  }
+  .extra-margin {
+    margin-top: -90px;
+  }
+  .check_out_dapp_content h2 {
+    font-size: 45px;
+    line-height: 60px;
+  }
+  .check_out_dapp_content p {
+    margin: 20px 0px 30px;
+    font-size: 13px;
+  }
+  .check_out_dapp_button div a {
+    padding: 12px 17px;
+  }
+  .check_out_dapp_browser {
+    height: 550px;
+  }
+  div.check_out_dapp_content-out {
+    height: 550px;
+  }
+  .check_out_dapp_button {
+    height: 100%;
+  }
+  .hide-pc-view {
+    display: block;
+    margin: 0px;
+    font-size: 13px;
+  }
+  .hide-mobile-view {
+    display: none;
+  }
+  .about-card img {
+    height: 285px;
+  }
+  .about-card {
+    padding: 5px;
+  }
+  .about-card p {
+    font-size: 13px;
+  }
+  .about-card h5 {
+    font-size: 24px;
+  }
+  .about-mid-container {
+    margin: 50px 0px -40px;
+  }
+  .card-how-it2 {
+    margin: 0px 5px;
+  }
+  .card-how-it2-inside {
+    margin: 0px;
+    padding: 8px 10px;
+  }
+  .about-roadmap img {
+    margin: 20px 0px;
+  }
+  .d-app-search input {
+    width: 72%;
+    margin-left: -33px;
+  }
+  .d-app-search img {
+    left: 32px;
+  }
+  .d-app-search h1 {
+    font-size: 25px;
+  }
+  .dapp-marketplace-first {
+    height: 149px;
+    border-radius: 10px;
+  }
+  .monkey-img {
+    left: 14px;
+    height: 250px;
+  }
+  .dapp-monkey-top {
+    height: 149px;
+  }
+  .opensea-img {
+    top: 50%;
+  }
+  .opensea-img img {
+    width: 110px;
+  }
+  .content-dapp {
+    padding: 5px;
+  }
+  .content-dapp img {
+    height: 22px;
+  }
+  .content-web3-inside h5 {
+    font-size: 9px;
+  }
+  .content-web3-inside p {
+    font-size: 8px;
+  }
+  .content-dapp label {
+    height: 23px;
+    width: 55px;
+    font-size: 12px;
+  }
+  .qr-top-first-inside div {
+    width: 25%;
+  }
+  .upload-qr-logo {
+    display: grid;
+  }
+  .content-dapp-in {
+    width: 170px;
+    margin-left: 3px;
+  }
+  .content-dapp label {
+    margin-top: 0px;
+  }
+  .card-dapp {
+    height: 149px;
+  }
+  .card-dapp-img {
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+  }
+  .content-dapp {
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+  }
+  .swiper-slide .qr-card img {
+    height: 55px;
+    padding: 5px;
+  }
+  .swiper-slide.swiper-slide-duplicate {
+    margin-right: 24px !important;
+  }
+  .qr-generator-background img {
+    height: 26px;
+  }
+  .qr-generator-background label {
+    font-size: 12px;
+  }
+  .qr-generator-bottom {
+    margin: 50px 0px;
+  }
+  #qr-space-between {
+    margin-bottom: 30px;
+  }
+  .qr-generator-bottom {
+    margin: -10px 0px 50px;
+  }
+  #phone_image {
+    height: 91%;
+    margin-top: 40px;
+    margin-left: 10px;
+  }
+  .qr-generator-double h4 {
+    font-size: 20px;
+  }
+  .qr-generator-double h6 {
+    font-size: 15px;
+  }
+  .qr-generator-double label {
+    font-size: 13px;
+  }
+  .help-youtube {
+    gap: 43px;
+  }
+  .help-container {
+    margin: 25px auto;
+  }
+  .help-youtube div {
+    max-width: 46%;
+  }
+  .qr-generator-custom-text2 {
+    margin-left: -25px;
+  }
+  .qr-generator-double {
+    border-radius: 20px;
+  }
+  .features-card-content p {
+    font-size: 13px;
+  }
+  .features-card-content h4 {
+    font-size: 26px;
+    margin: 20px 0px 0px;
+  }
+  .roadmap-content h5 {
+    font-size: 14px;
+  }
+  .about-roadmap {
+    margin: 50px 0px;
+  }
+  .footer-same {
+    width: 45%;
+  }
+  .footer-top {
+    gap: 20px;
+  }
+  #footer-link-bottom {
+    padding-top: 0px;
+  }
+  .footer-link {
+    margin-top: 15px;
+  }
+  .footer-mid {
+    text-align: center;
   }
 }
 @media only screen and (min-width: 450px) and (max-width: 559px) {
@@ -2978,7 +3429,6 @@ div.product-details-content-inside {
     padding-right: 0px;
   }
 }
-
 @media only screen and (min-width: 350px) and (max-width: 449px) {
   .container {
     width: 97%;

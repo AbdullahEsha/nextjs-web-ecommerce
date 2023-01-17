@@ -8,8 +8,8 @@ import shareImage from '../images/sharecomponent.png'
 const Share = () => {
   return (
     <>
-      <div className="row-div reverse-direction">
-        <div className="col-6">
+      <div className="row-div reverse-direction index">
+        <div className="col-6 index-div">
           <div className="alignment-crd">
             <h3>Share Anything Instantly</h3>
             <p>
@@ -57,7 +57,7 @@ const Share = () => {
             </p>
           </div>
         </div>
-        <div className="col-6">
+        <div className="col-6 index-div">
           <div className="share-image-fit">
             <Image src={shareImage} alt="no_image" />
           </div>

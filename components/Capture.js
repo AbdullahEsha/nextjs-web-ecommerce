@@ -7,8 +7,8 @@ import shareImage from '../images/capturecomponent.png'
 const Capture = () => {
   return (
     <>
-      <div className="row-div reverse-direction">
-        <div className="col-6">
+      <div className="row-div reverse-direction index">
+        <div className="col-6 index-div">
           <div className="alignment-crd">
             <h3>Capture Leads</h3>
             <p>
@@ -49,7 +49,7 @@ const Capture = () => {
             </p>
           </div>
         </div>
-        <div className="col-6">
+        <div className="col-6 index-div">
           <div className="share-image-fit">
             <Image src={shareImage} alt="no_image" />
           </div>

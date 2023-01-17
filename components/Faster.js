@@ -8,7 +8,7 @@ const Faster = () => {
   return (
     <>
       <div className="row-div reverse-direction">
-        <div className="col-6">
+        <div className="col-6 index-div">
           <div className="alignment-crd">
             <h3>Grow Faster</h3>
             <p>
@@ -46,7 +46,7 @@ const Faster = () => {
             </p>
           </div>
         </div>
-        <div className="col-6">
+        <div className="col-6 index-div">
           <div className="share-image-fit">
             <Image src={shareImage} alt="no_image" />
           </div>

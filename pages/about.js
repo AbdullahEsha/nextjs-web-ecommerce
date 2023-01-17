@@ -68,7 +68,7 @@ const About = () => {
             <div className="col-6">
               <div className="about-card">
                 <Image src={tokenimage} alt="token_image" />
-                <h5>Token Powered websites</h5>
+                <h5>Token Powered Websites</h5>
                 <p>
                   Token powered websites allow you to monetize your content in a
                   new and unique way. By creating gated websites that can only
@@ -251,7 +251,7 @@ const About = () => {
             that you can attach to your websites. These tools can help you
             expand your reach and monetize your online presence.
           </p>
-          <p className="hide-pc-view">
+          <p className="hide-pc-view text-center">
             At Swop, we aim to make it easy and free for you to get started and
             grow your network in the digital economy. We offer a variety of
             complimentary tools to help you succeed, such as the ability to
@@ -384,7 +384,7 @@ const About = () => {
           </div>
         </div>
         <div className="about-roadmap">
-          <h2 className="hide-mobile-view">PRODUCT ROADMAP</h2>
+          <h2>PRODUCT ROADMAP</h2>
           <p className="hide-mobile-view">
             Swops' product roadmap infographic provides an overview of the
             company's plans for future development and growth. The roadmap
@@ -405,15 +405,28 @@ const About = () => {
             interested in staying up-to-date on the latest developments at
             Swops.
           </p>
+          <p className="hide-pc-view">
+            Swops' product roadmap infographic provides an overview of the
+            company's plans for future development and growth. The roadmap
+            outlines the key features and milestones that the company aims to
+            achieve in the coming months and years. The infographic is a helpful
+            tool for stakeholders and users to stay informed about the direction
+            and progress of the company. It can help users understand what to
+            expect in terms of new features and updates, and it can provide
+            insight into the company's long-term vision and goals. Overall, the
+            product roadmap infographic is a valuable resource for anyone
+            interested in staying up-to-date on the latest developments at
+            Swops.
+          </p>
           <Image src={roadmap} alt="no_image" height={291} width={1406} />
-          <div className="roadmap-content hide-mobile-view">
+          <div className="roadmap-content">
             <div className="roadmap-1">
               <h5>
                 Beta App
                 <br />
                 Launch
               </h5>
-              <p>
+              <p className="hide-mobile-view">
                 Swop app will allow users to create a profile which aggregates
                 their digital identity and connects it to a secure unique wallet
                 that allows users to interact globally seamlessly without
@@ -429,7 +442,7 @@ const About = () => {
                 <br />
                 Dapp
               </h5>
-              <p>
+              <p className="hide-mobile-view">
                 Swop Pay offers a revolutionary solution for businesses,
                 providing a user-friendly POS interface, global reach, and
                 secure decentralized transactions, enabling them to expand their
@@ -444,7 +457,7 @@ const About = () => {
                 <br />
                 Dapp
               </h5>
-              <p>
+              <p className="hide-mobile-view">
                 Mint Machine DApp is a user-friendly blockchain tool that allows
                 easy minting of unique NFTs or tokens. It provides a template
                 for creating custom tokens for various purposes like coupons,
@@ -459,7 +472,7 @@ const About = () => {
                 <br />
                 Launch
               </h5>
-              <p>
+              <p className="hide-mobile-view">
                 A blockchain optimized for digital interactions, built on the
                 Ethereum Virtual Machine (EVM) specifically for the SWOP
                 ecosystem. It will improve customer experience with fast and
@@ -474,7 +487,7 @@ const About = () => {
                 <br />
                 Login/3FA
               </h5>
-              <p>
+              <p className="hide-mobile-view">
                 Features like 3FA which utilize our NFC technology that will
                 allow users to securely store their private key on an air-gapped
                 NFC chip. Our NFC technology will also act as a tangible
