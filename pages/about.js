@@ -123,7 +123,9 @@ const About = () => {
                   of your website, including leads generated, connections made,
                   revenue generated, and popular links. This information can
                   help you optimize your website and better engage with your
-                  audience.
+                  audience. Easily export all of your data and leads to your CRM
+                  with the click of a button. Get a in depth breakdown of which
+                  links are being clicked for each one of your mircosites.
                 </p>
               </div>
             </div>
@@ -199,9 +201,8 @@ const About = () => {
                     Once you have completed the checkout process and uploaded
                     the necessary files, we will send you a mockup of your
                     custom NFC for you to review and confirm. This mockup will
-                    give you an idea of what your final product will look like,
-                    and you will have the opportunity to make any necessary
-                    changes before we begin production.
+                    give you an idea of what your final product will look like
+                    period.
                   </p>
                 </div>
               </div>
@@ -227,7 +228,9 @@ const About = () => {
                   <p>
                     After you have reviewed and confirmed the mockup of your
                     custom NFC, we will begin printing your order. Our
-                    production process typically takes 4-10 business days.
+                    production process typically takes 4-10 business days. For a
+                    discount on bulk orders, please get in touch with us
+                    directly.
                   </p>
                 </div>
               </div>
@@ -336,7 +339,7 @@ const About = () => {
             </div>
             <div className="col-6">
               <div className="features-card-content">
-                <h4>Change to hosting</h4>
+                <h4>Hosting</h4>
                 <p>
                   We offer free hosting for every Swop profile, which is a
                   high-speed virtual private server (VPS) designed to ensure

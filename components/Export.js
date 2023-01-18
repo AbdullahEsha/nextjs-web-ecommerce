@@ -7,7 +7,7 @@ import shareImage from '../images/exportcomponent.png'
 const Export = () => {
   return (
     <>
-      <div className="row-div reverse-direction">
+      <div className="row-div reverse-direction index">
         <div className="col-6 index-div">
           <div className="alignment-crd">
             <h3>Payments</h3>

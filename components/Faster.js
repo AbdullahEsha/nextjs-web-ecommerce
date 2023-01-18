@@ -7,7 +7,7 @@ import shareImage from '../images/fastercomponent.png'
 const Faster = () => {
   return (
     <>
-      <div className="row-div reverse-direction">
+      <div className="row-div reverse-direction index">
         <div className="col-6 index-div">
           <div className="alignment-crd">
             <h3>Grow Faster</h3>

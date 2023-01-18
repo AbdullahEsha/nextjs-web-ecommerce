@@ -2,7 +2,7 @@ export const ProductData = [
   {
     _id: '624cd765a5d835001615a6d3',
     image: 'product1.png',
-    title: 'Black Rectangle NFC',
+    title: 'Swop NFC Band',
     detail:
       'Swop’s Flat Rectangle NFC’s are designed to be durable and simple to use....',
     price: '$29.99',
