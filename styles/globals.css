@@ -182,11 +182,11 @@ a {
   justify-content: center;
   background-color: #fff;
 }
-.loading-page * {
+.loading-page img {
   position: relative;
-  top: 45%;
+  top: 50%;
   transform: translateY(-50%);
-  height: 70%;
+  height: 300px;
   width: auto;
 }
 .page-404 a {
