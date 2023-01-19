@@ -163,26 +163,27 @@ const QrGenerator = () => {
         <div className="home-how-it-work">
           <h2>HOW TO CUSTOMIZE A NFC</h2>
           <p className="hide-mobile-view">
-            Swop’s Flat Rectangle NFC’s are designed to be durable and simple to
-            use. The Flat is great to put under any phone case(non-metal) Users
-            can
+            Custom NFC business cards are a unique and innovative way to
+            showcase your business, which uses Near Field Communication
+            technology,
             <br />
-            download our app to program any of our NFC’s with the click of a
-            button. This will attach your profile to the NFC for easy sharing.
+            that enables the card to be scanned by an NFC-enabled device to
+            access information like contact, website, social media
             <br />
-            You just tap the NFC on any compatible phone to share your digital
-            business card, microsite, crypto address,
+            profiles, and more. These cards are customizable with branding and
+            design elements to make them
             <br />
-            the possibilities are endless. Use the swop app to.
+            distinct. They are useful for salespeople, business professionals,
+            and networking.
           </p>
           <p className="hide-pc-view">
-            Swop’s Flat Rectangle NFC’s are designed to be durable and simple to
-            use. The Flat is great to put under any phone case(non-metal) Users
-            can download our app to program any of our NFC’s with the click of a
-            button. This will attach your profile to the NFC for easy sharing.
-            You just tap the NFC on any compatible phone to share your digital
-            business card, microsite, crypto address, the possibilities are
-            endless. Use the swop app to.
+            Custom NFC business cards are a unique and innovative way to
+            showcase your business, which uses Near Field Communication
+            technology, that enables the card to be scanned by an NFC-enabled
+            device to access information like contact, website, social media
+            profiles, and more. These cards are customizable with branding and
+            design elements to make them distinct. They are useful for
+            salespeople, business professionals, and networking.
           </p>
           <div className="background-level" />
           <div className="row-div">
@@ -266,26 +267,28 @@ const QrGenerator = () => {
         <div className="qr-generator-bottom">
           <h2>SWOP SERVICE</h2>
           <p id="qr-space-between" className="hide-mobile-view">
-            Swop’s Flat Rectangle NFC’s are designed to be durable and simple to
-            use. The Flat is great to put under any phone case(non-metal) Users
-            can
+            An NFC service for SWOP is a platform that allows businesses to use
+            NFC technology to enhance their products and services by creating
+            and
             <br />
-            download our app to program any of our NFC’s with the click of a
-            button. This will attach your profile to the NFC for easy sharing.
+            managing their own NFC tags and stickers. The service can be used
+            for product information, loyalty programs, digital coupons,
             <br />
-            You just tap the NFC on any compatible phone to share your digital
-            business card, microsite, crypto address,
+            and more. It also allows businesses to update and track the usage of
+            the tags with analytics and reporting tools.
             <br />
-            the possibilities are endless. Use the swop app to.
+            The service can be integrated with other business systems for
+            improved customer experience.
           </p>
           <p id="qr-space-between" className="hide-pc-view">
-            Swop’s Flat Rectangle NFC’s are designed to be durable and simple to
-            use. The Flat is great to put under any phone case(non-metal) Users
-            can download our app to program any of our NFC’s with the click of a
-            button. This will attach your profile to the NFC for easy sharing.
-            You just tap the NFC on any compatible phone to share your digital
-            business card, microsite, crypto address, the possibilities are
-            endless. Use the swop app to.
+            An NFC service for SWOP is a platform that allows businesses to use
+            NFC technology to enhance their products and services by creating
+            and managing their own NFC tags and stickers. The service can be
+            used for product information, loyalty programs, digital coupons, and
+            more. It also allows businesses to update and track the usage of the
+            tags with analytics and reporting tools. The service can be
+            integrated with other business systems for improved customer
+            experience.
           </p>
           <div className="row-div qr-margin-top">
             <div className="col-6">
