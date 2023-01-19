@@ -433,7 +433,9 @@ export default function Home() {
                 </h5>
                 <p>
                   After creating an account and setting up your wallet, create a
-                  website in the builder.
+                  website in the builder. Building a website is easy with our
+                  app, it provides a template to input all your important
+                  information.
                 </p>
               </div>
             </div>
