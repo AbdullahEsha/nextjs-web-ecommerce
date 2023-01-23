@@ -87,7 +87,9 @@ const Navbar = () => {
             <input type="text" placeholder="🔎︎ Search here" />
             <Link href="/shop">Shop</Link>
             <Link href="/about">About</Link>
-            <Link href="/dapp">Dapp Explorer</Link>
+            <Link href="https://swopexplorer.netlify.app/" target="_blank">
+              Dapp Explorer
+            </Link>
             <Link href="/qr-generator">QR Generator</Link>
             <div id="border-line-bottom-menu" />
             <div className="menu-bottom-container">
@@ -155,7 +157,12 @@ const Navbar = () => {
                     <Link href="/about">About</Link>
                   </li>
                   <li>
-                    <Link href="/dapp">DApp Explorer</Link>
+                    <Link
+                      href="https://swopexplorer.netlify.app/"
+                      target="_blank"
+                    >
+                      Dapp Explorer
+                    </Link>
                   </li>
                   <li>
                     <Link href="/qr-generator">QR Generator</Link>

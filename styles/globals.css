@@ -742,171 +742,6 @@ video::-ms-media-controls {
 /* video end */
 /* Index page ends */
 
-/* D app page start */
-.dapp-monkey-top {
-  width: 50%;
-}
-.d-app-search h1 {
-  font-size: 32px;
-  font-weight: 600;
-}
-.d-app-search {
-  text-align: center;
-  margin: 35px 0px;
-}
-.d-app-search input {
-  height: 50px;
-  width: 750px;
-  border-radius: 15px;
-  background-color: #fafafa;
-  border: 0.5px solid #dddddda6;
-  padding-left: 85px;
-  box-shadow: 0px 0px 31px rgb(0 0 0 / 12%);
-  transition: 0.4s ease;
-  font-size: 20px;
-  margin-left: -33px;
-}
-.d-app-search input:focus {
-  outline: 0;
-}
-.d-app-search img {
-  position: relative;
-  left: 35px;
-  top: 10px;
-  height: 33px;
-  width: 33px;
-}
-.dapp-marketplace {
-  margin: 130px 0px 30px;
-}
-.dapp-marketplace-first {
-  background: url('/dappbackground1.png') no-repeat;
-  background-size: cover;
-  height: 314px;
-  width: 100%;
-  border-radius: 30px;
-  box-shadow: 0px 0px 31px rgb(0 0 0 / 12%);
-}
-.monkey-img {
-  position: relative;
-  bottom: 101px;
-  left: 32px;
-  height: 415px;
-  width: auto;
-}
-.opensea-img {
-  position: relative;
-  top: 40%;
-  transform: translateY(-50%);
-}
-.opensea-img img {
-  width: 300px;
-  height: auto;
-  margin: auto;
-  display: block;
-}
-.content-dapp {
-  display: flex;
-  background-color: #e6e6e6;
-  height: 22%;
-  border-bottom-left-radius: 30px;
-  border-bottom-right-radius: 30px;
-  padding: 10px 22px;
-  justify-content: space-between;
-  box-shadow: 0px 0px 10px 2px rgb(0 0 0 / 10%);
-}
-.card-dapp-img {
-  width: 100%;
-  height: 78%;
-  display: block;
-  border-top-left-radius: 30px;
-  border-top-right-radius: 30px;
-  box-shadow: 0px 0px 10px 2px rgb(0 0 0 / 10%);
-}
-.card-dapp {
-  margin-left: 15px;
-  height: 314px;
-  box-shadow: 0px 0px 31px rgb(0 0 0 / 12%);
-  border-radius: 30px;
-}
-.content-dapp img {
-  height: 46px;
-  width: auto;
-}
-.content-dapp label {
-  height: 32px;
-  width: 70px;
-  background-color: #fff;
-  padding: 3px 0px;
-  text-align: center;
-  font-size: 18px;
-  font-weight: 600;
-  border-radius: 15px;
-  margin-top: 9px;
-}
-.content-dapp-in {
-  width: 200px;
-}
-.dapp-marketplace h4 {
-  font-size: 18px;
-  font-weight: 600;
-  margin-top: 10px;
-  color: #a0a0a0;
-  margin-left: 25px;
-}
-#extra-margin-dapp {
-  margin-left: 40px;
-}
-.dapp-slider .swiper-slide-duplicate-active {
-  opacity: 0.7;
-  transform: scale(0.95);
-}
-.dapp-slider-card img {
-  width: 100%;
-  height: 100%;
-  border-radius: 40px;
-  box-shadow: 0px 0px 31px rgb(0 0 0 / 12%);
-}
-.dapp-slider-card h4 {
-  font-size: 18px;
-  font-weight: 600;
-  color: #a0a0a0;
-  margin-left: 20px;
-  margin-top: 0px;
-}
-.dapp-bottom {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: space-between;
-  margin: 30px 0px;
-}
-.dapp-bottom div img {
-  height: 80%;
-  width: 100%;
-  border-radius: 30px;
-  box-shadow: 0px 0px 31px rgb(0 0 0 / 12%);
-}
-.dapp-bottom div h4 {
-  font-size: 18px;
-  font-weight: 600;
-  color: #a0a0a0;
-  margin-left: 20px;
-  margin-top: 0px;
-}
-.dapp-bottom1 {
-  width: 45%;
-  max-height: 100%;
-}
-.dapp-bottom2 {
-  width: 22%;
-  max-height: 100%;
-}
-.dapp-bottom3 {
-  width: 30%;
-  max-height: 100%;
-}
-/* D app page end */
-
 /* shop page start  */
 .shop-top-content h1 {
   text-align: center;
@@ -2300,9 +2135,6 @@ div.product-details-content-inside {
   .about-roadmap p {
     font-size: 13px;
   }
-  .opensea-img img {
-    width: 200px;
-  }
   .swiper-slide-active .qr-card {
     margin-left: -45px;
   }
@@ -2396,9 +2228,6 @@ div.product-details-content-inside {
   .card-how-it2-inside {
     margin: 20px;
     padding: 8px 15px;
-  }
-  .opensea-img img {
-    width: 160px;
   }
   .swiper-slide-active .qr-card {
     margin-left: -45px;
@@ -2508,32 +2337,6 @@ div.product-details-content-inside {
   }
   .d-app-search input {
     width: 650px;
-  }
-  .dapp-marketplace-first {
-    height: 240px;
-  }
-  .monkey-img {
-    left: 14px;
-    height: 341px;
-  }
-  .content-dapp {
-    padding: 5px;
-  }
-  .content-dapp img {
-    height: 34px;
-  }
-  .content-web3-inside h5 {
-    font-size: 14px;
-  }
-  .content-dapp-in {
-    width: 170px;
-    margin-left: 8px;
-  }
-  .content-dapp label {
-    margin-top: 0px;
-  }
-  .card-dapp {
-    height: 240px;
   }
   .swiper-slide .qr-card img {
     height: 75px;
@@ -2800,63 +2603,17 @@ div.product-details-content-inside {
   .d-app-search h1 {
     font-size: 25px;
   }
-  .dapp-marketplace-first {
-    height: 149px;
-    border-radius: 10px;
-  }
-  .monkey-img {
-    left: 14px;
-    height: 250px;
-  }
-  .dapp-monkey-top {
-    height: 149px;
-  }
-  .opensea-img {
-    top: 50%;
-  }
-  .opensea-img img {
-    width: 110px;
-  }
-  .content-dapp {
-    padding: 5px;
-  }
-  .content-dapp img {
-    height: 22px;
-  }
   .content-web3-inside h5 {
     font-size: 9px;
   }
   .content-web3-inside p {
     font-size: 8px;
   }
-  .content-dapp label {
-    height: 23px;
-    width: 55px;
-    font-size: 12px;
-  }
   .qr-top-first-inside div {
     width: 25%;
   }
   .upload-qr-logo {
     display: grid;
-  }
-  .content-dapp-in {
-    width: 170px;
-    margin-left: 3px;
-  }
-  .content-dapp label {
-    margin-top: 0px;
-  }
-  .card-dapp {
-    height: 149px;
-  }
-  .card-dapp-img {
-    border-top-left-radius: 10px;
-    border-top-right-radius: 10px;
-  }
-  .content-dapp {
-    border-bottom-left-radius: 10px;
-    border-bottom-right-radius: 10px;
   }
   .swiper-slide .qr-card img {
     height: 55px;
@@ -3119,15 +2876,6 @@ div.product-details-content-inside {
   .content-web3-inside p {
     font-size: 10px;
   }
-  .content-dapp-in h5 {
-    font-size: 20px;
-  }
-  .content-dapp-in p {
-    font-size: 15px;
-  }
-  .content-dapp-in {
-    width: 200px;
-  }
   .dapp-slider .swiper-horizontal > .swiper-pagination-bullets,
   .swiper-pagination-bullets.swiper-pagination-horizontal {
     bottom: 40px;
@@ -3218,26 +2966,8 @@ div.product-details-content-inside {
     margin-left: -5%;
     padding-left: 72px;
   }
-  .opensea-img img {
-    width: 200px;
-  }
-  .monkey-img {
-    bottom: 58px;
-    left: 15px;
-    height: 251px;
-  }
-  .dapp-marketplace-first {
-    height: 194px;
-    border-radius: 20px;
-  }
   .dapp-bottom1 {
     width: 60%;
-  }
-  .dapp-bottom2 {
-    width: 38%;
-  }
-  .dapp-bottom3 {
-    width: 100%;
   }
   .d-app-search h1 {
     font-size: 26px;
@@ -3247,9 +2977,6 @@ div.product-details-content-inside {
     top: 7px;
     width: 30px;
     height: auto;
-  }
-  .dapp-marketplace {
-    margin: 75px 0px 0px;
   }
   .dapp-slider {
     margin: -25px 0px -25px;
@@ -3917,9 +3644,6 @@ div.product-details-content-inside {
   .about-roadmap {
     display: none;
   }
-  .opensea-img img {
-    width: 140px;
-  }
   .d-app-search input {
     width: 95%;
     margin-left: -25px;
@@ -3929,15 +3653,6 @@ div.product-details-content-inside {
   .d-app-search {
     text-align: center;
     margin: 35px 0px 0px;
-  }
-  .dapp-marketplace {
-    margin: 75px 0px 0px;
-  }
-  .card-dapp {
-    margin-left: 0px;
-  }
-  .dapp-marketplace h4 {
-    font-size: 16px;
   }
   .dapp-slider {
     margin-top: -32px;
@@ -3960,19 +3675,6 @@ div.product-details-content-inside {
   }
   .dapp-bottom1 {
     width: 60%;
-  }
-  .dapp-bottom2 {
-    width: 38%;
-  }
-  .dapp-bottom3 {
-    width: 100%;
-    margin-top: 20px;
-  }
-  #extra-margin-dapp {
-    margin-left: 18px;
-  }
-  .dapp-slider-card h4 {
-    font-size: 16px;
   }
   .dapp-bottom div h4 {
     font-size: 16px;
@@ -4007,20 +3709,8 @@ div.product-details-content-inside {
     margin: 10px 25px;
     height: auto;
   }
-  .monkey-img {
-    bottom: 58px;
-    left: 15px;
-    height: 200px;
-  }
-  .dapp-marketplace-first {
-    height: 142px;
-    border-radius: 20px;
-  }
   .col-4 .content-web3-inside p {
     display: block;
-  }
-  .col-4 .content-dapp-in {
-    width: 140px;
   }
   .qr-top-first-inside div {
     width: 25%;
@@ -4630,9 +4320,6 @@ div.product-details-content-inside {
   .about-roadmap {
     display: none;
   }
-  .opensea-img img {
-    width: 140px;
-  }
   .d-app-search input {
     width: 95%;
     margin-left: -25px;
@@ -4642,15 +4329,6 @@ div.product-details-content-inside {
   .d-app-search {
     text-align: center;
     margin: 35px 0px 0px;
-  }
-  .dapp-marketplace {
-    margin: 75px 0px 0px;
-  }
-  .card-dapp {
-    margin-left: 0px;
-  }
-  .dapp-marketplace h4 {
-    font-size: 16px;
   }
   .dapp-slider {
     margin-top: -32px;
@@ -4673,19 +4351,6 @@ div.product-details-content-inside {
   }
   .dapp-bottom1 {
     width: 60%;
-  }
-  .dapp-bottom2 {
-    width: 38%;
-  }
-  .dapp-bottom3 {
-    width: 100%;
-    margin-top: 20px;
-  }
-  #extra-margin-dapp {
-    margin-left: 18px;
-  }
-  .dapp-slider-card h4 {
-    font-size: 16px;
   }
   .dapp-bottom div h4 {
     font-size: 16px;
@@ -4720,20 +4385,8 @@ div.product-details-content-inside {
     margin: 10px 25px;
     height: auto;
   }
-  .monkey-img {
-    bottom: 58px;
-    left: 15px;
-    height: 200px;
-  }
-  .dapp-marketplace-first {
-    height: 142px;
-    border-radius: 20px;
-  }
   .col-4 .content-web3-inside p {
     display: block;
-  }
-  .col-4 .content-dapp-in {
-    width: 140px;
   }
   .qr-top-first-inside div {
     width: 25%;
