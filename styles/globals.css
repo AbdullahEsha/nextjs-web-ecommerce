@@ -1130,7 +1130,7 @@ div.product-details-content-inside {
 }
 .roadmap-content {
   display: flex;
-  gap: 10px;
+  gap: 15px;
 }
 .roadmap-content h5 {
   font-size: 18px;
@@ -1138,11 +1138,11 @@ div.product-details-content-inside {
   font-weight: 600;
 }
 .roadmap-content p {
-  font-size: 10.5px;
+  font-size: 13px;
   text-align: center;
 }
 .roadmap-content div {
-  width: calc(100% / 5);
+  width: calc(100% / 4);
 }
 .roadmap-1 h5 {
   background: -webkit-linear-gradient(#fd969e, #fe8d9e);
@@ -1161,11 +1161,6 @@ div.product-details-content-inside {
 }
 .roadmap-4 h5 {
   background: -webkit-linear-gradient(#dd86e9, #f9799f);
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-}
-.roadmap-5 h5 {
-  background: -webkit-linear-gradient(#fd969e, #fe8d9e);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }

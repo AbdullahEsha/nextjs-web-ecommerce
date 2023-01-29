@@ -425,18 +425,17 @@ const About = () => {
           <div className="roadmap-content">
             <div className="roadmap-1">
               <h5>
-                Beta App
+                NFC
                 <br />
-                Launch
+                Login/3FA
               </h5>
               <p className="hide-mobile-view">
-                Swop app will allow users to create a profile which aggregates
-                their digital identity and connects it to a secure unique wallet
-                that allows users to interact globally seamlessly without
-                restrictions in a trustless manner. The interface provides users
-                with a simple UI for ownership over their online assets and
-                information, providing them with a new level of autonomy and
-                security in the digital world.
+                Features like 3FA which utilize our NFC technology that will
+                allow users to securely store their private key on an air-gapped
+                NFC chip. Our NFC technology will also act as a tangible
+                gatekeeper to push transactions through by tapping their phone
+                and allow transaction to process while also enhancing security
+                and user experience.
               </p>
             </div>
             <div className="roadmap-2">
@@ -482,21 +481,6 @@ const About = () => {
                 secure transactions, using token as gas to access the
                 ecosystem's tools and infrastructure. Users will be able to
                 stake tokens and earn rewards from gas fees on the SWOP chain.
-              </p>
-            </div>
-            <div className="roadmap-5">
-              <h5>
-                NFC
-                <br />
-                Login/3FA
-              </h5>
-              <p className="hide-mobile-view">
-                Features like 3FA which utilize our NFC technology that will
-                allow users to securely store their private key on an air-gapped
-                NFC chip. Our NFC technology will also act as a tangible
-                gatekeeper to push transactions through by tapping their phone
-                and allow transaction to process while also enhancing security
-                and user experience.
               </p>
             </div>
           </div>

@@ -141,26 +141,21 @@ const Product = () => {
         <div className="home-how-it-work">
           <h2>HOW ITS WORKS</h2>
           <p className="hide-mobile-view">
-            Swop’s Flat Rectangle NFC’s are designed to be durable and simple to
-            use. The Flat is great to put under any phone case(non-metal) Users
-            can
+            Swop is free to download and very easy to get started. After making
+            a profile and getting setup be
             <br />
-            download our app to program any of our NFC’s with the click of a
-            button. This will attach your profile to the NFC for easy sharing.
+            sure to order a NFC. Our technology is compatible with all current
+            and most
             <br />
-            You just tap the NFC on any compatible phone to share your digital
-            business card, microsite, crypto address,
+            modern models of smartphones. Never miss an opportunity
             <br />
-            the possibilities are endless. Use the swop app to.
+            again with Swop.
           </p>
           <p className="hide-pc-view">
-            Swop’s Flat Rectangle NFC’s are designed to be durable
-            <br />
-            and simple to use. The Flat is great to put under
-            <br />
-            any phone case(non-metal) Users can
-            <br />
-            download our app.
+            Swop is free to download and very easy to get started. After making
+            a profile and getting setup be sure to order a NFC. Our technology
+            is compatible with all current and most modern models of
+            smartphones. Never miss an opportunity again with Swop.
           </p>
           <div className="background-level"></div>
           <div className="row-div">
@@ -224,26 +219,24 @@ const Product = () => {
         <div className="home-product">
           <h2>OUR PRODUCTS</h2>
           <p className="hide-mobile-view">
-            Swop’s Flat Rectangle NFC’s are designed to be durable and simple to
-            use. The Flat is great to put under any phone case(non-metal) Users
-            can
+            All of our products come with a 30 day warranty where we will send
+            you a new NFC no questions asked. NFC chips come in a variety
             <br />
-            download our app to program any of our NFC’s with the click of a
-            button. This will attach your profile to the NFC for easy sharing.
+            of shapes and sizes. Some share information faster than others.
+            While other types store more data. Be sure to get
             <br />
-            You just tap the NFC on any compatible phone to share your digital
-            business card, microsite, crypto address,
+            the NFC that fits your needs. We also offer custom printing, where
+            we can apply your logo
             <br />
-            the possibilities are endless. Use the swop app to.
+            or custom QR code directly to your NFC product.
           </p>
           <p className="hide-pc-view">
-            Swop’s Flat Rectangle NFC’s are designed to be durable
-            <br />
-            and simple to use. The Flat is great to put under
-            <br />
-            any phone case(non-metal) Users can
-            <br />
-            download our app.
+            All of our products come with a 30 day warranty where we will send
+            you a new NFC no questions asked. NFC chips come in a variety of
+            shapes and sizes. Some share information faster than others. While
+            other types store more data. Be sure to get the NFC that fits your
+            needs. We also offer custom printing, where we can apply your logo
+            or custom QR code directly to your NFC product.
           </p>
           <div className="individual-product-slider">
             <Swiper
