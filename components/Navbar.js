@@ -101,7 +101,7 @@ const Navbar = () => {
               <div className="menu-bottom-card">
                 <h6>Whitepaper</h6>
                 <p>Manage your teams digital business card and others</p>
-                <Link href="/">Learn more</Link>
+                <Link href="/coming-soon">Learn more</Link>
               </div>
             </div>
             <div className="app-logo-container">
@@ -132,7 +132,7 @@ const Navbar = () => {
                     <Link href="/contact">Contact</Link>
                   </li>
                   <li>
-                    <Link href="/witepaper">Whitepaper</Link>
+                    <Link href="/coming-soon">Whitepaper</Link>
                   </li>
                 </ul>
               </div>
