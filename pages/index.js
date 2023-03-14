@@ -1,32 +1,32 @@
-import { useState } from 'react'
-import Image from 'next/image'
-import Link from 'next/link'
-import Navbar from '../components/Navbar'
-import Footer from '../components/Footer'
-import { HiOutlineArrowRight } from 'react-icons/hi'
-import homeImage1 from '../images/homeimage1.png'
-import icon1 from '../images/iconmouse.png'
-import icon2 from '../images/iconmusic.png'
-import icon3 from '../images/iconvideo.png'
-import icon4 from '../images/icongraph.png'
-import cardImg1 from '../images/homeCard1.png'
-import cardImg2 from '../images/homeCard2.png'
-import cardImg3 from '../images/homeCard3.png'
-import cardIcon1 from '../images/iconshareinfo.png'
-import cardIcon2 from '../images/iconcapture.png'
-import cardIcon3 from '../images/iconexport.png'
-import cardIcon4 from '../images/icongofaster.png'
-import number1 from '../images/number-icon1.png'
-import number2 from '../images/number-icon2.png'
-import number3 from '../images/number-icon3.png'
-import Share from '../components/Share'
-import { ProductData } from '../components/ProductData'
-import Capture from '../components/Capture'
-import Export from '../components/Export'
-import Faster from '../components/Faster'
+import { useState } from "react";
+import Image from "next/image";
+import Link from "next/link";
+import Navbar from "../components/Navbar";
+import Footer from "../components/Footer";
+import { HiOutlineArrowRight } from "react-icons/hi";
+import homeImage1 from "../images/homeimage1.png";
+import icon1 from "../images/iconmouse.png";
+import icon2 from "../images/iconmusic.png";
+import icon3 from "../images/iconvideo.png";
+import icon4 from "../images/icongraph.png";
+import cardImg1 from "../images/homeCard1.png";
+import cardImg2 from "../images/homeCard2.png";
+import cardImg3 from "../images/homeCard3.png";
+import cardIcon1 from "../images/iconshareinfo.png";
+import cardIcon2 from "../images/iconcapture.png";
+import cardIcon3 from "../images/iconexport.png";
+import cardIcon4 from "../images/icongofaster.png";
+import number1 from "../images/number-icon1.png";
+import number2 from "../images/number-icon2.png";
+import number3 from "../images/number-icon3.png";
+import Share from "../components/Share";
+import { ProductData } from "../components/ProductData";
+import Capture from "../components/Capture";
+import Export from "../components/Export";
+import Faster from "../components/Faster";
 
 export default function Home() {
-  const [features, setFeatures] = useState('share')
+  const [features, setFeatures] = useState("share");
   // const [isLoading, setIsLoading] = useState(true)
 
   // const loadingfunc = () => {
@@ -50,7 +50,7 @@ export default function Home() {
           id="video"
           unoptimized
         >
-          <source src={'/banner.mp4'} type="video/mp4" />
+          <source src={"/banner.mp4"} type="video/mp4" />
         </video>
         <Link href="/" className="shop-now-btn">
           Shop Now <HiOutlineArrowRight size={20} />
@@ -81,36 +81,36 @@ export default function Home() {
             <div className="networking-row">
               <div
                 className={`networking-crd ${
-                  features === 'share' && 'networking-active'
+                  features === "share" && "networking-active"
                 }`}
-                onClick={() => setFeatures('share')}
+                onClick={() => setFeatures("share")}
               >
                 <Image src={cardIcon1} alt="no_image" height={56} width={56} />
                 <p>Share Your Info</p>
               </div>
               <div
                 className={`networking-crd ${
-                  features === 'capture' && 'networking-active'
+                  features === "capture" && "networking-active"
                 }`}
-                onClick={() => setFeatures('capture')}
+                onClick={() => setFeatures("capture")}
               >
                 <Image src={cardIcon2} alt="no_image" height={56} width={56} />
                 <p>Capture Leads</p>
               </div>
               <div
                 className={`networking-crd ${
-                  features === 'export' && 'networking-active'
+                  features === "export" && "networking-active"
                 }`}
-                onClick={() => setFeatures('export')}
+                onClick={() => setFeatures("export")}
               >
                 <Image src={cardIcon3} alt="no_image" height={56} width={56} />
                 <p>Payments</p>
               </div>
               <div
                 className={`networking-crd ${
-                  features === 'faster' && 'networking-active'
+                  features === "faster" && "networking-active"
                 }`}
-                onClick={() => setFeatures('faster')}
+                onClick={() => setFeatures("faster")}
               >
                 <Image src={cardIcon4} alt="no_image" height={56} width={56} />
                 <p>Grow Faster</p>
@@ -118,15 +118,16 @@ export default function Home() {
             </div>
           </div>
           <div className="features-content-container">
-            {features === 'share' && <Share />}
-            {features === 'capture' && <Capture />}
-            {features === 'export' && <Export />}
-            {features === 'faster' && <Faster />}
+            {features === "share" && <Share />}
+            {features === "capture" && <Capture />}
+            {features === "export" && <Export />}
+            {features === "faster" && <Faster />}
           </div>
         </div>
 
         <div className="creators-container">
-          <h2>Creators</h2>
+          {/* <h2>Creators</h2> */}
+          <Image src="/creators.png" alt="creators" height={80} width={264} />
           <p className="hide-mobile-view">
             Swop is a useful tool for content creators and musicians to share
             their work and connect with their audience. With Swop, they can
@@ -492,7 +493,7 @@ export default function Home() {
           unoptimized
           id="bottom-video-position"
         >
-          <source src={'/banner2.mp4'} type="video/mp4" />
+          <source src={"/banner2.mp4"} type="video/mp4" />
         </video>
         <div className="subscribe-from">
           <input type="text" placeholder="Put email for beta invite" />
@@ -547,7 +548,7 @@ export default function Home() {
                       <Link href="/">Buy</Link>
                     </div>
                   </div>
-                ),
+                )
             )}
           </div>
           <div className="product-seemore">
@@ -584,7 +585,7 @@ export default function Home() {
       </div>
       <Footer />
     </>
-  )
+  );
   // ) : (
   //   <div className="loading-page">
   //     <Image
