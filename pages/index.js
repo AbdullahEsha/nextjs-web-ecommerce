@@ -24,9 +24,19 @@ import { ProductData } from "../components/ProductData";
 import Capture from "../components/Capture";
 import Export from "../components/Export";
 import Faster from "../components/Faster";
+import { URL } from "../components/Reuses/URL";
+import axios from "axios";
+import Product from "../components/Reuses/Product";
+import { useGetProductsQuery } from "../services/productApi";
+import { useSelector } from "react-redux";
 
 export default function Home() {
   const [features, setFeatures] = useState("share");
+
+  // const Products = useSelector((state) => state?.products.allProducts) || {};
+  // console.log(Products);
+  const Products = useSelector((state) => state.products.allProducts);
+
   // const [isLoading, setIsLoading] = useState(true)
 
   // const loadingfunc = () => {
@@ -48,7 +58,7 @@ export default function Home() {
           loop
           playsInline
           id="video"
-          unoptimized
+          unoptimized="true"
         >
           <source src={"/banner.mp4"} type="video/mp4" />
         </video>
@@ -230,174 +240,6 @@ export default function Home() {
           </div>
         </div>
 
-        {/* <h2 className="heading-line hide-mobile-view">Influencers</h2>
-        <div className="home-background2 hide-mobile-view">
-          <div className="row-div">
-            <div className="col-6">
-              <div className="home-content1-outside">
-                <div className="home-content1">
-                  <div className="row-div">
-                    <div className="col-6">
-                      <div className="home-content1-card">
-                        <Image
-                          src={icon5}
-                          alt="no_image"
-                          height={70}
-                          width={70}
-                        />
-                        <h5>Gain A Following</h5>
-                        <p>
-                          Personlize the look of your digital business card. Add
-                          all of your contact information.
-                        </p>
-                      </div>
-                    </div>
-                    <div className="col-6">
-                      <div className="home-content1-card">
-                        <Image
-                          src={icon2}
-                          alt="no_image"
-                          height={70}
-                          width={70}
-                        />
-                        <h5>Show of videos</h5>
-                        <p>
-                          Personlize the look of your digital business card. Add
-                          all of your contact information.
-                        </p>
-                      </div>
-                    </div>
-                    <div className="col-6">
-                      <div className="home-content1-card">
-                        <Image
-                          src={icon7}
-                          alt="no_image"
-                          height={70}
-                          width={70}
-                        />
-                        <h5>Show Your Social Media</h5>
-                        <p>
-                          Personlize the look of your digital business card. Add
-                          all of your contact information.
-                        </p>
-                      </div>
-                    </div>
-                    <div className="col-6">
-                      <div className="home-content1-card">
-                        <Image
-                          src={icon6}
-                          alt="no_image"
-                          height={70}
-                          width={70}
-                        />
-                        <h5>Embed links</h5>
-                        <p>
-                          Personlize the look of your digital business card. Add
-                          all of your contact information.
-                        </p>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div className="col-6">
-              <div className="home-image1">
-                <Image
-                  src={homeImage2}
-                  alt="no_image"
-                  width={828}
-                  height={811}
-                />
-              </div>
-            </div>
-          </div>
-        </div>
-
-        <h2 className="heading-line hide-mobile-view">Realtor</h2>
-        <div className="home-background1 hide-mobile-view">
-          <div className="row-div">
-            <div className="col-6">
-              <div className="home-image1">
-                <Image
-                  src={homeImage3}
-                  alt="no_image"
-                  width={828}
-                  height={811}
-                />
-              </div>
-            </div>
-            <div className="col-6">
-              <div className="home-content1-outside">
-                <div className="home-content1">
-                  <div className="row-div">
-                    <div className="col-6">
-                      <div className="home-content1-card">
-                        <Image
-                          src={icon1}
-                          alt="no_image"
-                          height={70}
-                          width={70}
-                        />
-                        <h5>Track analytics</h5>
-                        <p>
-                          Track the analytics on how your links do business
-                          card. Add all of your contact information.
-                        </p>
-                      </div>
-                    </div>
-                    <div className="col-6">
-                      <div className="home-content1-card">
-                        <Image
-                          src={icon2}
-                          alt="no_image"
-                          height={70}
-                          width={70}
-                        />
-                        <h5>All music in one place</h5>
-                        <p>
-                          Have all your music in one place business card. Add
-                          all of your contact information.
-                        </p>
-                      </div>
-                    </div>
-                    <div className="col-6">
-                      <div className="home-content1-card">
-                        <Image
-                          src={icon3}
-                          alt="no_image"
-                          height={70}
-                          width={70}
-                        />
-                        <h5>Easily accessible videos</h5>
-                        <p>
-                          Personlize the look of your digital business card. Add
-                          all of your contact information.
-                        </p>
-                      </div>
-                    </div>
-                    <div className="col-6">
-                      <div className="home-content1-card">
-                        <Image
-                          src={icon4}
-                          alt="no_image"
-                          height={70}
-                          width={70}
-                        />
-                        <h5>One click order</h5>
-                        <p>
-                          One click order on any products business card. Add all
-                          of your contact information.
-                        </p>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div> */}
-
         <div className="home-how-it-work">
           <h2>HOW ITS WORKS</h2>
           <p className="hide-mobile-view">
@@ -490,7 +332,7 @@ export default function Home() {
           autoPlay
           loop
           playsInline
-          unoptimized
+          unoptimized="true"
           id="bottom-video-position"
         >
           <source src={"/banner2.mp4"} type="video/mp4" />
@@ -522,35 +364,15 @@ export default function Home() {
             needs. We also offer custom printing, where we can apply your logo
             or custom QR code directly to your NFC product.
           </p>
+
+          {/* 🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥 */}
           <div className="justify-grid">
-            {ProductData.map(
-              (item, index) =>
-                index < 8 && (
-                  <div className="product-card" key={index}>
-                    <Link
-                      href={{
-                        pathname: `product`,
-                        query: { _id: item._id },
-                      }}
-                      key={item._id}
-                    >
-                      <Image
-                        src={`/${item.image}`}
-                        alt="no_image"
-                        height={300}
-                        width={300}
-                      />
-                    </Link>
-                    <h5>{item.title}</h5>
-                    <p>{item.detail}</p>
-                    <div className="product-price">
-                      <label>{item.price}</label>
-                      <Link href="/">Buy</Link>
-                    </div>
-                  </div>
-                )
-            )}
+            {Products &&
+              Products.data
+                .slice(0, 8)
+                .map((item, index) => <Product key={index} item={item} />)}
           </div>
+
           <div className="product-seemore">
             <Link href="/shop">See more</Link>
           </div>
@@ -586,14 +408,28 @@ export default function Home() {
       <Footer />
     </>
   );
-  // ) : (
-  //   <div className="loading-page">
-  //     <Image
-  //       src={'/loading.gif'}
-  //       alt="loading_image"
-  //       height={200}
-  //       width={200}
-  //     />
-  //   </div>
-  // )
 }
+
+// Dynamic
+// export async function getStaticProps() {
+//   try {
+//     const res = await axios.get(`${URL}/api/v1/products`);
+//     const data = res.data;
+
+//     return {
+//       props: {
+//         data,
+//         error: null,
+//       },
+//     };
+//   } catch (error) {
+//     return {
+//       props: {
+//         data: [],
+//         error: {
+//           message: error.message,
+//         },
+//       },
+//     };
+//   }
+// }

@@ -1,10 +1,16 @@
-import Footer from '../components/Footer'
-import Navbar from '../components/Navbar'
-import dropdown from '../images/dropdown.png'
-import cross from '../images/cross.png'
-import Image from 'next/image'
+import Footer from "../components/Footer";
+import Navbar from "../components/Navbar";
+import dropdown from "../images/dropdown.png";
+import cross from "../images/cross.png";
+import Image from "next/image";
+import { useSelector } from "react-redux";
+import { useGetProductsQuery } from "../services/productApi";
 
 const Help = () => {
+  const { data, error, isLoading } = useGetProductsQuery();
+
+  console.log("from line 17", data);
+
   return (
     <>
       <Navbar />
@@ -138,7 +144,7 @@ const Help = () => {
       </div>
       <Footer />
     </>
-  )
-}
+  );
+};
 
-export default Help
+export default Help;

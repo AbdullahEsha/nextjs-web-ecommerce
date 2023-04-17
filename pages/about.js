@@ -1,27 +1,28 @@
-import Footer from '../components/Footer'
-import Navbar from '../components/Navbar'
-import { HiOutlineArrowRight } from 'react-icons/hi'
-import tokenimage from '../images/abouttoken.png'
-import image2 from '../images/aboutshare.png'
-import image3 from '../images/aboutqrcode.png'
-import image4 from '../images/aboutanalytics.png'
-import cardImg1 from '../images/cardfillupload.gif'
-import cardImg2 from '../images/cardshipnfc.gif'
-import cardImg3 from '../images/cardsfliptest.gif'
-import features1 from '../images/aboutfeatures1.gif'
-import features2 from '../images/aboutfeatures2.gif'
-import features3 from '../images/aboutfeatures3.gif'
-import features4 from '../images/aboutfeatures4.gif'
-import number1 from '../images/number-icon1.png'
-import number2 from '../images/number-icon2.png'
-import number3 from '../images/number-icon3.png'
-import roadmap from '../images/aboutroadmap.png'
-import Link from 'next/link'
-import Image from 'next/image'
+import Footer from "../components/Footer";
+import Navbar from "../components/Navbar";
+import { HiOutlineArrowRight } from "react-icons/hi";
+import tokenimage from "../images/abouttoken.png";
+import image2 from "../images/aboutshare.png";
+import image3 from "../images/aboutqrcode.png";
+import image4 from "../images/aboutanalytics.png";
+import cardImg1 from "../images/cardfillupload.gif";
+import cardImg2 from "../images/cardshipnfc.gif";
+import cardImg3 from "../images/cardsfliptest.gif";
+import features1 from "../images/aboutfeatures1.gif";
+import features2 from "../images/aboutfeatures2.gif";
+import features3 from "../images/aboutfeatures3.gif";
+import features4 from "../images/aboutfeatures4.gif";
+import number1 from "../images/number-icon1.png";
+import number2 from "../images/number-icon2.png";
+import number3 from "../images/number-icon3.png";
+import roadmap from "../images/aboutroadmap.png";
+import Link from "next/link";
+import Image from "next/image";
+import { useSelector } from "react-redux";
 
 const About = () => {
   return (
-    <div style={{ backgroundColor: '#fff' }}>
+    <div style={{ backgroundColor: "#fff" }}>
       <Navbar />
       <div className="container home-top-margin">
         <video
@@ -31,9 +32,9 @@ const About = () => {
           autoPlay
           loop
           playsInline
-          unoptimized
+          unoptimized="true"
         >
-          <source src={'/bannerAbout.mp4'} type="video/mp4" />
+          <source src={"/bannerAbout.mp4"} type="video/mp4" />
         </video>
         <Link href="/" className="shop-now-btn">
           Shop Now <HiOutlineArrowRight size={20} />
@@ -166,7 +167,7 @@ const About = () => {
                   alt="no_image"
                   width={800}
                   height={600}
-                  unoptimized
+                  unoptimized="true"
                 />
                 <div className="card-how-it2-inside">
                   <h5>Upload Logo Upon Checkout</h5>
@@ -193,7 +194,7 @@ const About = () => {
                   alt="no_image"
                   width={800}
                   height={600}
-                  unoptimized
+                  unoptimized="true"
                 />
                 <div className="card-how-it2-inside">
                   <h5>Confirm your design</h5>
@@ -221,7 +222,7 @@ const About = () => {
                   alt="no_image"
                   width={800}
                   height={600}
-                  unoptimized
+                  unoptimized="true"
                 />
                 <div className="card-how-it2-inside">
                   <h5>We Print and Ship</h5>
@@ -273,7 +274,7 @@ const About = () => {
                   alt="no_image"
                   height={548}
                   width={421}
-                  unoptimized
+                  unoptimized="true"
                 />
               </div>
             </div>
@@ -320,7 +321,7 @@ const About = () => {
                   alt="no_image"
                   height={548}
                   width={421}
-                  unoptimized
+                  unoptimized="true"
                 />
               </div>
             </div>
@@ -333,7 +334,7 @@ const About = () => {
                   alt="no_image"
                   height={548}
                   width={421}
-                  unoptimized
+                  unoptimized="true"
                 />
               </div>
             </div>
@@ -380,7 +381,7 @@ const About = () => {
                   alt="no_image"
                   height={548}
                   width={421}
-                  unoptimized
+                  unoptimized="true"
                 />
               </div>
             </div>
@@ -488,7 +489,7 @@ const About = () => {
       </div>
       <Footer />
     </div>
-  )
-}
+  );
+};
 
-export default About
+export default About;

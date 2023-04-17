@@ -1,5 +1,5 @@
-import Footer from '../components/Footer'
-import Navbar from '../components/Navbar'
+import Footer from "../components/Footer";
+import Navbar from "../components/Navbar";
 
 const TermsOfUse = () => {
   return (
@@ -236,7 +236,7 @@ const TermsOfUse = () => {
       </div>
       <Footer />
     </>
-  )
-}
+  );
+};
 
-export default TermsOfUse
+export default TermsOfUse;
