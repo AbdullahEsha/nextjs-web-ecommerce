@@ -7,49 +7,44 @@ import shareImage from '../images/capturecomponent.png'
 const Capture = () => {
   return (
     <>
-      <div className="row-div reverse-direction index">
-        <div className="col-6 index-div">
+      <div className="row-div reverse-direction">
+        <div className="col-6">
           <div className="alignment-crd">
             <h3>Capture Leads</h3>
             <p>
-              Easily Capture leads with our simple to use Swop microsites.
-              Customers can fill our a form directly from the profile you keep
-              in the app, and all the leads generated pull directly to your in
-              app dashboard where you can easily Export
+              Capture leads from your profile, then favorite, group, sort, and
+              manage them all in Popl. Sync with CRM's like Salesforce and
+              HubSpot.
             </p>
             <br />
             <div className="flex-div">
               <Image src={icon1} alt="no_image" />{' '}
-              <h5>Connect with Websites</h5>
+              <h5>Business Card Scanner</h5>
             </div>
             <p>
-              Easily follow and connect with people in your ecosystem. When you
-              connect with a swop profile you can store all their information in
-              your dashboard where you can later reconnect.
+              Instantly convert paper business cards into digital connections
+              with our AI-powered scanner.
             </p>
             <br />
             <div className="flex-div">
-              <Image src={icon2} alt="no_image" />{' '}
-              <h5>Scale with lead Capture</h5>
+              <Image src={icon2} alt="no_image" /> <h5>Lead Capture Mode</h5>
             </div>
             <p>
-              Automate and scale your sales by capturing leads with your swop
-              profile and using the information for marketing to help increase
-              your sales or network.
+              Quickly capture leads with fast autofill as soon as you share your
+              profile with others.
             </p>
             <br />
             <div className="flex-div">
-              <Image src={icon3} alt="no_image" /> <h5>Stay Organize</h5>
+              <Image src={icon3} alt="no_image" /> <h5>Your Info, Saved</h5>
             </div>
             <p>
-              All the leads generated from your profile appear in a simple to
-              use dashboard where you can save their important information. You
-              can also easily export it as a spreadsheet or import to your
-              companies CRM.
+              Popl automatically sends your info to leads via email and text
+              message so you don't have to. This gets your more replies so you
+              can close more deals.
             </p>
           </div>
         </div>
-        <div className="col-6 index-div">
+        <div className="col-6">
           <div className="share-image-fit">
             <Image src={shareImage} alt="no_image" />
           </div>

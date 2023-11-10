@@ -1,53 +1,16 @@
-import Image from "next/image";
-import footerSwop from "../images/swopfooter.png";
-import footerQrCode from "../images/footerQrCode.png";
-import Link from "next/link";
+import Image from 'next/image'
+import footerSwop from '../images/swopfooter.png'
+import footerQrCode from '../images/footerQrCode.png'
+import Link from 'next/link'
 import {
   FaFacebookF,
   FaInstagram,
   FaYoutube,
   FaTwitter,
   FaLinkedinIn,
-} from "react-icons/fa";
-import { useEffect, useState } from "react";
-import { URL } from "./Reuses/URL";
-import axios from "axios";
+} from 'react-icons/fa'
 
 const Footer = () => {
-  const [email, setEmail] = useState("");
-  const [showSuccessMessage, setShowSuccessMessage] = useState(false);
-
-  const handleSubmit = async (event) => {
-    event.preventDefault();
-    // http://localhost:8000/api/v1/subscriber
-
-    try {
-      const response = await axios.post(`${URL}/api/v1/subscriber`, { email });
-      console.log("Subscribed successfully!", response.data);
-      setShowSuccessMessage(true);
-      setEmail("");
-    } catch (error) {
-      console.error("Error subscribing:", error);
-    }
-  };
-
-  const handleEmailChange = (event) => {
-    setEmail(event.target.value);
-  };
-
-  // disappear the success message after 3s
-  useEffect(() => {
-    let timeoutId;
-    if (showSuccessMessage) {
-      timeoutId = setTimeout(() => {
-        setShowSuccessMessage(false);
-      }, 3000);
-    }
-    return () => {
-      clearTimeout(timeoutId);
-    };
-  }, [showSuccessMessage]);
-
   return (
     <>
       <div className="footer">
@@ -57,7 +20,7 @@ const Footer = () => {
               <Image
                 src={footerSwop}
                 alt="footer-logo"
-                height={42}
+                height={30}
                 id="footerSwop-logo"
               />
               <div className="footer-first-content" id="footer-link-bottom">
@@ -65,7 +28,7 @@ const Footer = () => {
                   Scan to
                   <br />
                   get swop
-                </h4>{" "}
+                </h4>{' '}
                 <Image src={footerQrCode} alt="footer-logo" height={80} />
               </div>
             </div>
@@ -85,38 +48,28 @@ const Footer = () => {
                 <Link href="/">Swop Pro </Link>
                 <Link href="/">Ambassador </Link>
                 <Link href="/">Distributor </Link>
-                <Link href="/help">Help Center </Link>
-                <Link href="/carrer">Carrer </Link>
+                <Link href="/">Help Center </Link>
+                <Link href="/">Carrer </Link>
               </div>
             </div>
             <div className="footer-same">
               <h4>Legal</h4>
               <div className="footer-link" id="footer-link-bottom">
-                <Link href="/privacy-policy">Privacy Policy </Link>
-                <Link href="/terms-of-use">Terms Of Use </Link>
-                <Link href="/refund-policy">Refund Policy </Link>
+                <Link href="/">Privacy Policy </Link>
+                <Link href="/">Terms Of Use </Link>
+                <Link href="/">Refund Policy </Link>
               </div>
             </div>
             <div className="footer-inform-content">
               <h4>By subscribing we inform about our new update</h4>
-              {/* <div className="footer-link"> */}
-              <form onSubmit={handleSubmit} className="footer-link">
+              <div className="footer-link">
                 <input
-                  type="email"
+                  type="text"
                   className="subscribing-input"
                   placeholder="Enter your email"
-                  value={email}
-                  onChange={handleEmailChange}
-                  required
                 />
-                <button type="submit" className="subscribing-btn">
-                  Subscribe
-                </button>
-                {showSuccessMessage && (
-                  <p className="text-green-600 ">Thanks for subscribing! ✔</p>
-                )}
-              </form>
-              {/* </div> */}
+                <button className="subscribing-btn">Subscribe</button>
+              </div>
             </div>
           </div>
           <div className="footer-mid">
@@ -154,7 +107,7 @@ const Footer = () => {
         </div>
       </div>
     </>
-  );
-};
+  )
+}
 
-export default Footer;
+export default Footer

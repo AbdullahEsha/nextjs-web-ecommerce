@@ -1,55 +1,55 @@
-import Footer from "../components/Footer";
-import Navbar from "../components/Navbar";
-import cardImg1 from "../images/cardfillupload.gif";
-import cardImg2 from "../images/cardshipnfc.gif";
-import cardImg3 from "../images/cardsfliptest.gif";
-import Image from "next/image";
-import { FaChevronRight } from "react-icons/fa";
-import logo from "../images/swopLogoWhite.png";
-import phone from "../images/qrgeneratorphone.png";
-import card1 from "../images/qr-genarator-card-image1.png";
-import card2 from "../images/qr-genarator-card-image2.png";
-import card3 from "../images/qr-genarator-card-image3.png";
-import icon1 from "../images/wwwicon.png";
-import icon2 from "../images/vcardicon.png";
-import icon3 from "../images/socialicon.png";
-import icon4 from "../images/docicon.png";
-import icon5 from "../images/aticon.png";
-import icon6 from "../images/wifiicon.png";
-import icon7 from "../images/picicon.png";
-import number1 from "../images/number-icon1.png";
-import number2 from "../images/number-icon2.png";
-import number3 from "../images/number-icon3.png";
-import dropdown from "../images/dropdown.png";
-import dropdownwhite from "../images/dropdownwhite.png";
-import { Swiper, SwiperSlide } from "swiper/react";
-import { Navigation, Pagination } from "swiper";
-import "swiper/css";
-import "swiper/css/navigation";
+import Footer from '../components/Footer'
+import Navbar from '../components/Navbar'
+import cardImg1 from '../images/cardfillupload.gif'
+import cardImg2 from '../images/cardshipnfc.gif'
+import cardImg3 from '../images/cardsfliptest.gif'
+import Image from 'next/image'
+import { FaChevronRight } from 'react-icons/fa'
+import logo from '../images/swopfooter.png'
+import phone from '../images/qrgeneratorphone.png'
+import card1 from '../images/qr-genarator-card-image1.png'
+import card2 from '../images/qr-genarator-card-image2.png'
+import card3 from '../images/qr-genarator-card-image3.png'
+import icon1 from '../images/wwwicon.png'
+import icon2 from '../images/vcardicon.png'
+import icon3 from '../images/socialicon.png'
+import icon4 from '../images/docicon.png'
+import icon5 from '../images/aticon.png'
+import icon6 from '../images/wifiicon.png'
+import icon7 from '../images/picicon.png'
+import number1 from '../images/number-icon1.png'
+import number2 from '../images/number-icon2.png'
+import number3 from '../images/number-icon3.png'
+import dropdown from '../images/dropdown.png'
+import dropdownwhite from '../images/dropdownwhite.png'
+import { Swiper, SwiperSlide } from 'swiper/react'
+import { Navigation, Pagination } from 'swiper'
+import 'swiper/css'
+import 'swiper/css/navigation'
 
 const QrGenerator = () => {
   const appData = [
     {
       id: 2,
-      image: "qr-code-1.png",
+      image: 'qr-code-1.png',
     },
     {
       id: 3,
-      image: "qr-code-2.png",
+      image: 'qr-code-2.png',
     },
     {
       id: 4,
-      image: "qr-code-3.png",
+      image: 'qr-code-3.png',
     },
     {
       id: 5,
-      image: "qr-code-4.png",
+      image: 'qr-code-4.png',
     },
     {
       id: 1,
-      image: "qr-code-5.png",
+      image: 'qr-code-5.png',
     },
-  ];
+  ]
 
   return (
     <>
@@ -89,7 +89,7 @@ const QrGenerator = () => {
                 <p id="automatic-qr">(Your QR code generated automatically)</p>
               </div>
               <div className="upload-qr-logo">
-                <input type="file" id="upload-logo" />{" "}
+                <input type="file" id="upload-logo" />{' '}
                 <label>(JPG, PNG, JPEG)</label>
               </div>
             </div>
@@ -120,10 +120,10 @@ const QrGenerator = () => {
                   initialSlide={0.9}
                   centeredSlides
                   style={{
-                    width: "100%",
-                    margin: "auto",
-                    padding: "10px",
-                    justifyContent: "center",
+                    width: '100%',
+                    margin: 'auto',
+                    padding: '10px',
+                    justifyContent: 'center',
                   }}
                 >
                   {appData.map((item) => (
@@ -141,7 +141,7 @@ const QrGenerator = () => {
                 </Swiper>
               </div>
               <div className="qr-frame">
-                <h5>FRAME</h5>{" "}
+                <h5>FRAME</h5>{' '}
                 <Image
                   src={dropdownwhite}
                   alt="dropdown"
@@ -150,11 +150,11 @@ const QrGenerator = () => {
                 />
               </div>
               <div className="qr-shape">
-                <h5>SHAPE & COLOR</h5>{" "}
+                <h5>SHAPE & COLOR</h5>{' '}
                 <Image src={dropdown} alt="dropdown" height={11} width={11} />
               </div>
               <div className="qr-logo">
-                <h5>LOGO</h5>{" "}
+                <h5>LOGO</h5>{' '}
                 <Image src={dropdown} alt="dropdown" height={11} width={11} />
               </div>
             </div>
@@ -163,27 +163,26 @@ const QrGenerator = () => {
         <div className="home-how-it-work">
           <h2>HOW TO CUSTOMIZE A NFC</h2>
           <p className="hide-mobile-view">
-            Custom NFC business cards are a unique and innovative way to
-            showcase your business, which uses Near Field Communication
-            technology,
+            Swop’s Flat Rectangle NFC’s are designed to be durable and simple to
+            use. The Flat is great to put under any phone case(non-metal) Users
+            can
             <br />
-            that enables the card to be scanned by an NFC-enabled device to
-            access information like contact, website, social media
+            download our app to program any of our NFC’s with the click of a
+            button. This will attach your profile to the NFC for easy sharing.
             <br />
-            profiles, and more. These cards are customizable with branding and
-            design elements to make them
+            You just tap the NFC on any compatible phone to share your digital
+            business card, microsite, crypto address,
             <br />
-            distinct. They are useful for salespeople, business professionals,
-            and networking.
+            the possibilities are endless. Use the swop app to.
           </p>
           <p className="hide-pc-view">
-            Custom NFC business cards are a unique and innovative way to
-            showcase your business, which uses Near Field Communication
-            technology, that enables the card to be scanned by an NFC-enabled
-            device to access information like contact, website, social media
-            profiles, and more. These cards are customizable with branding and
-            design elements to make them distinct. They are useful for
-            salespeople, business professionals, and networking.
+            Swop’s Flat Rectangle NFC’s are designed to be durable
+            <br />
+            and simple to use. The Flat is great to put under
+            <br />
+            any phone case(non-metal) Users can
+            <br />
+            download our app.
           </p>
           <div className="background-level" />
           <div className="row-div">
@@ -201,7 +200,7 @@ const QrGenerator = () => {
                   alt="no_image"
                   width={800}
                   height={600}
-                  unoptimized="true"
+                  unoptimized={true}
                 />
                 <div className="card-how-it2-inside">
                   <h5>Upload logo for your profile</h5>
@@ -226,7 +225,7 @@ const QrGenerator = () => {
                   alt="no_image"
                   width={800}
                   height={600}
-                  unoptimized="true"
+                  unoptimized={true}
                 />
                 <div className="card-how-it2-inside">
                   <h5>Confirm Design with our personal designer</h5>
@@ -251,13 +250,13 @@ const QrGenerator = () => {
                   alt="no_image"
                   width={800}
                   height={600}
-                  unoptimized="true"
+                  unoptimized={true}
                 />
                 <div className="card-how-it2-inside">
                   <h5>We Print and ship your NFC </h5>
                   <p>
-                    With a single tap you'll be able to transfer your dot.
-                    Profile and begin connecting with style.
+                    With a single tap you'll be able to transfer your
+                    dot.Profile and begin connecting with style.
                   </p>
                 </div>
               </div>
@@ -267,28 +266,26 @@ const QrGenerator = () => {
         <div className="qr-generator-bottom">
           <h2>SWOP SERVICE</h2>
           <p id="qr-space-between" className="hide-mobile-view">
-            An NFC service for SWOP is a platform that allows businesses to use
-            NFC technology to enhance their products and services by creating
-            and
+            Swop’s Flat Rectangle NFC’s are designed to be durable and simple to
+            use. The Flat is great to put under any phone case(non-metal) Users
+            can
             <br />
-            managing their own NFC tags and stickers. The service can be used
-            for product information, loyalty programs, digital coupons,
+            download our app to program any of our NFC’s with the click of a
+            button. This will attach your profile to the NFC for easy sharing.
             <br />
-            and more. It also allows businesses to update and track the usage of
-            the tags with analytics and reporting tools.
+            You just tap the NFC on any compatible phone to share your digital
+            business card, microsite, crypto address,
             <br />
-            The service can be integrated with other business systems for
-            improved customer experience.
+            the possibilities are endless. Use the swop app to.
           </p>
           <p id="qr-space-between" className="hide-pc-view">
-            An NFC service for SWOP is a platform that allows businesses to use
-            NFC technology to enhance their products and services by creating
-            and managing their own NFC tags and stickers. The service can be
-            used for product information, loyalty programs, digital coupons, and
-            more. It also allows businesses to update and track the usage of the
-            tags with analytics and reporting tools. The service can be
-            integrated with other business systems for improved customer
-            experience.
+            Swop’s Flat Rectangle NFC’s are designed to be durable
+            <br />
+            and simple to use. The Flat is great to put under
+            <br />
+            any phone case(non-metal) Users can
+            <br />
+            download our app.
           </p>
           <div className="row-div qr-margin-top">
             <div className="col-6">
@@ -326,7 +323,7 @@ const QrGenerator = () => {
                     <p className="qr-generator-custom-text3">
                       Collect the leads to
                       <br />
-                      up{" "}
+                      up{' '}
                       <span>
                         simple form
                         <br />
@@ -371,7 +368,7 @@ const QrGenerator = () => {
       </div>
       <Footer />
     </>
-  );
-};
+  )
+}
 
-export default QrGenerator;
+export default QrGenerator
